@@ -23,5 +23,5 @@ NUMBER_SENTS="1 3 5 10 15"
 
 for number_sents in $NUMBER_SENTS; do
     echo ${number_sents}
-    python w2v_generate.py $CONLLU_FILE $OUTDIR $MODEL $number_sents
+    python generate_substitutions.py $CONLLU_FILE $OUTDIR $MODEL $number_sents
 done
