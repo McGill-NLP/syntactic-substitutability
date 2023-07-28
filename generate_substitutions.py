@@ -12,12 +12,15 @@ def parse_conll(filename):
     doc = CoNLL.conll2doc(filename)
     return doc
 
-def fill_sentences(sentences, word_model, number_sentences=10, perturbed_categories=['ADJ', 'ADV', 'NOUN', 'VERB'], use_bert=True, tokenizer=None, nlp=None, need_pos=True):
+def fill_sentences(sentences, word_model, number_sentences=10, perturbed_categories=['ADJ', 'ADV', 'NOUN', 'VERB'], use_bert=True, tokenizer=None, nlp=None, need_pos=True, have_pos=True):
     filled = {}
     for k, s in enumerate(tqdm(sentences)):
         sent_dict = s.to_dict()
         #sent_dict = s
-        original_sentence = ''.join(['' if type(w['id']) == tuple or w['upos'] == 'PUNCT' else w['text'] + ' ' for i, w in enumerate(sent_dict)])
+        if have_pos:
+            original_sentence = ''.join(['' if type(w['id']) == tuple or w['upos'] == 'PUNCT' else w['text'] + ' ' for i, w in enumerate(sent_dict)])
+        else:
+            original_sentence = ''.join(['' if type(w['id']) == tuple else w['text'] + ' ' for i, w in enumerate(sent_dict)])
         pert = []
         position = 0
         for i in range(len(sent_dict)):
@@ -48,8 +51,31 @@ def fill_sentences(sentences, word_model, number_sentences=10, perturbed_categor
                         j += 1
                 pert.append((position, replacements))               
                 position += 1
-            elif type(sent_dict[i]['id']) != tuple and sent_dict[i]['upos'] != 'PUNCT':
+            elif type(sent_dict[i]['id']) != tuple and 'upos' in sent_dict[i].keys() and sent_dict[i]['upos'] != 'PUNCT':
                 pert.append((position, [original_sentence]))
+                position += 1
+            elif not have_pos:
+                dict_copy = copy.deepcopy(sent_dict)
+                #adds original sentence to the beginning of the list
+                replacements = [''.join(['' if type(w['id']) == tuple else w['text'] + ' ' for w in dict_copy]).strip()]
+                if use_bert:
+                    results = get_replacements_mask(dict_copy, i, number_words=number_sentences+10, transformer_model=word_model, tokenizer=tokenizer)
+                if len(results) == 0:
+                    #we've already added the original sentence to the beginning of the list
+                    continue
+                else:
+                    j = 0
+                    count = 0
+                    #results = random.sample(results, len(results))
+                    while j < len(results) and count < number_sentences:
+                        if sent_dict[i]['text'].lower() != "":
+                            dict_copy[i]['text'] = results[j]
+                            new_sent = ''.join(['' if type(w['id']) == tuple else w['text'] + ' ' for w in dict_copy])
+                            new_sent = new_sent.strip()
+                            replacements.append(new_sent)
+                            count += 1
+                        j += 1
+                pert.append((position, replacements))               
                 position += 1
         filled[(k, original_sentence)] = pert
     return filled
