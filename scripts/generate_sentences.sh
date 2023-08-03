@@ -9,17 +9,13 @@
 module load anaconda/3
 conda activate default-env
 
-#SPLIT="en_pud-ud-test" # Data split to evaluate on
-#CONLLU_FILE='pud/en_pud-ud-test.conllu'
-#SPLIT="ptb3-wsj-test_10"
-#CONLLU_FILE='wsj/ptb3-wsj-test_10.conllx' # Path to the evalaute data file
-SPLIT="long_dist_subj"
-CONLLU_FILE='./out/long_dist_subj/subj_rel_sampled.pkl' # Path to the evalaute data file
+SPLIT="ptb3-wsj-test_10"
+# Path to CONLL file
+CONLLU_FILE=''
 MODEL=bert
-#MODEL=bert
 OUTDIR=./out/${SPLIT}/final
 
-NUMBER_SENTS="1 3 5 10 15"
+NUMBER_SENTS="1"
 
 for number_sents in $NUMBER_SENTS; do
     echo ${number_sents}

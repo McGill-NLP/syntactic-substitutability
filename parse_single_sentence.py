@@ -1,13 +1,9 @@
 import sys
 import stanza
-from stanza.utils.conll import CoNLL
-import pickle
-import copy
-import pathlib
-from transformers import BertTokenizerFast, FillMaskPipeline, AutoModelForMaskedLM
+from transformers import BertTokenizerFast, AutoModelForMaskedLM, BertModel
 import torch
-from tqdm import tqdm
 import generate_substitutions
+import parse_eval
 
 def convert_to_dict(sent):
     tokenizer = stanza.Pipeline(lang='en', processors='tokenize')
@@ -30,13 +26,24 @@ def main():
     num_sent = int(sys.argv[2])
 
     sent_dict = convert_to_dict(sent_to_parse)
-    print(sent_dict)
 
     #this can now be passed into the normal parser
     subs_dict = generate_substitutions.fill_sentences(sent_dict, model, number_sentences=num_sent, perturbed_categories = ['ADJ', 'ADV', 'NOUN', 'VERB', 'PROPN', 'ADP', 'DET'], use_bert=True, tokenizer=tokenizer, nlp=pos_tagger, need_pos=False, have_pos=False)    
-    """for pos in subs_dict[list(subs_dict.keys())[0]]:
-        for s in pos[1]:
-            print(s)"""
+    
+    print(subs_dict)
+
+    model = BertModel.from_pretrained(model_version, output_attentions=True)
+    model.eval()
+    model = model.to(device)
+
+    layer = 9 #offset by 1
+
+    only_target_atts, perturbed_atts = parse_eval.get_all_atts(subs_dict, model, tokenizer, l=layer)
+    only_target_graphs = parse_eval.get_graphs(only_target_atts, trees=False)
+    perturbed_graphs = parse_eval.get_graphs(perturbed_atts, trees=False)
+
+    _, fixed_graphs = parse_eval.get_uuas(None, perturbed_graphs, eval=False)
+    _, target_graphs = parse_eval.get_uuas(None, only_target_graphs, eval=False)
 
     return
 

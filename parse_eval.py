@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import pickle
 import copy
 from tqdm import tqdm
+from stanza.utils.conll import CoNLL
 
 def get_attentions(sents, model, tokenizer):
     with torch.no_grad():
@@ -156,7 +157,7 @@ def np_to_edge_list(matrix):
             e_list.append((i, j, matrix[i][j]))
     return e_list
 
-def get_graphs(avg_atts, trees=FalseW):
+def get_graphs(avg_atts, trees=False):
     graphs = {}
     for k in avg_atts.keys():
         graphs[k] = []
@@ -212,7 +213,18 @@ def rb_baseline(gold_standard_rels, graphs):
     return total_precision, total_recall
 
 # this function does ALL the heavy lifting, it combines graphs, parses trees, calculates UUAS 
-def get_uuas(gold_standard_rels, graphs):
+def get_uuas(gold_standard_rels, graphs, eval=True):
+    if not eval:
+        final_graphs = {}
+        for i in graphs.keys():
+            graph_combine = nx.MultiGraph()
+            for g_list in graphs[i]:
+                graph_combine.add_weighted_edges_from(g_list[1].edges.data("weight"))
+            graph_combine = nx.maximum_spanning_tree(graph_combine, algorithm='prim')
+            edges_at_layer = list(graph_combine.edges())
+            final_graphs[i] = graph_combine
+        return None, final_graphs
+    
     sentences = graphs.keys()
     num_rels = []
     dep_counts = {}
@@ -229,7 +241,6 @@ def get_uuas(gold_standard_rels, graphs):
     num_pred = []
     for i in tqdm(sentences):
         gold_rels_i = i
-        #print(gold_standard_rels[i])
         num_rels.append(len(gold_standard_rels[gold_rels_i]) - len([d for d in gold_standard_rels[gold_rels_i] if d[2] == 'grand']))
         for d in gold_standard_rels[gold_rels_i]: 
             if d[2] in dep_counts.keys():
@@ -279,12 +290,18 @@ def get_uuas(gold_standard_rels, graphs):
     uuas_dict['If_Adj'] = adj_total/num_rels
     return uuas_dict, final_graphs
 
-def get_parses(parses, ned=False):
+def get_parses(conll_file, ned=False):
+    converted_parses = CoNLL.conll2doc(conll_file).sentences
+    parses = {}
+    for i, s in enumerate(converted_parses):
+        sent_dict = s.to_dict()
+        original_sent = ''.join(['' if type(w['id']) == tuple or w['upos'] == 'PUNCT' else w['text'] + ' ' for i, w in enumerate(sent_dict)])
+        parses[(i, original_sent)] = sent_dict
+
     target_sents_deps_labeled = {}
     for sent in parses.keys():
         deplist = [(word['id'], word['head'], word['deprel']) for word in parses[sent]]
         deplist = [dep for dep in deplist if dep[2] != 'root']
-        offset = 0
         updated_positions = [i for i in range(1, len(deplist) + 2)]
         for i, dep in enumerate(deplist):
             if dep[2] == 'punct' and i != len(deplist) - 1:
@@ -294,8 +311,8 @@ def get_parses(parses, ned=False):
         for dep in deplist:
             if dep[2] != 'punct':
                 try:
-                    pos_1 = dep[0]
-                    pos_2 = dep[1]
+                    pos_1 = updated_positions[dep[0] - 1]
+                    pos_2 = updated_positions[dep[1] - 1]
                     fixed_deplist.append([pos_1, pos_2, dep[2]])
                 except IndexError:
                     print(dep)
@@ -339,6 +356,9 @@ def main():
     split = str(sys.argv[3])
     sent_f = str(sys.argv[1])
     n = int(sys.argv[4])
+    #conll formatted depparses
+    parses = str(sys.argv[5])
+
     layers_to_report = range(5, 10)
     
     with open(sent_f, 'rb') as f:
@@ -346,12 +366,7 @@ def main():
 
     combined_dicts = []
     
-    with open('./out/' + split + '/' + split + '.pkl', 'rb') as f:
-            parses = pickle.load(f)
-
     loaded_parses = get_parses(parses, ned=False)
-
-    print(list(loaded_parses.keys())[:10])
 
     for i in layers_to_report:
         only_target_atts, perturbed_atts = get_all_atts(sentences, model, tokenizer, l=i)
@@ -362,12 +377,7 @@ def main():
         only_target_total_uuas, target_graphs = get_uuas(loaded_parses, only_target_graphs)
         
         trial = 'Layer' + str(i + 1)
-        """if i == 9:
-            with open('./out/ptb3-wsj-test_10/bert.test10.target.pkl', 'wb') as f:
-                pickle.dump(target_graphs, f)
-            with open('./out/ptb3-wsj-test_10/bert.test10.perturbed.pkl', 'wb') as f:
-                pickle.dump(fixed_graphs, f)"""
-        
+       
         perturbed_total_uuas = dict_to_dataframe(perturbed_total_uuas, trial+"_pert")
         only_target_total_uuas = dict_to_dataframe(only_target_total_uuas, trial+"_target")
         
@@ -378,7 +388,7 @@ def main():
     for d in combined_dicts[1:]:
         dataframe = dataframe.merge(d, on='Deprel')
     
-    dataframe.to_csv('./out/' + split +'/emnlp/bert.' + '_all_test3_'+ str(n) + '.csv')
+    dataframe.to_csv('./out/' + split +'/bert.' + '_all_test_'+ str(n) + '.csv')
     return    
 
 if __name__=="__main__":

@@ -132,7 +132,7 @@ def main():
     out_pkl = out + '/'+ str(sys.argv[3]) + ".pos_" + str(num_sent) + ".pkl"
     with open(out_pkl, 'wb') as f:
         pickle.dump(subs_dict, f)
-    out_txt = out + '/'+ str(sys.argv[3]) + ".pos_" + str(num_sent) + ".txt"
+    out_txt = out + '/'+ str(sys.argv[3]) + "substitutions_" + str(num_sent) + ".txt"
 
     with open(out_txt, 'w') as f:
         for s in subs_dict.values():
