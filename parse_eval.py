@@ -310,16 +310,9 @@ def get_parses(conll_file, ned=False):
         fixed_deplist = []
         for dep in deplist:
             if dep[2] != 'punct':
-                try:
-                    pos_1 = updated_positions[dep[0] - 1]
-                    pos_2 = updated_positions[dep[1] - 1]
-                    fixed_deplist.append([pos_1, pos_2, dep[2]])
-                except IndexError:
-                    print(dep)
-                    print(sent)
-                    print(updated_positions)
-                    print(deplist)
-                    return
+                pos_1 = updated_positions[dep[0] - 1]
+                pos_2 = updated_positions[dep[1] - 1]
+                fixed_deplist.append([pos_1, pos_2, dep[2]])
         target_sents_deps_labeled[sent] = fixed_deplist
     # adds the grandparents if we want it
     if ned:
@@ -359,7 +352,7 @@ def main():
     #conll formatted depparses
     parses = str(sys.argv[5])
 
-    layers_to_report = range(5, 10)
+    layers_to_report = range(9, 10)
     
     with open(sent_f, 'rb') as f:
         sentences = pickle.load(f)
@@ -388,7 +381,7 @@ def main():
     for d in combined_dicts[1:]:
         dataframe = dataframe.merge(d, on='Deprel')
     
-    dataframe.to_csv('./out/' + split +'/bert.' + '_all_test_'+ str(n) + '.csv')
+    dataframe.to_csv('./out/' + split +'/uuas_results' + str(n) + '.csv')
     return    
 
 if __name__=="__main__":

@@ -1,23 +1,16 @@
 #!/bin/bash
 
-#SBATCH --partition=unkillable
-#SBATCH --cpus-per-task=3
-#SBATCH --gres=gpu:rtx8000:1                     # Ask for 1 GPU
-#SBATCH --mem=24G                        # Ask for 32 GB of CPU RAM
-#SBATCH --time=2:00:00                   # The job will run for 12 hours
+# Name of the eval split
+SPLIT="obj_rel_sampled"
 
-module load anaconda/3
-conda activate default-env
-
-SPLIT="ptb3-wsj-test_10"
 # Path to CONLL file
-CONLLU_FILE=''
-MODEL=bert
-OUTDIR=./out/${SPLIT}/final
+CONLLU_FILE='data/obj_rel_sampled_new.conllx'
 
+# Number of substitutions per position in sentence, k
 NUMBER_SENTS="1"
 
+OUTDIR=./out/${SPLIT}
+
 for number_sents in $NUMBER_SENTS; do
-    echo ${number_sents}
-    python generate_substitutions.py $CONLLU_FILE $OUTDIR $MODEL $number_sents
+    python generate_substitutions.py $CONLLU_FILE $OUTDIR $number_sents
 done

@@ -9,15 +9,15 @@ module load anaconda/3
 conda activate default-env
 
 # Data split to evaluate on
-SPLIT="ptb3-wsj-test_10"
+SPLIT="obj_rel_sampled"
 # Path to CONLL file
-CONLLU_FILE=""
-OUTDIR=./out/${SPLIT}/final
+CONLLU_FILE="data/obj_rel_sampled_new.conllx"
+OUTDIR=./out/${SPLIT}
 NUMBER_SENTS="1"
 
 
 for number_sents in $NUMBER_SENTS; do
-    SENTENCE_FILE=${OUTDIR}/substitutions_${number_sents}.pkl
+    SENTENCE_FILE=${OUTDIR}/bert.pos_${number_sents}.pkl
     python parse_eval.py $SENTENCE_FILE $OUTDIR $SPLIT $number_sents $CONLLU_FILE
 done
 
