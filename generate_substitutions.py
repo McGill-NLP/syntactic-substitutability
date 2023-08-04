@@ -121,7 +121,7 @@ def main():
     tokenizer = BertTokenizerFast.from_pretrained(model_version)
     pos_tagger = stanza.Pipeline(lang='en', processors='tokenize,mwt,pos')
     print('Done loading!')
-    num_sent = int(sys.argv[4])
+    num_sent = int(sys.argv[3])
     conll_file = str(sys.argv[1])
     sent_dict = parse_conll(conll_file)
     sent_dict = sent_dict.sentences
@@ -129,7 +129,7 @@ def main():
     subs_dict = fill_sentences(sent_dict, model, number_sentences=num_sent, perturbed_categories = ['ADJ', 'ADV', 'NOUN', 'VERB', 'PROPN', 'ADP', 'DET'], use_bert=True, tokenizer=tokenizer, nlp=pos_tagger, need_pos=True)    
     out = str(sys.argv[2])
     pathlib.Path(out).mkdir(parents=True, exist_ok=True)
-    out_pkl = out + '/'+ str(sys.argv[3]) + ".pos_" + str(num_sent) + ".pkl"
+    out_pkl = out + '/'+ "sent_substitutions_" + str(num_sent) + ".pkl"
     with open(out_pkl, 'wb') as f:
         pickle.dump(subs_dict, f)
     out_txt = out + '/' + "sent_substitutions_" + str(num_sent) + ".txt"

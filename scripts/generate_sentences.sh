@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Name of the eval split
-SPLIT="obj_rel_sampled"
+SPLIT="ptb3-wsj-test_10"
 
 # Path to CONLL file
-CONLLU_FILE='data/obj_rel_sampled_new.conllx'
+CONLLU_FILE="data/ptb3-wsj-test_10.conllx"
 
 # Number of substitutions per position in sentence, k
 NUMBER_SENTS="1"
