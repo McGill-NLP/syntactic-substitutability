@@ -25,3 +25,11 @@ The script `parse_sentences.sh` can be used to parse and evaluate on each datase
 * `NUMBER_SENTS`: the number of substitutions to generate at each position in the sentence
 
 It will save to the output directory a CSV formatted file containing the UUAS scores of the induced trees.
+
+# Induce your own parses!
+
+Given any CONLL-file, the parses can be obtained by running it through the pipeline described above. Otherwise, the structure induced for single sentences can also be obtained by running `parse_single_sentence.py` directly in the command line as below:
+
+```python parse_single_sentence.py [NUMBER OF SUBSTITUTIONS]```
+
+Following the instructions in the command line, this will output a list of edges and a simple text description of the induced tree.

@@ -145,9 +145,9 @@ if __name__ == '__main__':
     os.makedirs(OUTPUTDIR, exist_ok=True)
 
     edge_type = "perturbed"
-    write_tikz_files(OUTPUTDIR, perturbed_parses, output_suffix='perturbed', gold_standard=gold_parses)
+    write_tikz_files(OUTPUTDIR, perturbed_parses, output_suffix='ssud', gold_standard=gold_parses)
     edge_type = "target"
-    write_tikz_files(OUTPUTDIR, target_only_parses, output_suffix='target', gold_standard=gold_parses)
+    write_tikz_files(OUTPUTDIR, target_only_parses, output_suffix='target_only', gold_standard=gold_parses)
 
     
     TEX_FILEPATH = os.path.join(OUTPUTDIR, 'dependencies.tex')
