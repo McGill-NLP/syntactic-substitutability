@@ -1,0 +1,52 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Republicans\& captured\& the\& Senate\& for\& the\& first\& time\& since\& 1952\& ,\& and\& gained\& 34\& House\& seats\& ,\& but\& the\& Democrats\& retained\& a\& majority\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{4}{det}
+	\depedge{4}{2}{obj}
+	\depedge{5}{8}{case}
+	\depedge{6}{8}{det}
+	\depedge{7}{8}{amod}
+	\depedge{8}{2}{obl}
+	\depedge{9}{10}{case}
+	\depedge{10}{8}{nmod}
+	\depedge{12}{13}{cc}
+	\depedge{13}{2}{conj}
+	\depedge{14}{16}{nummod}
+	\depedge{15}{16}{compound}
+	\depedge{16}{13}{obj}
+	\depedge{18}{21}{cc}
+	\depedge{19}{20}{det}
+	\depedge{20}{21}{nsubj}
+	\depedge{21}{2}{conj}
+	\depedge{22}{23}{det}
+	\depedge{23}{21}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{21}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 733}};
+	\node (R4) at (R1.south) {\tiny $ 10/21 = 48\% $};
+\end{dependency}

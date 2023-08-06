@@ -1,0 +1,50 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Likely\& the\& most\& well\& -\& known\& person\& from\& the\& Copper\& Age\& is\& Ötzi\& ,\& the\& frozen\& mummy\& who\& lived\& during\& 3300\& BC\& . \\
+	\end{deptext}
+	\depedge{1}{13}{advmod}
+	\depedge{2}{7}{det}
+	\depedge{3}{6}{advmod}
+	\depedge{4}{6}{advmod}
+	\depedge{6}{7}{amod}
+	\depedge{7}{13}{nsubj}
+	\depedge{8}{11}{case}
+	\depedge{9}{11}{det}
+	\depedge{10}{11}{compound}
+	\depedge{11}{7}{nmod}
+	\depedge{12}{13}{cop}
+	\depedge{13}{0}{root}
+	\depedge{15}{17}{det}
+	\depedge{16}{17}{amod}
+	\depedge{17}{13}{appos}
+	\depedge{18}{19}{nsubj}
+	\depedge{19}{17}{acl:relcl}
+	\depedge{20}{22}{case}
+	\depedge{21}{22}{nummod}
+	\depedge{22}{19}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 897}};
+	\node (R4) at (R1.south) {\tiny $ 7/20 = 35\% $};
+\end{dependency}

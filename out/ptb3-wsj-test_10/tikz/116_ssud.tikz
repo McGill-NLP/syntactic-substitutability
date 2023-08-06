@@ -1,0 +1,27 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		``\& A\& few\& drops\& in\& circulation\& are\& of\& no\& consequence\& . \\
+	\end{deptext}
+	\depedge{2}{4}{det}
+	\depedge{3}{4}{amod}
+	\depedge{4}{7}{nsubj}
+	\depedge{5}{4}{prep}
+	\depedge{6}{5}{pobj}
+	\depedge{8}{7}{prep}
+	\depedge{9}{10}{neg}
+	\depedge{10}{8}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{7}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 116}};
+	\node (R4) at (R1.south) {\tiny $ 5/8 = 62\% $};
+\end{dependency}

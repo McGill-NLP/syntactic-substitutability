@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		It\& is\& difficult\& to\& think\& that\& Italy\& has\& fewer\& km\& of\& underground\& line\& than\& Madrid\& . \\
+	\end{deptext}
+	\depedge{1}{3}{expl}
+	\depedge{2}{3}{cop}
+	\depedge{3}{0}{root}
+	\depedge{4}{5}{mark}
+	\depedge{5}{3}{csubj}
+	\depedge{6}{8}{mark}
+	\depedge{7}{8}{nsubj}
+	\depedge{8}{5}{ccomp}
+	\depedge{9}{10}{amod}
+	\depedge{10}{8}{obj}
+	\depedge{11}{13}{case}
+	\depedge{12}{13}{amod}
+	\depedge{13}{10}{nmod}
+	\depedge{14}{15}{case}
+	\depedge{15}{9}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{11}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 827}};
+	\node (R4) at (R1.south) {\tiny $ 7/15 = 47\% $};
+\end{dependency}

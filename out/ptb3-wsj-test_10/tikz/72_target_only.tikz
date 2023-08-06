@@ -1,0 +1,29 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		That\& would\& be\& the\& lowest\& level\& since\& the\& early\& 1970s\& . \\
+	\end{deptext}
+	\depedge{1}{6}{nsubj}
+	\depedge{2}{6}{aux}
+	\depedge{3}{6}{cop}
+	\depedge{4}{6}{det}
+	\depedge{5}{6}{amod}
+	\depedge{7}{6}{prep}
+	\depedge{8}{10}{det}
+	\depedge{9}{10}{amod}
+	\depedge{10}{7}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 72}};
+	\node (R4) at (R1.south) {\tiny $ 4/9 = 44\% $};
+\end{dependency}

@@ -1,0 +1,36 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		I\& asked\& her\& afterwards\& if\& she\& understood\& why\& people\& might\& vote\& for\& Trump\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{2}{obj}
+	\depedge{4}{2}{advmod}
+	\depedge{5}{7}{mark}
+	\depedge{6}{7}{nsubj}
+	\depedge{7}{2}{advcl}
+	\depedge{8}{11}{advmod}
+	\depedge{9}{11}{nsubj}
+	\depedge{10}{11}{aux}
+	\depedge{11}{7}{ccomp}
+	\depedge{12}{13}{case}
+	\depedge{13}{11}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 65}};
+	\node (R4) at (R1.south) {\tiny $ 4/13 = 31\% $};
+\end{dependency}

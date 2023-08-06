@@ -1,0 +1,42 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Much\& of\& the\& debate\& ,\& from\& the\& Democratic\& side\& this\& year\& ,\& has\& been\& about\& white\& male\& identity\& . \\
+	\end{deptext}
+	\depedge{1}{18}{nsubj}
+	\depedge{2}{4}{case}
+	\depedge{3}{4}{det}
+	\depedge{4}{1}{nmod}
+	\depedge{6}{9}{case}
+	\depedge{7}{9}{det}
+	\depedge{8}{9}{amod}
+	\depedge{9}{18}{obl}
+	\depedge{10}{11}{det}
+	\depedge{11}{18}{nmod:tmod}
+	\depedge{13}{18}{aux}
+	\depedge{14}{18}{cop}
+	\depedge{15}{18}{case}
+	\depedge{16}{18}{amod}
+	\depedge{17}{18}{amod}
+	\depedge{18}{0}{root}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 64}};
+	\node (R4) at (R1.south) {\tiny $ 6/16 = 38\% $};
+\end{dependency}

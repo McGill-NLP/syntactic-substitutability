@@ -1,0 +1,24 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Maybe\& the\& dress\& code\& was\& too\& stuffy\& . \\
+	\end{deptext}
+	\depedge{1}{7}{advmod}
+	\depedge{2}{4}{det}
+	\depedge{3}{4}{compound}
+	\depedge{4}{7}{nsubj}
+	\depedge{5}{7}{cop}
+	\depedge{6}{7}{advmod}
+	\depedge{7}{0}{root}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 9}};
+	\node (R4) at (R1.south) {\tiny $ 3/7 = 43\% $};
+\end{dependency}

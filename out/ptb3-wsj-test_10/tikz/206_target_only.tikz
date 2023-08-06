@@ -1,0 +1,23 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		``\& Margin\& debt\& was\& at\& a\& record\& high\& . \\
+	\end{deptext}
+	\depedge{2}{3}{nn}
+	\depedge{3}{4}{nsubj}
+	\depedge{5}{4}{prep}
+	\depedge{6}{8}{det}
+	\depedge{7}{8}{amod}
+	\depedge{8}{5}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{6}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 206}};
+	\node (R4) at (R1.south) {\tiny $ 3/6 = 50\% $};
+\end{dependency}

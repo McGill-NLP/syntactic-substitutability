@@ -1,0 +1,23 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		But\& fund\& managers\& say\& they\& 're\& ready\& . \\
+	\end{deptext}
+	\depedge{1}{4}{cc}
+	\depedge{2}{3}{nn}
+	\depedge{3}{4}{nsubj}
+	\depedge{5}{7}{nsubj}
+	\depedge{6}{7}{cop}
+	\depedge{7}{4}{ccomp}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 21}};
+	\node (R4) at (R1.south) {\tiny $ 3/6 = 50\% $};
+\end{dependency}

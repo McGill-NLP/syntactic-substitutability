@@ -1,0 +1,94 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Cultic\& remains\& discovered\& at\& the\& site\& were\& a\& row\& of\& ten\& large\& standing\& stones\& ,\& known\& as\& massebot\& ,\& oriented\& north\& -\& south\& ,\& the\& tallest\& of\& which\& was\& 3\& meters\& high\& ,\& with\& an\& altar\& -\& type\& structure\& in\& the\& middle\& ,\& and\& a\& large\& ,\& square\& ,\& stone\& basin\& . \\
+	\end{deptext}
+	\depedge{1}{2}{amod}
+	\depedge{2}{9}{nsubj}
+	\depedge{3}{2}{acl}
+	\depedge{4}{6}{case}
+	\depedge{5}{6}{det}
+	\depedge{6}{3}{obl}
+	\depedge{7}{9}{cop}
+	\depedge{8}{9}{det}
+	\depedge{9}{0}{root}
+	\depedge{10}{14}{case}
+	\depedge{11}{14}{nummod}
+	\depedge{12}{14}{amod}
+	\depedge{13}{14}{amod}
+	\depedge{14}{9}{nmod}
+	\depedge{16}{14}{acl}
+	\depedge{17}{18}{case}
+	\depedge{18}{16}{obl}
+	\depedge{20}{14}{acl}
+	\depedge{21}{23}{advmod}
+	\depedge{23}{20}{advmod}
+	\depedge{25}{26}{det}
+	\depedge{26}{32}{nsubj}
+	\depedge{27}{28}{case}
+	\depedge{28}{26}{nmod}
+	\depedge{29}{32}{cop}
+	\depedge{30}{31}{nummod}
+	\depedge{31}{32}{obl:npmod}
+	\depedge{32}{14}{acl:relcl}
+	\depedge{34}{39}{case}
+	\depedge{35}{39}{det}
+	\depedge{36}{38}{compound}
+	\depedge{38}{39}{amod}
+	\depedge{39}{14}{nmod}
+	\depedge{40}{42}{case}
+	\depedge{41}{42}{det}
+	\depedge{42}{39}{nmod}
+	\depedge{44}{51}{cc}
+	\depedge{45}{51}{det}
+	\depedge{46}{51}{amod}
+	\depedge{48}{51}{amod}
+	\depedge{50}{51}{compound}
+	\depedge{51}{39}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{44}{51}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{35}{39}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{31}{32}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{46}{51}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{29}{32}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{48}{51}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{41}{42}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{45}{51}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{40}{42}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{36}{38}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{30}{31}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{32}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{28}{42}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{26}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{48}{50}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{36}{39}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{39}{40}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{34}{44}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 532}};
+	\node (R4) at (R1.south) {\tiny $ 21/42 = 50\% $};
+\end{dependency}

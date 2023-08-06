@@ -1,0 +1,29 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		But\& for\& all\& its\& success\& ,\& CNN\& has\& hit\& a\& plateau\& . \\
+	\end{deptext}
+	\depedge{1}{9}{cc}
+	\depedge{2}{9}{prep}
+	\depedge{3}{5}{predet}
+	\depedge{4}{5}{poss}
+	\depedge{5}{2}{pobj}
+	\depedge{7}{9}{nsubj}
+	\depedge{8}{9}{aux}
+	\depedge{10}{11}{det}
+	\depedge{11}{9}{dobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 118}};
+	\node (R4) at (R1.south) {\tiny $ 4/9 = 44\% $};
+\end{dependency}

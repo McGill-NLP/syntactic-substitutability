@@ -1,0 +1,74 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Tina\& Anselmi\& was\& born\& on\& the\& 25th\& of\& March\& ,\& 1927\& in\& Castelfranco\& Veneto\& ;\& she\& grew\& up\& in\& an\& anti-fascist\& Catholic\& family\& ,\& which\& was\& marked\& by\& the\& persecution\& of\& her\& militant\& socialist\& father\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj:pass}
+	\depedge{2}{1}{flat}
+	\depedge{3}{4}{aux:pass}
+	\depedge{4}{0}{root}
+	\depedge{5}{7}{case}
+	\depedge{6}{7}{det}
+	\depedge{7}{4}{obl}
+	\depedge{8}{9}{case}
+	\depedge{9}{7}{nmod}
+	\depedge{11}{9}{nmod:tmod}
+	\depedge{12}{13}{case}
+	\depedge{13}{4}{obl}
+	\depedge{14}{13}{flat}
+	\depedge{16}{17}{nsubj}
+	\depedge{17}{4}{parataxis}
+	\depedge{18}{17}{compound:prt}
+	\depedge{19}{23}{case}
+	\depedge{20}{23}{det}
+	\depedge{21}{23}{amod}
+	\depedge{22}{23}{amod}
+	\depedge{23}{17}{obl}
+	\depedge{25}{27}{nsubj:pass}
+	\depedge{26}{27}{aux:pass}
+	\depedge{27}{23}{acl:relcl}
+	\depedge{28}{30}{case}
+	\depedge{29}{30}{det}
+	\depedge{30}{27}{obl}
+	\depedge{31}{35}{case}
+	\depedge{32}{35}{nmod:poss}
+	\depedge{33}{35}{amod}
+	\depedge{34}{35}{amod}
+	\depedge{35}{30}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{34}{35}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{29}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{32}{33}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{32}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{33}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{31}{33}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{30}{31}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 825}};
+	\node (R4) at (R1.south) {\tiny $ 12/32 = 38\% $};
+\end{dependency}

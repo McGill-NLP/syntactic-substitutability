@@ -1,0 +1,36 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& Hong\& Kong\& 's\& High\& Court\& ,\& two\& years\& later\& ,\& Jutting\& appeared\& largely\& composed\& . \\
+	\end{deptext}
+	\depedge{1}{6}{case}
+	\depedge{2}{3}{compound}
+	\depedge{3}{6}{nmod:poss}
+	\depedge{4}{3}{case}
+	\depedge{5}{6}{amod}
+	\depedge{6}{13}{obl}
+	\depedge{8}{9}{nummod}
+	\depedge{9}{10}{nmod:npmod}
+	\depedge{10}{13}{advmod}
+	\depedge{12}{13}{nsubj}
+	\depedge{13}{0}{root}
+	\depedge{14}{15}{advmod}
+	\depedge{15}{13}{xcomp}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 311}};
+	\node (R4) at (R1.south) {\tiny $ 10/13 = 77\% $};
+\end{dependency}

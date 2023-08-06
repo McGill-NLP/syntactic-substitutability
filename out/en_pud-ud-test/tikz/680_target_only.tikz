@@ -1,0 +1,46 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		George\& was\& deeply\& devout\& and\& spent\& hours\& in\& prayer\& ,\& but\& his\& piety\& was\& not\& shared\& by\& his\& brothers\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj}
+	\depedge{2}{4}{cop}
+	\depedge{3}{4}{advmod}
+	\depedge{4}{0}{root}
+	\depedge{5}{6}{cc}
+	\depedge{6}{4}{conj}
+	\depedge{7}{6}{obj}
+	\depedge{8}{9}{case}
+	\depedge{9}{6}{obl}
+	\depedge{11}{16}{cc}
+	\depedge{12}{13}{nmod:poss}
+	\depedge{13}{16}{nsubj:pass}
+	\depedge{14}{16}{aux:pass}
+	\depedge{15}{16}{advmod}
+	\depedge{16}{4}{conj}
+	\depedge{17}{19}{case}
+	\depedge{18}{19}{nmod:poss}
+	\depedge{19}{16}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 680}};
+	\node (R4) at (R1.south) {\tiny $ 6/18 = 33\% $};
+\end{dependency}

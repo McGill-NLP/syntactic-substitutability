@@ -1,0 +1,70 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Shaped\& by\& global\& plate\& tectonic\& forces\& that\& have\& created\& the\& East\& African\& Rift\& ,\& East\& Africa\& is\& the\& site\& of\& Mount\& Kilimanjaro\& and\& Mount\& Kenya\& ,\& the\& two\& tallest\& peaks\& in\& Africa\& . \\
+	\end{deptext}
+	\depedge{1}{19}{advcl}
+	\depedge{2}{6}{case}
+	\depedge{3}{6}{amod}
+	\depedge{4}{5}{compound}
+	\depedge{5}{6}{amod}
+	\depedge{6}{1}{obl}
+	\depedge{7}{9}{nsubj}
+	\depedge{8}{9}{aux}
+	\depedge{9}{6}{acl:relcl}
+	\depedge{10}{13}{det}
+	\depedge{11}{12}{amod}
+	\depedge{12}{13}{amod}
+	\depedge{13}{9}{obj}
+	\depedge{15}{16}{compound}
+	\depedge{16}{19}{nsubj}
+	\depedge{17}{19}{cop}
+	\depedge{18}{19}{det}
+	\depedge{19}{0}{root}
+	\depedge{20}{21}{case}
+	\depedge{21}{19}{nmod}
+	\depedge{22}{21}{flat}
+	\depedge{23}{24}{cc}
+	\depedge{24}{21}{conj}
+	\depedge{25}{24}{flat}
+	\depedge{27}{30}{det}
+	\depedge{28}{30}{nummod}
+	\depedge{29}{30}{amod}
+	\depedge{30}{21}{appos}
+	\depedge{31}{32}{case}
+	\depedge{32}{30}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{29}{30}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{31}{32}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{28}{30}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{31}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 411}};
+	\node (R4) at (R1.south) {\tiny $ 14/30 = 47\% $};
+\end{dependency}

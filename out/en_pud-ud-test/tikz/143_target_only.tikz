@@ -1,0 +1,56 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		There\& are\& more\& differences\& between\& Sulla\& and\& Trump\& ,\& Rome\& and\& the\& U.S.\& ,\& than\& there\& are\& similarities\& ,\& but\& that\& does\& n’t\& discredit\& the\& resemblances\& . \\
+	\end{deptext}
+	\depedge{1}{2}{expl}
+	\depedge{2}{0}{root}
+	\depedge{3}{4}{amod}
+	\depedge{4}{2}{nsubj}
+	\depedge{5}{6}{case}
+	\depedge{6}{4}{nmod}
+	\depedge{7}{8}{cc}
+	\depedge{8}{6}{conj}
+	\depedge{10}{6}{conj}
+	\depedge{11}{13}{cc}
+	\depedge{12}{13}{det}
+	\depedge{13}{10}{conj}
+	\depedge{15}{17}{mark}
+	\depedge{16}{17}{expl}
+	\depedge{17}{3}{advcl}
+	\depedge{18}{17}{nsubj}
+	\depedge{20}{24}{cc}
+	\depedge{21}{24}{nsubj}
+	\depedge{22}{24}{aux}
+	\depedge{23}{24}{advmod}
+	\depedge{24}{2}{conj}
+	\depedge{25}{26}{det}
+	\depedge{26}{24}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 143}};
+	\node (R4) at (R1.south) {\tiny $ 9/23 = 39\% $};
+\end{dependency}

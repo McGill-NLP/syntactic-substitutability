@@ -1,0 +1,38 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		One\& expects\& a\& bump\& from\& the\& booming\& real\& estate\& market\& and\& increasing\& federal\& expenditures\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{4}{det}
+	\depedge{4}{2}{obj}
+	\depedge{5}{10}{case}
+	\depedge{6}{10}{det}
+	\depedge{7}{10}{amod}
+	\depedge{8}{9}{amod}
+	\depedge{9}{10}{compound}
+	\depedge{10}{4}{nmod}
+	\depedge{11}{14}{cc}
+	\depedge{12}{14}{amod}
+	\depedge{13}{14}{amod}
+	\depedge{14}{10}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 795}};
+	\node (R4) at (R1.south) {\tiny $ 8/14 = 57\% $};
+\end{dependency}

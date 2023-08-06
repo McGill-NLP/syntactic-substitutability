@@ -1,0 +1,27 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		DWG\& is\& a\& holding\& company\& controlled\& by\& Mr.\& Posner\& . \\
+	\end{deptext}
+	\depedge{1}{5}{nsubj}
+	\depedge{2}{5}{cop}
+	\depedge{3}{5}{det}
+	\depedge{4}{5}{nn}
+	\depedge{6}{5}{vmod}
+	\depedge{7}{6}{prep}
+	\depedge{8}{9}{nn}
+	\depedge{9}{7}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 132}};
+	\node (R4) at (R1.south) {\tiny $ 6/8 = 75\% $};
+\end{dependency}

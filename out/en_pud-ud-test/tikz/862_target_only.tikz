@@ -1,0 +1,30 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		And\& what\& about\& the\& parties\& in\& what\& ,\& in\& historical\& rights\& ? \\
+	\end{deptext}
+	\depedge{1}{2}{cc}
+	\depedge{2}{0}{root}
+	\depedge{3}{5}{case}
+	\depedge{4}{5}{det}
+	\depedge{5}{2}{nmod}
+	\depedge{6}{7}{case}
+	\depedge{7}{5}{nmod}
+	\depedge{9}{11}{case}
+	\depedge{10}{11}{amod}
+	\depedge{11}{7}{appos}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 862}};
+	\node (R4) at (R1.south) {\tiny $ 4/10 = 40\% $};
+\end{dependency}

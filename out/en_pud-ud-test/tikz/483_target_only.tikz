@@ -1,0 +1,42 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Nevada\& 's\& industrial\& outputs\& are\& tourism\& ,\& mining\& ,\& machinery\& ,\& printing\& and\& publishing\& ,\& food\& processing\& ,\& and\& electric\& equipment\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nmod:poss}
+	\depedge{2}{1}{case}
+	\depedge{3}{4}{amod}
+	\depedge{4}{6}{nsubj}
+	\depedge{5}{6}{cop}
+	\depedge{6}{0}{root}
+	\depedge{8}{6}{conj}
+	\depedge{10}{6}{conj}
+	\depedge{12}{6}{conj}
+	\depedge{13}{14}{cc}
+	\depedge{14}{12}{conj}
+	\depedge{16}{17}{compound}
+	\depedge{17}{6}{conj}
+	\depedge{19}{21}{cc}
+	\depedge{20}{21}{amod}
+	\depedge{21}{6}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 483}};
+	\node (R4) at (R1.south) {\tiny $ 7/16 = 44\% $};
+\end{dependency}

@@ -1,0 +1,38 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		However\& ,\& they\& did\& not\& expand\& until\& ships\& big\& enough\& to\& cross\& seas\& were\& built\& . \\
+	\end{deptext}
+	\depedge{1}{6}{advmod}
+	\depedge{3}{6}{nsubj}
+	\depedge{4}{6}{aux}
+	\depedge{5}{6}{advmod}
+	\depedge{6}{0}{root}
+	\depedge{7}{15}{mark}
+	\depedge{8}{15}{nsubj:pass}
+	\depedge{9}{10}{amod}
+	\depedge{10}{8}{acl}
+	\depedge{11}{12}{mark}
+	\depedge{12}{10}{advcl}
+	\depedge{13}{12}{obj}
+	\depedge{14}{15}{aux:pass}
+	\depedge{15}{6}{advcl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{14}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 939}};
+	\node (R4) at (R1.south) {\tiny $ 7/14 = 50\% $};
+\end{dependency}

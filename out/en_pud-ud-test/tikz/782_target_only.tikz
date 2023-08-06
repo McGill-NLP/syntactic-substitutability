@@ -1,0 +1,50 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		According\& to\& Christian\& belief\& ,\& a\& grave\& which\& had\& been\& embedded\& in\& the\& chalkstone\& was\& the\& last\& resting\& place\& of\& Jesus\& . \\
+	\end{deptext}
+	\depedge{1}{4}{case}
+	\depedge{2}{1}{fixed}
+	\depedge{3}{4}{amod}
+	\depedge{4}{19}{obl}
+	\depedge{6}{7}{det}
+	\depedge{7}{19}{nsubj}
+	\depedge{8}{11}{nsubj:pass}
+	\depedge{9}{11}{aux}
+	\depedge{10}{11}{aux:pass}
+	\depedge{11}{7}{acl:relcl}
+	\depedge{12}{14}{case}
+	\depedge{13}{14}{det}
+	\depedge{14}{11}{obl}
+	\depedge{15}{19}{cop}
+	\depedge{16}{19}{det}
+	\depedge{17}{19}{amod}
+	\depedge{18}{19}{amod}
+	\depedge{19}{0}{root}
+	\depedge{20}{21}{case}
+	\depedge{21}{19}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 782}};
+	\node (R4) at (R1.south) {\tiny $ 8/20 = 40\% $};
+\end{dependency}

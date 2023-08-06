@@ -1,0 +1,17 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		``\& The\& industry\& defies\& characterization\& .\& '' \\
+	\end{deptext}
+	\depedge{2}{3}{det}
+	\depedge{3}{4}{nsubj}
+	\depedge{5}{4}{dobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 146}};
+	\node (R4) at (R1.south) {\tiny $ 2/3 = 67\% $};
+\end{dependency}

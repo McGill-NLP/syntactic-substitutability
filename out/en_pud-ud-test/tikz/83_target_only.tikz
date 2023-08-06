@@ -1,0 +1,76 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		"\& If\& Donald\& Trump\& becomes\& president\& ,\& the\& government\& here\& will\& still\& have\& to\& work\& with\& him\& to\& advance\& whatever\& shared\& agenda\& there\& is\& ,\& to\& ensure\& that\& Canadian\& businesses\& and\& interests\& are\& represented\& in\& Washington\& .\& " \\
+	\end{deptext}
+	\depedge{2}{5}{mark}
+	\depedge{3}{5}{nsubj}
+	\depedge{4}{3}{flat}
+	\depedge{5}{13}{advcl}
+	\depedge{6}{5}{xcomp}
+	\depedge{8}{9}{det}
+	\depedge{9}{13}{nsubj}
+	\depedge{10}{9}{advmod}
+	\depedge{11}{13}{aux}
+	\depedge{12}{13}{advmod}
+	\depedge{13}{0}{root}
+	\depedge{14}{15}{mark}
+	\depedge{15}{13}{xcomp}
+	\depedge{16}{17}{case}
+	\depedge{17}{15}{obl}
+	\depedge{18}{19}{mark}
+	\depedge{19}{15}{advcl}
+	\depedge{20}{22}{det}
+	\depedge{21}{22}{amod}
+	\depedge{22}{24}{nsubj}
+	\depedge{23}{24}{expl}
+	\depedge{24}{19}{ccomp}
+	\depedge{26}{27}{mark}
+	\depedge{27}{15}{advcl}
+	\depedge{28}{34}{mark}
+	\depedge{29}{30}{amod}
+	\depedge{30}{34}{nsubj:pass}
+	\depedge{31}{32}{cc}
+	\depedge{32}{30}{conj}
+	\depedge{33}{34}{aux:pass}
+	\depedge{34}{27}{ccomp}
+	\depedge{35}{36}{case}
+	\depedge{36}{34}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{35}{36}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{30}{32}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{31}{32}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{33}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{28}{33}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{32}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{34}{35}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{32}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{28}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 83}};
+	\node (R4) at (R1.south) {\tiny $ 16/33 = 48\% $};
+\end{dependency}

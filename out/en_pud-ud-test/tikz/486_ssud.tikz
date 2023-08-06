@@ -1,0 +1,36 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		During\& the\& first\& century\& of\& development\& ,\& Spanish\& dominance\& in\& the\& region\& remained\& undisputed\& . \\
+	\end{deptext}
+	\depedge{1}{4}{case}
+	\depedge{2}{4}{det}
+	\depedge{3}{4}{amod}
+	\depedge{4}{13}{obl}
+	\depedge{5}{6}{case}
+	\depedge{6}{4}{nmod}
+	\depedge{8}{9}{amod}
+	\depedge{9}{13}{nsubj}
+	\depedge{10}{12}{case}
+	\depedge{11}{12}{det}
+	\depedge{12}{9}{nmod}
+	\depedge{13}{0}{root}
+	\depedge{14}{13}{xcomp}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 486}};
+	\node (R4) at (R1.south) {\tiny $ 6/13 = 46\% $};
+\end{dependency}

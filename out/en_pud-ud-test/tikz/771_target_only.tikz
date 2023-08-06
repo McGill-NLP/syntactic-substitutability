@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		That\& is\& because\& each\& and\& every\& miracle\& and\& each\& specialized\& district\& occupies\& an\& entire\& field\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{12}{mark}
+	\depedge{4}{7}{det}
+	\depedge{5}{6}{cc}
+	\depedge{6}{4}{conj}
+	\depedge{7}{12}{nsubj}
+	\depedge{8}{11}{cc}
+	\depedge{9}{11}{det}
+	\depedge{10}{11}{amod}
+	\depedge{11}{7}{conj}
+	\depedge{12}{2}{ccomp}
+	\depedge{13}{15}{det}
+	\depedge{14}{15}{amod}
+	\depedge{15}{12}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{14}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 771}};
+	\node (R4) at (R1.south) {\tiny $ 7/15 = 47\% $};
+\end{dependency}

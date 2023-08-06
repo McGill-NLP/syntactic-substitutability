@@ -1,0 +1,38 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Several\& analysts\& have\& suggested\& Huawei\& is\& best\& placed\& to\& benefit\& from\& Samsung\& 's\& setback\& . \\
+	\end{deptext}
+	\depedge{1}{2}{amod}
+	\depedge{2}{4}{nsubj}
+	\depedge{3}{4}{aux}
+	\depedge{4}{0}{root}
+	\depedge{5}{8}{nsubj:pass}
+	\depedge{6}{8}{aux:pass}
+	\depedge{7}{8}{advmod}
+	\depedge{8}{4}{ccomp}
+	\depedge{9}{10}{mark}
+	\depedge{10}{8}{xcomp}
+	\depedge{11}{14}{case}
+	\depedge{12}{14}{nmod:poss}
+	\depedge{13}{12}{case}
+	\depedge{14}{10}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 31}};
+	\node (R4) at (R1.south) {\tiny $ 4/14 = 29\% $};
+\end{dependency}

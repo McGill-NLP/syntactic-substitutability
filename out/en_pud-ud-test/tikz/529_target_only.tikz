@@ -1,0 +1,82 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		He\& seems\& to\& have\& wished\& for\& the\& Senate\& and\& the\& state\& to\& simply\& act\& without\& him\& and\& his\& direct\& orders\& were\& rather\& vague\& ,\& inspiring\& debate\& more\& on\& what\& he\& actually\& meant\& than\& on\& passing\& his\& legislation\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{5}{mark}
+	\depedge{4}{5}{aux}
+	\depedge{5}{2}{xcomp}
+	\depedge{6}{13}{mark}
+	\depedge{7}{8}{det}
+	\depedge{8}{14}{nsubj}
+	\depedge{9}{11}{cc}
+	\depedge{10}{11}{det}
+	\depedge{11}{8}{conj}
+	\depedge{12}{14}{mark}
+	\depedge{13}{14}{advmod}
+	\depedge{14}{5}{ccomp}
+	\depedge{15}{16}{case}
+	\depedge{16}{14}{obl}
+	\depedge{17}{23}{cc}
+	\depedge{18}{20}{nmod:poss}
+	\depedge{19}{20}{amod}
+	\depedge{20}{23}{nsubj}
+	\depedge{21}{23}{cop}
+	\depedge{22}{23}{advmod}
+	\depedge{23}{2}{conj}
+	\depedge{25}{23}{advcl}
+	\depedge{26}{25}{obj}
+	\depedge{27}{29}{advmod}
+	\depedge{28}{29}{case}
+	\depedge{29}{25}{obl}
+	\depedge{30}{32}{nsubj}
+	\depedge{31}{32}{advmod}
+	\depedge{32}{29}{acl:relcl}
+	\depedge{33}{35}{mark}
+	\depedge{34}{35}{mark}
+	\depedge{35}{27}{advcl}
+	\depedge{36}{37}{nmod:poss}
+	\depedge{37}{35}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{34}{35}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{31}{32}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{29}{32}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{35}{37}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{36}{37}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{36}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{33}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{33}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{26}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{37}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{14}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 529}};
+	\node (R4) at (R1.south) {\tiny $ 15/36 = 42\% $};
+\end{dependency}

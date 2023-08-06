@@ -1,0 +1,38 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		This\& morning\& ,\& Pope\& Francis\& met\& Mark\& Zuckerberg\& and\& his\& wife\& at\& Casa\& Santa\& Marta\& . \\
+	\end{deptext}
+	\depedge{1}{2}{det}
+	\depedge{2}{6}{nmod:tmod}
+	\depedge{4}{6}{nsubj}
+	\depedge{5}{4}{flat}
+	\depedge{6}{0}{root}
+	\depedge{7}{6}{obj}
+	\depedge{8}{7}{flat}
+	\depedge{9}{11}{cc}
+	\depedge{10}{11}{nmod:poss}
+	\depedge{11}{7}{conj}
+	\depedge{12}{13}{case}
+	\depedge{13}{6}{obl}
+	\depedge{14}{13}{flat}
+	\depedge{15}{13}{flat}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 843}};
+	\node (R4) at (R1.south) {\tiny $ 7/14 = 50\% $};
+\end{dependency}

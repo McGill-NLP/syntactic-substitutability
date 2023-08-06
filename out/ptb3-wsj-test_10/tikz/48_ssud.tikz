@@ -1,0 +1,27 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Petrolane\& is\& the\& second-largest\& propane\& distributor\& in\& the\& U.S.\& . \\
+	\end{deptext}
+	\depedge{1}{6}{nsubj}
+	\depedge{2}{6}{cop}
+	\depedge{3}{6}{det}
+	\depedge{4}{6}{amod}
+	\depedge{5}{6}{nn}
+	\depedge{7}{6}{prep}
+	\depedge{8}{9}{det}
+	\depedge{9}{7}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 48}};
+	\node (R4) at (R1.south) {\tiny $ 3/8 = 38\% $};
+\end{dependency}

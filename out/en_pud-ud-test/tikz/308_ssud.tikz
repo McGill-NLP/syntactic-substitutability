@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Of\& course\& ,\& the\& tactile\& trend\& is\& closely\& linked\& to\& our\& growing\& obsession\& with\& making\& things\& . \\
+	\end{deptext}
+	\depedge{1}{9}{advmod}
+	\depedge{2}{1}{fixed}
+	\depedge{4}{6}{det}
+	\depedge{5}{6}{amod}
+	\depedge{6}{9}{nsubj}
+	\depedge{7}{9}{cop}
+	\depedge{8}{9}{advmod}
+	\depedge{9}{0}{root}
+	\depedge{10}{13}{case}
+	\depedge{11}{13}{nmod:poss}
+	\depedge{12}{13}{amod}
+	\depedge{13}{9}{obl}
+	\depedge{14}{15}{mark}
+	\depedge{15}{13}{acl}
+	\depedge{16}{15}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 308}};
+	\node (R4) at (R1.south) {\tiny $ 6/15 = 40\% $};
+\end{dependency}

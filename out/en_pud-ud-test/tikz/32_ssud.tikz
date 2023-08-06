@@ -1,0 +1,44 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& Mate\& 9\& phones\& lack\& an\& artificial\& intelligence\& interface\& ,\& like\& the\& Google\& Assistant\& or\& Apple\& 's\& Siri\& . \\
+	\end{deptext}
+	\depedge{1}{4}{det}
+	\depedge{2}{4}{compound}
+	\depedge{3}{2}{nummod}
+	\depedge{4}{5}{nsubj}
+	\depedge{5}{0}{root}
+	\depedge{6}{9}{det}
+	\depedge{7}{8}{amod}
+	\depedge{8}{9}{compound}
+	\depedge{9}{5}{obj}
+	\depedge{11}{14}{case}
+	\depedge{12}{14}{det}
+	\depedge{13}{14}{compound}
+	\depedge{14}{9}{nmod}
+	\depedge{15}{18}{cc}
+	\depedge{16}{18}{nmod:poss}
+	\depedge{17}{16}{case}
+	\depedge{18}{14}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 32}};
+	\node (R4) at (R1.south) {\tiny $ 9/17 = 53\% $};
+\end{dependency}

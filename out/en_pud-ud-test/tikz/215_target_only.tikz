@@ -1,0 +1,38 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		But\& ,\& when\& I\& suggest\& that\& she\& get\& Frank\& to\& model\& for\& her\& ,\& she\& laughs\& . \\
+	\end{deptext}
+	\depedge{1}{16}{cc}
+	\depedge{3}{5}{advmod}
+	\depedge{4}{5}{nsubj}
+	\depedge{5}{16}{advcl}
+	\depedge{6}{8}{mark}
+	\depedge{7}{8}{nsubj}
+	\depedge{8}{5}{ccomp}
+	\depedge{9}{8}{obj}
+	\depedge{10}{11}{mark}
+	\depedge{11}{8}{xcomp}
+	\depedge{12}{13}{case}
+	\depedge{13}{11}{obl}
+	\depedge{15}{16}{nsubj}
+	\depedge{16}{0}{root}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 215}};
+	\node (R4) at (R1.south) {\tiny $ 4/14 = 29\% $};
+\end{dependency}

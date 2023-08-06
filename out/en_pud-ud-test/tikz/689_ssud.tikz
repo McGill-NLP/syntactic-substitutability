@@ -1,0 +1,74 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& 2003\& ,\& he\& dominated\& in\& the\& points\& standings\& and\& leading\& the\& last\& 33\& of\& 36\& races\& and\& became\& the\& 2003\& NASCAR\& Winston\& Cup\& champion\& ,\& the\& last\& driver\& to\& ever\& hold\& that\& title\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{5}{obl}
+	\depedge{4}{5}{nsubj}
+	\depedge{5}{0}{root}
+	\depedge{6}{9}{case}
+	\depedge{7}{9}{det}
+	\depedge{8}{9}{compound}
+	\depedge{9}{5}{obl}
+	\depedge{10}{11}{cc}
+	\depedge{11}{5}{conj}
+	\depedge{12}{14}{det}
+	\depedge{13}{14}{amod}
+	\depedge{14}{11}{obj}
+	\depedge{15}{17}{case}
+	\depedge{16}{17}{nummod}
+	\depedge{17}{14}{nmod}
+	\depedge{18}{19}{cc}
+	\depedge{19}{5}{conj}
+	\depedge{20}{25}{det}
+	\depedge{21}{24}{compound}
+	\depedge{22}{24}{compound}
+	\depedge{23}{24}{compound}
+	\depedge{24}{25}{compound}
+	\depedge{25}{19}{xcomp}
+	\depedge{27}{29}{det}
+	\depedge{28}{29}{amod}
+	\depedge{29}{25}{appos}
+	\depedge{30}{32}{mark}
+	\depedge{31}{32}{advmod}
+	\depedge{32}{29}{acl}
+	\depedge{33}{34}{det}
+	\depedge{34}{32}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{32}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{31}{32}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{33}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{30}{31}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{21}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 689}};
+	\node (R4) at (R1.south) {\tiny $ 13/32 = 41\% $};
+\end{dependency}

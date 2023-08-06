@@ -1,0 +1,54 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		She\& found\& the\& transition\& to\& fiction\& easy\& ,\& explaining\& ,\& "\& Every\& book\& is\& a\& learning\& curve\& ,\& and\& you\& have\& to\& keep\& an\& open\& mind\& .\& " \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{4}{det}
+	\depedge{4}{2}{obj}
+	\depedge{5}{6}{case}
+	\depedge{6}{4}{nmod}
+	\depedge{7}{2}{xcomp}
+	\depedge{9}{2}{advcl}
+	\depedge{12}{13}{det}
+	\depedge{13}{17}{nsubj}
+	\depedge{14}{17}{cop}
+	\depedge{15}{17}{det}
+	\depedge{16}{17}{compound}
+	\depedge{17}{9}{ccomp}
+	\depedge{19}{21}{cc}
+	\depedge{20}{21}{nsubj}
+	\depedge{21}{17}{conj}
+	\depedge{22}{23}{mark}
+	\depedge{23}{21}{xcomp}
+	\depedge{24}{26}{det}
+	\depedge{25}{26}{amod}
+	\depedge{26}{23}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{26}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{14}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 669}};
+	\node (R4) at (R1.south) {\tiny $ 11/22 = 50\% $};
+\end{dependency}

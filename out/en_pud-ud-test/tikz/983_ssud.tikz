@@ -1,0 +1,74 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		It\& is\& the\& portion\& from\& this\& second\& boundary\& up\& to\& the\& outer\& boundary\& ,\& the\& imaginary\& line\& that\& connects\& the\& lighthouse\& landmark\& at\& Punta\& del\& Este\& to\& the\& lighthouse\& landmark\& at\& Punta\& Rasa\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj}
+	\depedge{2}{4}{cop}
+	\depedge{3}{4}{det}
+	\depedge{4}{0}{root}
+	\depedge{5}{8}{case}
+	\depedge{6}{8}{det}
+	\depedge{7}{8}{amod}
+	\depedge{8}{4}{nmod}
+	\depedge{9}{13}{case}
+	\depedge{10}{9}{fixed}
+	\depedge{11}{13}{det}
+	\depedge{12}{13}{amod}
+	\depedge{13}{4}{nmod}
+	\depedge{15}{17}{det}
+	\depedge{16}{17}{amod}
+	\depedge{17}{13}{appos}
+	\depedge{18}{19}{nsubj}
+	\depedge{19}{17}{acl:relcl}
+	\depedge{20}{22}{det}
+	\depedge{21}{22}{compound}
+	\depedge{22}{19}{obj}
+	\depedge{23}{26}{case}
+	\depedge{24}{26}{compound}
+	\depedge{25}{26}{compound}
+	\depedge{26}{22}{nmod}
+	\depedge{27}{30}{case}
+	\depedge{28}{30}{det}
+	\depedge{29}{30}{compound}
+	\depedge{30}{19}{obl}
+	\depedge{31}{33}{case}
+	\depedge{32}{33}{compound}
+	\depedge{33}{30}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{26}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{32}{33}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{28}{30}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{29}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{26}{33}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{31}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{28}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 983}};
+	\node (R4) at (R1.south) {\tiny $ 13/32 = 41\% $};
+\end{dependency}

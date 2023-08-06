@@ -1,0 +1,46 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Pebe\& moved\& the\& family\& to\& Nashville\& ,\& Tennessee\& ,\& in\& 1991\& after\& securing\& a\& new\& publishing\& deal\& for\& her\& songwriting\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{4}{det}
+	\depedge{4}{2}{obj}
+	\depedge{5}{6}{case}
+	\depedge{6}{2}{obl}
+	\depedge{8}{6}{appos}
+	\depedge{10}{11}{case}
+	\depedge{11}{2}{obl}
+	\depedge{12}{13}{mark}
+	\depedge{13}{2}{advcl}
+	\depedge{14}{17}{det}
+	\depedge{15}{17}{amod}
+	\depedge{16}{17}{compound}
+	\depedge{17}{13}{obj}
+	\depedge{18}{20}{case}
+	\depedge{19}{20}{nmod:poss}
+	\depedge{20}{17}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 738}};
+	\node (R4) at (R1.south) {\tiny $ 6/18 = 33\% $};
+\end{dependency}

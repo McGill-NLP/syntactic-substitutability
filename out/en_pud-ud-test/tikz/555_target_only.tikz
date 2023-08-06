@@ -1,0 +1,22 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Its\& importance\& resides\& in\& two\& facts\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nmod:poss}
+	\depedge{2}{3}{nsubj}
+	\depedge{3}{0}{root}
+	\depedge{4}{6}{case}
+	\depedge{5}{6}{nummod}
+	\depedge{6}{3}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 555}};
+	\node (R4) at (R1.south) {\tiny $ 3/6 = 50\% $};
+\end{dependency}

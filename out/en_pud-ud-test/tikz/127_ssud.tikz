@@ -1,0 +1,44 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		"\& Some\& men\& get\& it\& and\& Bono\& is\& one\& of\& those\& guys\& ,\& "\& Leive\& said\& in\& a\& recent\& interview\& . \\
+	\end{deptext}
+	\depedge{2}{3}{det}
+	\depedge{3}{4}{nsubj}
+	\depedge{4}{0}{root}
+	\depedge{5}{4}{obj}
+	\depedge{6}{9}{cc}
+	\depedge{7}{9}{nsubj}
+	\depedge{8}{9}{cop}
+	\depedge{9}{4}{conj}
+	\depedge{10}{12}{case}
+	\depedge{11}{12}{det}
+	\depedge{12}{9}{nmod}
+	\depedge{15}{16}{nsubj}
+	\depedge{16}{4}{parataxis}
+	\depedge{17}{20}{case}
+	\depedge{18}{20}{det}
+	\depedge{19}{20}{amod}
+	\depedge{20}{16}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 127}};
+	\node (R4) at (R1.south) {\tiny $ 7/17 = 41\% $};
+\end{dependency}

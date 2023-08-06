@@ -1,0 +1,30 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& multi-ethnic\& Achaemenid\& army\& possessed\& many\& soldiers\& from\& the\& Balkans\& . \\
+	\end{deptext}
+	\depedge{1}{4}{det}
+	\depedge{2}{4}{amod}
+	\depedge{3}{4}{amod}
+	\depedge{4}{5}{nsubj}
+	\depedge{5}{0}{root}
+	\depedge{6}{7}{amod}
+	\depedge{7}{5}{obj}
+	\depedge{8}{10}{case}
+	\depedge{9}{10}{det}
+	\depedge{10}{7}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 386}};
+	\node (R4) at (R1.south) {\tiny $ 4/10 = 40\% $};
+\end{dependency}

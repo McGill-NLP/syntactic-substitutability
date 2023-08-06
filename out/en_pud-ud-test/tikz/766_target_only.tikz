@@ -1,0 +1,22 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Kühn\& can\& only\& shake\& his\& head\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj}
+	\depedge{2}{4}{aux}
+	\depedge{3}{4}{advmod}
+	\depedge{4}{0}{root}
+	\depedge{5}{6}{nmod:poss}
+	\depedge{6}{4}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 766}};
+	\node (R4) at (R1.south) {\tiny $ 1/6 = 17\% $};
+\end{dependency}

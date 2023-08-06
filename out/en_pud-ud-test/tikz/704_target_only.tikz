@@ -1,0 +1,38 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Mishima\& espoused\& a\& very\& individual\& brand\& of\& nationalism\& towards\& the\& end\& of\& his\& life\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{6}{det}
+	\depedge{4}{5}{advmod}
+	\depedge{5}{6}{amod}
+	\depedge{6}{2}{obj}
+	\depedge{7}{8}{case}
+	\depedge{8}{6}{nmod}
+	\depedge{9}{11}{case}
+	\depedge{10}{11}{det}
+	\depedge{11}{2}{obl}
+	\depedge{12}{14}{case}
+	\depedge{13}{14}{nmod:poss}
+	\depedge{14}{11}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{13}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 704}};
+	\node (R4) at (R1.south) {\tiny $ 7/14 = 50\% $};
+\end{dependency}

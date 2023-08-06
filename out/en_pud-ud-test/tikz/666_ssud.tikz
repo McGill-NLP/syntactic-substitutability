@@ -1,0 +1,32 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Some\& Christian\& scholars\& criticize\& Tolle\& 's\& teachings\& ,\& while\& others\& praise\& them\& . \\
+	\end{deptext}
+	\depedge{1}{3}{det}
+	\depedge{2}{3}{amod}
+	\depedge{3}{4}{nsubj}
+	\depedge{4}{0}{root}
+	\depedge{5}{7}{nmod:poss}
+	\depedge{6}{5}{case}
+	\depedge{7}{4}{obj}
+	\depedge{9}{11}{mark}
+	\depedge{10}{11}{nsubj}
+	\depedge{11}{4}{advcl}
+	\depedge{12}{11}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{9}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 666}};
+	\node (R4) at (R1.south) {\tiny $ 4/11 = 36\% $};
+\end{dependency}

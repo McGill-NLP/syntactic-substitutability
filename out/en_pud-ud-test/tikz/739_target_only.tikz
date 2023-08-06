@@ -1,0 +1,74 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Kesha\& and\& Pebe\& co-wrote\& the\& song\& "\& Stephen\& "\& together\& when\& Kesha\& was\& 16\& ,\& Kesha\& then\& tracked\& down\& David\& Gamson\& ,\& a\& producer\& that\& she\& admired\& ,\& from\& Scritti\& Politti\& who\& agreed\& to\& produce\& the\& song\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj}
+	\depedge{2}{3}{cc}
+	\depedge{3}{1}{conj}
+	\depedge{4}{0}{root}
+	\depedge{5}{6}{det}
+	\depedge{6}{4}{obj}
+	\depedge{8}{6}{appos}
+	\depedge{10}{4}{advmod}
+	\depedge{11}{14}{mark}
+	\depedge{12}{14}{nsubj}
+	\depedge{13}{14}{cop}
+	\depedge{14}{4}{advcl}
+	\depedge{16}{18}{nsubj}
+	\depedge{17}{18}{advmod}
+	\depedge{18}{4}{parataxis}
+	\depedge{19}{18}{compound:prt}
+	\depedge{20}{18}{obj}
+	\depedge{21}{20}{flat}
+	\depedge{23}{24}{det}
+	\depedge{24}{20}{appos}
+	\depedge{25}{27}{obj}
+	\depedge{26}{27}{nsubj}
+	\depedge{27}{24}{acl:relcl}
+	\depedge{29}{30}{case}
+	\depedge{30}{18}{obl}
+	\depedge{31}{30}{flat}
+	\depedge{32}{33}{nsubj}
+	\depedge{33}{20}{acl:relcl}
+	\depedge{34}{35}{mark}
+	\depedge{35}{33}{xcomp}
+	\depedge{36}{37}{det}
+	\depedge{37}{35}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{34}{35}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{30}{31}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{36}{37}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{33}{36}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{37}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{35}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{32}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{32}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{33}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{31}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 739}};
+	\node (R4) at (R1.south) {\tiny $ 14/32 = 44\% $};
+\end{dependency}

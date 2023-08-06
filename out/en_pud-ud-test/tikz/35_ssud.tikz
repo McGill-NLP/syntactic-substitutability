@@ -1,0 +1,56 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& company\& told\& the\& BBC\& it\& would\& be\& the\& responsibility\& of\& each\& airline\& brand\& to\& decide\& whether\& to\& charge\& passengers\& an\& access\& fee\& . \\
+	\end{deptext}
+	\depedge{1}{2}{det}
+	\depedge{2}{3}{nsubj}
+	\depedge{3}{0}{root}
+	\depedge{4}{5}{det}
+	\depedge{5}{3}{iobj}
+	\depedge{6}{10}{nsubj}
+	\depedge{7}{10}{aux}
+	\depedge{8}{10}{cop}
+	\depedge{9}{10}{det}
+	\depedge{10}{3}{ccomp}
+	\depedge{11}{14}{case}
+	\depedge{12}{14}{det}
+	\depedge{13}{14}{compound}
+	\depedge{14}{10}{nmod}
+	\depedge{15}{16}{mark}
+	\depedge{16}{10}{acl}
+	\depedge{17}{19}{mark}
+	\depedge{18}{19}{mark}
+	\depedge{19}{16}{xcomp}
+	\depedge{20}{19}{iobj}
+	\depedge{21}{23}{det}
+	\depedge{22}{23}{compound}
+	\depedge{23}{19}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 35}};
+	\node (R4) at (R1.south) {\tiny $ 12/23 = 52\% $};
+\end{dependency}

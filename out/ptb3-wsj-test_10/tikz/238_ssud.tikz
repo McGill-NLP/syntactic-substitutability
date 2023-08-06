@@ -1,0 +1,27 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		I\& do\& not\& by\& any\& means\& defend\& HUD\& management\& . \\
+	\end{deptext}
+	\depedge{1}{7}{nsubj}
+	\depedge{2}{7}{aux}
+	\depedge{3}{7}{neg}
+	\depedge{4}{7}{prep}
+	\depedge{5}{6}{det}
+	\depedge{6}{4}{pobj}
+	\depedge{8}{9}{nn}
+	\depedge{9}{7}{dobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{6}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 238}};
+	\node (R4) at (R1.south) {\tiny $ 3/8 = 38\% $};
+\end{dependency}

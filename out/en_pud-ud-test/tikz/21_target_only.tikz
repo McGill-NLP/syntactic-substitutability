@@ -1,0 +1,38 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		She\& has\& also\& been\& charged\& with\& trying\& to\& kill\& her\& two\& -\& year\& -\& old\& daughter\& . \\
+	\end{deptext}
+	\depedge{1}{5}{nsubj:pass}
+	\depedge{2}{5}{aux}
+	\depedge{3}{5}{advmod}
+	\depedge{4}{5}{aux:pass}
+	\depedge{5}{0}{root}
+	\depedge{6}{7}{mark}
+	\depedge{7}{5}{advcl}
+	\depedge{8}{9}{mark}
+	\depedge{9}{7}{xcomp}
+	\depedge{10}{16}{nmod:poss}
+	\depedge{11}{15}{nummod}
+	\depedge{13}{15}{obl:npmod}
+	\depedge{15}{16}{amod}
+	\depedge{16}{9}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 21}};
+	\node (R4) at (R1.south) {\tiny $ 5/14 = 36\% $};
+\end{dependency}

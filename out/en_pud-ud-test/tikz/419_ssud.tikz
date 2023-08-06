@@ -1,0 +1,62 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		It\& provided\& routes\& for\& trade\& ,\& colonisation\& ,\& and\& war\& ,\& as\& well\& as\& food\& (\& from\& fishing\& and\& the\& gathering\& of\& other\& seafood\& )\& for\& numerous\& communities\& throughout\& the\& ages\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{2}{obj}
+	\depedge{4}{5}{case}
+	\depedge{5}{3}{nmod}
+	\depedge{7}{5}{conj}
+	\depedge{9}{10}{cc}
+	\depedge{10}{5}{conj}
+	\depedge{12}{15}{cc}
+	\depedge{13}{12}{fixed}
+	\depedge{14}{12}{fixed}
+	\depedge{15}{3}{conj}
+	\depedge{17}{18}{case}
+	\depedge{18}{15}{nmod}
+	\depedge{19}{21}{cc}
+	\depedge{20}{21}{det}
+	\depedge{21}{18}{conj}
+	\depedge{22}{24}{case}
+	\depedge{23}{24}{amod}
+	\depedge{24}{21}{nmod}
+	\depedge{26}{28}{case}
+	\depedge{27}{28}{amod}
+	\depedge{28}{15}{nmod}
+	\depedge{29}{31}{case}
+	\depedge{30}{31}{det}
+	\depedge{31}{2}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{28}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{30}{31}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{31}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{30}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 419}};
+	\node (R4) at (R1.south) {\tiny $ 13/26 = 50\% $};
+\end{dependency}

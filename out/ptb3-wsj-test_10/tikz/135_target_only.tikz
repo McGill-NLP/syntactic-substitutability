@@ -1,0 +1,29 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Attempts\& to\& produce\& ``\& pan-European\& ''\& programs\& have\& generally\& resulted\& in\& disappointment\& . \\
+	\end{deptext}
+	\depedge{1}{10}{nsubj}
+	\depedge{2}{3}{aux}
+	\depedge{3}{1}{vmod}
+	\depedge{5}{7}{amod}
+	\depedge{7}{3}{dobj}
+	\depedge{8}{10}{aux}
+	\depedge{9}{10}{advmod}
+	\depedge{11}{10}{prep}
+	\depedge{12}{11}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 135}};
+	\node (R4) at (R1.south) {\tiny $ 6/9 = 67\% $};
+\end{dependency}

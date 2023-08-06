@@ -1,0 +1,32 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Ramesses\& ,\& logistically\& unable\& to\& sustain\& a\& long\& siege\& ,\& returned\& to\& Egypt\& . \\
+	\end{deptext}
+	\depedge{1}{11}{nsubj}
+	\depedge{3}{4}{advmod}
+	\depedge{4}{1}{acl}
+	\depedge{5}{6}{mark}
+	\depedge{6}{4}{xcomp}
+	\depedge{7}{9}{det}
+	\depedge{8}{9}{amod}
+	\depedge{9}{6}{obj}
+	\depedge{11}{0}{root}
+	\depedge{12}{13}{case}
+	\depedge{13}{11}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{13}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 507}};
+	\node (R4) at (R1.south) {\tiny $ 6/11 = 55\% $};
+\end{dependency}

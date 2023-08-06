@@ -1,0 +1,27 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Closely\& held\& Morris\& Communications\& is\& based\& in\& Augusta\& ,\& Ga\& . \\
+	\end{deptext}
+	\depedge{1}{2}{advmod}
+	\depedge{2}{4}{amod}
+	\depedge{3}{4}{nn}
+	\depedge{4}{6}{nsubjpass}
+	\depedge{5}{6}{auxpass}
+	\depedge{7}{6}{prep}
+	\depedge{8}{7}{pobj}
+	\depedge{10}{8}{appos}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 60}};
+	\node (R4) at (R1.south) {\tiny $ 5/8 = 62\% $};
+\end{dependency}

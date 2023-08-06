@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Low\& per\& capita\& income\& has\& been\& proposed\& as\& a\& cause\& for\& grievance\& ,\& prompting\& armed\& rebellion\& . \\
+	\end{deptext}
+	\depedge{1}{4}{amod}
+	\depedge{2}{3}{case}
+	\depedge{3}{4}{nmod}
+	\depedge{4}{7}{nsubj:pass}
+	\depedge{5}{7}{aux}
+	\depedge{6}{7}{aux:pass}
+	\depedge{7}{0}{root}
+	\depedge{8}{10}{case}
+	\depedge{9}{10}{det}
+	\depedge{10}{7}{obl}
+	\depedge{11}{12}{case}
+	\depedge{12}{10}{nmod}
+	\depedge{14}{12}{acl}
+	\depedge{15}{16}{amod}
+	\depedge{16}{14}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 571}};
+	\node (R4) at (R1.south) {\tiny $ 6/15 = 40\% $};
+\end{dependency}

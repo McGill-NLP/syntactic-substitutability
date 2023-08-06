@@ -1,0 +1,58 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		To\& draw\& a\& game\& you\& have\& dominated\& is\& easy\& to\& brush\& off\& ,\& but\& to\& do\& so\& three\& times\& is\& a\& row\& suggests\& a\& weakness\& . \\
+	\end{deptext}
+	\depedge{1}{2}{mark}
+	\depedge{2}{9}{csubj}
+	\depedge{3}{4}{det}
+	\depedge{4}{2}{obj}
+	\depedge{5}{7}{nsubj}
+	\depedge{6}{7}{aux}
+	\depedge{7}{4}{acl:relcl}
+	\depedge{8}{9}{cop}
+	\depedge{9}{0}{root}
+	\depedge{10}{11}{mark}
+	\depedge{11}{9}{xcomp}
+	\depedge{12}{11}{compound:prt}
+	\depedge{14}{23}{cc}
+	\depedge{15}{16}{mark}
+	\depedge{16}{23}{csubj}
+	\depedge{17}{16}{advmod}
+	\depedge{18}{19}{nummod}
+	\depedge{19}{16}{obl:npmod}
+	\depedge{20}{22}{case}
+	\depedge{21}{22}{det}
+	\depedge{22}{19}{nmod}
+	\depedge{23}{9}{conj}
+	\depedge{24}{25}{det}
+	\depedge{25}{23}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{21}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 252}};
+	\node (R4) at (R1.south) {\tiny $ 13/24 = 54\% $};
+\end{dependency}

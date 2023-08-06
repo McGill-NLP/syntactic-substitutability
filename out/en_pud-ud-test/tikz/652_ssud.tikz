@@ -1,0 +1,36 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Disney\& also\& found\& out\& that\& Universal\& owned\& the\& intellectual\& property\& rights\& to\& Oswald\& . \\
+	\end{deptext}
+	\depedge{1}{3}{nsubj}
+	\depedge{2}{3}{advmod}
+	\depedge{3}{0}{root}
+	\depedge{4}{3}{compound:prt}
+	\depedge{5}{7}{mark}
+	\depedge{6}{7}{nsubj}
+	\depedge{7}{3}{ccomp}
+	\depedge{8}{11}{det}
+	\depedge{9}{10}{amod}
+	\depedge{10}{11}{compound}
+	\depedge{11}{7}{obj}
+	\depedge{12}{13}{case}
+	\depedge{13}{11}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 652}};
+	\node (R4) at (R1.south) {\tiny $ 7/13 = 54\% $};
+\end{dependency}

@@ -1,0 +1,38 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		What\& she\& ’s\& saying\& and\& what\& she\& ’s\& doing\& ,\& it\& —\& actually\& ,\& it\& ’s\& unbelievable\& . \\
+	\end{deptext}
+	\depedge{1}{4}{obj}
+	\depedge{2}{4}{nsubj}
+	\depedge{3}{4}{aux}
+	\depedge{4}{17}{dislocated}
+	\depedge{5}{9}{cc}
+	\depedge{6}{9}{obj}
+	\depedge{7}{9}{nsubj}
+	\depedge{8}{9}{aux}
+	\depedge{9}{4}{conj}
+	\depedge{11}{15}{reparandum}
+	\depedge{13}{17}{advmod}
+	\depedge{15}{17}{nsubj}
+	\depedge{16}{17}{cop}
+	\depedge{17}{0}{root}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 5}};
+	\node (R4) at (R1.south) {\tiny $ 5/14 = 36\% $};
+\end{dependency}

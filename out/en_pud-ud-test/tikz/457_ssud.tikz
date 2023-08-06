@@ -1,0 +1,46 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		During\& the\& family\& 's\& years\& in\& Kentucky\& and\& Indiana\& ,\& Thomas\& Lincoln\& worked\& as\& a\& farmer\& ,\& cabinetmaker\& ,\& and\& carpenter\& . \\
+	\end{deptext}
+	\depedge{1}{5}{case}
+	\depedge{2}{3}{det}
+	\depedge{3}{5}{nmod:poss}
+	\depedge{4}{3}{case}
+	\depedge{5}{13}{advcl}
+	\depedge{6}{7}{case}
+	\depedge{7}{5}{nmod}
+	\depedge{8}{9}{cc}
+	\depedge{9}{7}{conj}
+	\depedge{11}{13}{nsubj}
+	\depedge{12}{11}{flat}
+	\depedge{13}{0}{root}
+	\depedge{14}{16}{case}
+	\depedge{15}{16}{det}
+	\depedge{16}{13}{obl}
+	\depedge{18}{16}{conj}
+	\depedge{20}{21}{cc}
+	\depedge{21}{16}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 457}};
+	\node (R4) at (R1.south) {\tiny $ 9/18 = 50\% $};
+\end{dependency}

@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& 2011\& ,\& Blunt\& was\& named\& the\& ambassadress\& of\& the\& new\& Yves\& Saint\& Laurent\& fragrance\& ,\& Opium\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{6}{obl}
+	\depedge{4}{6}{nsubj:pass}
+	\depedge{5}{6}{aux:pass}
+	\depedge{6}{0}{root}
+	\depedge{7}{8}{det}
+	\depedge{8}{6}{xcomp}
+	\depedge{9}{15}{case}
+	\depedge{10}{15}{det}
+	\depedge{11}{15}{amod}
+	\depedge{12}{15}{compound}
+	\depedge{13}{12}{flat}
+	\depedge{14}{12}{compound}
+	\depedge{15}{8}{nmod}
+	\depedge{17}{15}{appos}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{11}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 705}};
+	\node (R4) at (R1.south) {\tiny $ 7/15 = 47\% $};
+\end{dependency}

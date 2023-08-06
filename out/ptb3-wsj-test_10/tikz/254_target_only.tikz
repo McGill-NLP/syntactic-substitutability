@@ -1,0 +1,27 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		McCaw\& lost\& 8\& \%\& ,\& or\& 3\& 1/2\& ,\& to\& 40\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{3}{4}{num}
+	\depedge{4}{2}{dobj}
+	\depedge{6}{4}{cc}
+	\depedge{7}{8}{number}
+	\depedge{8}{4}{conj}
+	\depedge{10}{2}{prep}
+	\depedge{11}{10}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{11}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 254}};
+	\node (R4) at (R1.south) {\tiny $ 3/8 = 38\% $};
+\end{dependency}

@@ -1,0 +1,68 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		At\& the\& end\& of\& the\& 8th\& century\& ,\& the\& Moravian\& Principality\& came\& into\& being\& in\& present\& -\& day\& south\& -\& eastern\& Moravia\& ,\& Záhorie\& in\& south\& -\& western\& Slovakia\& and\& parts\& of\& Lower\& Austria\& . \\
+	\end{deptext}
+	\depedge{1}{3}{case}
+	\depedge{2}{3}{det}
+	\depedge{3}{12}{obl}
+	\depedge{4}{7}{case}
+	\depedge{5}{7}{det}
+	\depedge{6}{7}{amod}
+	\depedge{7}{3}{nmod}
+	\depedge{9}{11}{det}
+	\depedge{10}{11}{amod}
+	\depedge{11}{12}{nsubj}
+	\depedge{12}{0}{root}
+	\depedge{13}{14}{case}
+	\depedge{14}{12}{obl}
+	\depedge{15}{22}{case}
+	\depedge{16}{18}{amod}
+	\depedge{18}{22}{amod}
+	\depedge{19}{21}{compound}
+	\depedge{21}{22}{amod}
+	\depedge{22}{12}{obl}
+	\depedge{24}{22}{conj}
+	\depedge{25}{29}{case}
+	\depedge{26}{28}{compound}
+	\depedge{28}{29}{amod}
+	\depedge{29}{24}{nmod}
+	\depedge{30}{31}{cc}
+	\depedge{31}{22}{conj}
+	\depedge{32}{34}{case}
+	\depedge{33}{34}{compound}
+	\depedge{34}{31}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{30}{31}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{33}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{28}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{33}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{32}{33}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{31}{32}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 399}};
+	\node (R4) at (R1.south) {\tiny $ 13/29 = 45\% $};
+\end{dependency}

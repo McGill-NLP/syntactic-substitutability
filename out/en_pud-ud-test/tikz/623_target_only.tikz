@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		China\& was\& defeated\& ,\& and\& in\& 1842\& agreed\& to\& the\& provisions\& of\& the\& Treaty\& of\& Nanking\& . \\
+	\end{deptext}
+	\depedge{1}{3}{nsubj:pass}
+	\depedge{2}{3}{aux:pass}
+	\depedge{3}{0}{root}
+	\depedge{5}{8}{cc}
+	\depedge{6}{7}{case}
+	\depedge{7}{8}{obl}
+	\depedge{8}{3}{conj}
+	\depedge{9}{11}{case}
+	\depedge{10}{11}{det}
+	\depedge{11}{8}{obl}
+	\depedge{12}{14}{case}
+	\depedge{13}{14}{det}
+	\depedge{14}{11}{nmod}
+	\depedge{15}{16}{case}
+	\depedge{16}{14}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 623}};
+	\node (R4) at (R1.south) {\tiny $ 5/15 = 33\% $};
+\end{dependency}

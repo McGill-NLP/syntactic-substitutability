@@ -1,0 +1,58 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		With\& help\& from\& the\& American\& Civil\& Liberties\& Union\& ,\& they\& eventually\& challenged\& the\& state\& ,\& in\& a\& case\& that\& eventually\& went\& to\& the\& U.S.\& Supreme\& Court\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{12}{obl}
+	\depedge{3}{8}{case}
+	\depedge{4}{8}{det}
+	\depedge{5}{8}{amod}
+	\depedge{6}{7}{amod}
+	\depedge{7}{8}{compound}
+	\depedge{8}{2}{nmod}
+	\depedge{10}{12}{nsubj}
+	\depedge{11}{12}{advmod}
+	\depedge{12}{0}{root}
+	\depedge{13}{14}{det}
+	\depedge{14}{12}{obj}
+	\depedge{16}{18}{case}
+	\depedge{17}{18}{det}
+	\depedge{18}{12}{obl}
+	\depedge{19}{21}{nsubj}
+	\depedge{20}{21}{advmod}
+	\depedge{21}{18}{acl:relcl}
+	\depedge{22}{26}{case}
+	\depedge{23}{26}{det}
+	\depedge{24}{26}{compound}
+	\depedge{25}{26}{compound}
+	\depedge{26}{21}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{26}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{21}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{10}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 333}};
+	\node (R4) at (R1.south) {\tiny $ 11/24 = 46\% $};
+\end{dependency}

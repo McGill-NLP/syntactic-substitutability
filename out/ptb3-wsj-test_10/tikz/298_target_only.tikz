@@ -1,0 +1,25 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		\$\& 15.2\& billion\& of\& three-month\& and\& six-month\& bills\& . \\
+	\end{deptext}
+	\depedge{2}{3}{number}
+	\depedge{3}{1}{num}
+	\depedge{4}{1}{prep}
+	\depedge{5}{8}{amod}
+	\depedge{6}{5}{cc}
+	\depedge{7}{5}{conj}
+	\depedge{8}{4}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 298}};
+	\node (R4) at (R1.south) {\tiny $ 5/7 = 71\% $};
+\end{dependency}

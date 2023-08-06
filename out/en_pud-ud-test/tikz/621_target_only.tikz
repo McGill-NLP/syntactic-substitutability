@@ -1,0 +1,44 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Among\& humans\& both\& males\& and\& females\& are\& ardent\& singers\& ,\& and\& making\& music\& is\& mostly\& a\& communal\& activity\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{9}{obl}
+	\depedge{3}{4}{cc:preconj}
+	\depedge{4}{9}{nsubj}
+	\depedge{5}{6}{cc}
+	\depedge{6}{4}{conj}
+	\depedge{7}{9}{cop}
+	\depedge{8}{9}{amod}
+	\depedge{9}{0}{root}
+	\depedge{11}{18}{cc}
+	\depedge{12}{18}{csubj}
+	\depedge{13}{12}{obj}
+	\depedge{14}{18}{cop}
+	\depedge{15}{18}{advmod}
+	\depedge{16}{18}{det}
+	\depedge{17}{18}{amod}
+	\depedge{18}{9}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{11}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 621}};
+	\node (R4) at (R1.south) {\tiny $ 7/17 = 41\% $};
+\end{dependency}

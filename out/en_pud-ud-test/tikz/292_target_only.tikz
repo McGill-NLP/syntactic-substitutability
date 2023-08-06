@@ -1,0 +1,34 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		"\& Cinema\& had\& changed\& so\& drastically\& that\& Hollywood\& had\& alienated\& the\& family\& audience\& .\& " \\
+	\end{deptext}
+	\depedge{2}{4}{nsubj}
+	\depedge{3}{4}{aux}
+	\depedge{4}{0}{root}
+	\depedge{5}{6}{advmod}
+	\depedge{6}{4}{advmod}
+	\depedge{7}{10}{mark}
+	\depedge{8}{10}{nsubj}
+	\depedge{9}{10}{aux}
+	\depedge{10}{5}{advcl}
+	\depedge{11}{13}{det}
+	\depedge{12}{13}{compound}
+	\depedge{13}{10}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 292}};
+	\node (R4) at (R1.south) {\tiny $ 7/12 = 58\% $};
+\end{dependency}

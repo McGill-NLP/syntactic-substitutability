@@ -1,0 +1,46 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& guide\& is\& problematic\& ,\& firstly\& because\& it\& has\& been\& developed\& "\& in\& the\& context\& of\& a\& state\& of\& emergency\& "\& . \\
+	\end{deptext}
+	\depedge{1}{2}{det}
+	\depedge{2}{4}{nsubj}
+	\depedge{3}{4}{cop}
+	\depedge{4}{0}{root}
+	\depedge{6}{11}{advmod}
+	\depedge{7}{11}{mark}
+	\depedge{8}{11}{nsubj:pass}
+	\depedge{9}{11}{aux}
+	\depedge{10}{11}{aux:pass}
+	\depedge{11}{4}{advcl}
+	\depedge{13}{15}{case}
+	\depedge{14}{15}{det}
+	\depedge{15}{11}{obl}
+	\depedge{16}{18}{case}
+	\depedge{17}{18}{det}
+	\depedge{18}{15}{nmod}
+	\depedge{19}{20}{case}
+	\depedge{20}{18}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 815}};
+	\node (R4) at (R1.south) {\tiny $ 7/18 = 39\% $};
+\end{dependency}

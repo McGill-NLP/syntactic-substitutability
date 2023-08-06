@@ -1,0 +1,68 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Iron\& is\& an\& essential\& element\& the\& body\& requires\& to\& produce\& hemoglobin\& ,\& the\& protein\& found\& in\& red\& blood\& cells\& that\& 's\& responsible\& for\& transporting\& oxygen\& to\& tissues\& in\& the\& body\& . \\
+	\end{deptext}
+	\depedge{1}{5}{nsubj}
+	\depedge{2}{5}{cop}
+	\depedge{3}{5}{det}
+	\depedge{4}{5}{amod}
+	\depedge{5}{0}{root}
+	\depedge{6}{7}{det}
+	\depedge{7}{8}{nsubj}
+	\depedge{8}{5}{acl:relcl}
+	\depedge{9}{10}{mark}
+	\depedge{10}{8}{advcl}
+	\depedge{11}{10}{obj}
+	\depedge{13}{14}{det}
+	\depedge{14}{11}{appos}
+	\depedge{15}{14}{acl}
+	\depedge{16}{19}{case}
+	\depedge{17}{19}{amod}
+	\depedge{18}{19}{compound}
+	\depedge{19}{15}{obl}
+	\depedge{20}{22}{nsubj}
+	\depedge{21}{22}{cop}
+	\depedge{22}{14}{acl:relcl}
+	\depedge{23}{24}{mark}
+	\depedge{24}{22}{advcl}
+	\depedge{25}{24}{obj}
+	\depedge{26}{27}{case}
+	\depedge{27}{24}{obl}
+	\depedge{28}{30}{case}
+	\depedge{29}{30}{det}
+	\depedge{30}{27}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{28}{30}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{29}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{30}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 118}};
+	\node (R4) at (R1.south) {\tiny $ 13/29 = 45\% $};
+\end{dependency}

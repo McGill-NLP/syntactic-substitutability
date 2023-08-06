@@ -1,0 +1,25 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		7.63\& \%\& 13\& weeks\& ;\& 7.60\& \%\& 26\& weeks\& . \\
+	\end{deptext}
+	\depedge{1}{2}{num}
+	\depedge{3}{4}{num}
+	\depedge{4}{2}{dep}
+	\depedge{6}{7}{num}
+	\depedge{7}{2}{dep}
+	\depedge{8}{9}{num}
+	\depedge{9}{7}{dep}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{6}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 278}};
+	\node (R4) at (R1.south) {\tiny $ 3/7 = 43\% $};
+\end{dependency}

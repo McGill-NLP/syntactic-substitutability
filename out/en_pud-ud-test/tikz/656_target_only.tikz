@@ -1,0 +1,34 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		However\& ,\& his\& rival\& Prabowo\& Subianto\& also\& declared\& victory\& ,\& leaving\& Indonesian\& citizens\& confused\& . \\
+	\end{deptext}
+	\depedge{1}{8}{advmod}
+	\depedge{3}{4}{nmod:poss}
+	\depedge{4}{8}{nsubj}
+	\depedge{5}{4}{appos}
+	\depedge{6}{5}{flat}
+	\depedge{7}{8}{advmod}
+	\depedge{8}{0}{root}
+	\depedge{9}{8}{obj}
+	\depedge{11}{8}{advcl}
+	\depedge{12}{13}{amod}
+	\depedge{13}{11}{obj}
+	\depedge{14}{11}{xcomp}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 656}};
+	\node (R4) at (R1.south) {\tiny $ 7/12 = 58\% $};
+\end{dependency}

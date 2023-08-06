@@ -1,0 +1,29 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Negotiable\& ,\& bank-backed\& business\& credit\& instruments\& typically\& financing\& an\& import\& order\& . \\
+	\end{deptext}
+	\depedge{1}{6}{amod}
+	\depedge{3}{6}{amod}
+	\depedge{4}{6}{nn}
+	\depedge{5}{6}{nn}
+	\depedge{7}{8}{advmod}
+	\depedge{8}{6}{vmod}
+	\depedge{9}{11}{det}
+	\depedge{10}{11}{nn}
+	\depedge{11}{8}{dobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 273}};
+	\node (R4) at (R1.south) {\tiny $ 4/9 = 44\% $};
+\end{dependency}

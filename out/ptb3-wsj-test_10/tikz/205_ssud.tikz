@@ -1,0 +1,27 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		``\& There\& was\& a\& unique\& combination\& in\& 1987\& ,\& ''\& he\& says\& . \\
+	\end{deptext}
+	\depedge{2}{3}{expl}
+	\depedge{3}{12}{ccomp}
+	\depedge{4}{6}{det}
+	\depedge{5}{6}{amod}
+	\depedge{6}{3}{nsubj}
+	\depedge{7}{3}{prep}
+	\depedge{8}{7}{pobj}
+	\depedge{11}{12}{nsubj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{11}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 205}};
+	\node (R4) at (R1.south) {\tiny $ 6/8 = 75\% $};
+\end{dependency}

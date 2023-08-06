@@ -1,0 +1,36 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Deciding\& to\& pursue\& drama\& ,\& Winstone\& enrolled\& at\& the\& Corona\& Stage\& Academy\& in\& Hammersmith\& . \\
+	\end{deptext}
+	\depedge{1}{7}{advcl}
+	\depedge{2}{3}{mark}
+	\depedge{3}{1}{xcomp}
+	\depedge{4}{3}{obj}
+	\depedge{6}{7}{nsubj}
+	\depedge{7}{0}{root}
+	\depedge{8}{12}{case}
+	\depedge{9}{12}{det}
+	\depedge{10}{12}{compound}
+	\depedge{11}{12}{compound}
+	\depedge{12}{7}{obl}
+	\depedge{13}{14}{case}
+	\depedge{14}{12}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 649}};
+	\node (R4) at (R1.south) {\tiny $ 5/13 = 38\% $};
+\end{dependency}

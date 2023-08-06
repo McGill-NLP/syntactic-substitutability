@@ -1,0 +1,30 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Our\& cellphones\& are\& so\& much\& more\& than\& phones\& these\& days\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nmod:poss}
+	\depedge{2}{6}{nsubj}
+	\depedge{3}{6}{cop}
+	\depedge{4}{5}{advmod}
+	\depedge{5}{6}{advmod}
+	\depedge{6}{0}{root}
+	\depedge{7}{8}{case}
+	\depedge{8}{6}{obl}
+	\depedge{9}{10}{det}
+	\depedge{10}{6}{obl:tmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 111}};
+	\node (R4) at (R1.south) {\tiny $ 5/10 = 50\% $};
+\end{dependency}

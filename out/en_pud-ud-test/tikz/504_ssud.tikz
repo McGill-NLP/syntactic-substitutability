@@ -1,0 +1,48 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& area\& controlled\& by\& the\& Bogd\& Khaan\& was\& approximately\& that\& of\& the\& former\& Outer\& Mongolia\& during\& the\& Qing\& period\& . \\
+	\end{deptext}
+	\depedge{1}{2}{det}
+	\depedge{2}{10}{nsubj}
+	\depedge{3}{2}{acl}
+	\depedge{4}{6}{case}
+	\depedge{5}{6}{det}
+	\depedge{6}{3}{compound}
+	\depedge{7}{6}{flat}
+	\depedge{8}{10}{cop}
+	\depedge{9}{10}{advmod}
+	\depedge{10}{0}{root}
+	\depedge{11}{15}{case}
+	\depedge{12}{15}{det}
+	\depedge{13}{15}{amod}
+	\depedge{14}{15}{compound}
+	\depedge{15}{10}{nmod}
+	\depedge{16}{19}{case}
+	\depedge{17}{19}{det}
+	\depedge{18}{19}{compound}
+	\depedge{19}{15}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 504}};
+	\node (R4) at (R1.south) {\tiny $ 5/19 = 26\% $};
+\end{dependency}

@@ -1,0 +1,28 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		According\& to\& the\& programme\& ,\& she\& will\& speak\& at\& 23.45\& . \\
+	\end{deptext}
+	\depedge{1}{4}{case}
+	\depedge{2}{4}{case}
+	\depedge{3}{4}{det}
+	\depedge{4}{8}{obl}
+	\depedge{6}{8}{nsubj}
+	\depedge{7}{8}{aux}
+	\depedge{8}{0}{root}
+	\depedge{9}{10}{case}
+	\depedge{10}{8}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 803}};
+	\node (R4) at (R1.south) {\tiny $ 4/9 = 44\% $};
+\end{dependency}

@@ -1,0 +1,24 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& current\& waiting\& period\& is\& eight\& weeks\& . \\
+	\end{deptext}
+	\depedge{1}{4}{det}
+	\depedge{2}{4}{amod}
+	\depedge{3}{4}{compound}
+	\depedge{4}{7}{nsubj}
+	\depedge{5}{7}{cop}
+	\depedge{6}{7}{nummod}
+	\depedge{7}{0}{root}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 119}};
+	\node (R4) at (R1.south) {\tiny $ 2/7 = 29\% $};
+\end{dependency}

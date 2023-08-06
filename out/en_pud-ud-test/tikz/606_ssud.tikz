@@ -1,0 +1,48 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& the\& Second\& Messenian\& War\& ,\& Sparta\& established\& itself\& as\& a\& local\& power\& in\& Peloponnesus\& and\& the\& rest\& of\& Greece\& . \\
+	\end{deptext}
+	\depedge{1}{5}{case}
+	\depedge{2}{5}{det}
+	\depedge{3}{5}{compound}
+	\depedge{4}{5}{compound}
+	\depedge{5}{8}{obl}
+	\depedge{7}{8}{nsubj}
+	\depedge{8}{0}{root}
+	\depedge{9}{8}{obj}
+	\depedge{10}{13}{case}
+	\depedge{11}{13}{det}
+	\depedge{12}{13}{amod}
+	\depedge{13}{8}{obl}
+	\depedge{14}{15}{case}
+	\depedge{15}{8}{obl}
+	\depedge{16}{18}{cc}
+	\depedge{17}{18}{det}
+	\depedge{18}{15}{conj}
+	\depedge{19}{20}{case}
+	\depedge{20}{18}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 606}};
+	\node (R4) at (R1.south) {\tiny $ 7/19 = 37\% $};
+\end{dependency}

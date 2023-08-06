@@ -1,0 +1,48 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Joseph\& Schenck\& was\& interested\& in\& casting\& his\& wife\& ,\& Norma\& Talmadge\& ,\& opposite\& Valentino\& in\& a\& version\& of\& Romeo\& and\& Juliet\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj}
+	\depedge{2}{1}{flat}
+	\depedge{3}{4}{cop}
+	\depedge{4}{0}{root}
+	\depedge{5}{6}{mark}
+	\depedge{6}{4}{advcl}
+	\depedge{7}{8}{nmod:poss}
+	\depedge{8}{6}{obj}
+	\depedge{10}{8}{appos}
+	\depedge{11}{10}{flat}
+	\depedge{13}{14}{case}
+	\depedge{14}{6}{obl}
+	\depedge{15}{17}{case}
+	\depedge{16}{17}{det}
+	\depedge{17}{6}{obl}
+	\depedge{18}{19}{case}
+	\depedge{19}{17}{nmod}
+	\depedge{20}{21}{cc}
+	\depedge{21}{19}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{21}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{14}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 711}};
+	\node (R4) at (R1.south) {\tiny $ 11/19 = 58\% $};
+\end{dependency}

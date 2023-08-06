@@ -1,0 +1,32 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Her\& neck\& pushes\& forward\& in\& vein\& -\& accentuating\& confrontation\& ,\& her\& hands\& shake\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nmod:poss}
+	\depedge{2}{3}{nsubj}
+	\depedge{3}{0}{root}
+	\depedge{4}{3}{advmod}
+	\depedge{5}{9}{case}
+	\depedge{6}{8}{compound}
+	\depedge{8}{9}{amod}
+	\depedge{9}{3}{obl}
+	\depedge{11}{12}{nmod:poss}
+	\depedge{12}{13}{nsubj}
+	\depedge{13}{3}{parataxis}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 286}};
+	\node (R4) at (R1.south) {\tiny $ 4/11 = 36\% $};
+\end{dependency}

@@ -1,0 +1,44 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& Ottoman\& Empire\& and\& Russia\& were\& denied\& permission\& to\& keep\& their\& war\& fleet\& in\& the\& Black\& Sea\& . \\
+	\end{deptext}
+	\depedge{1}{3}{det}
+	\depedge{2}{3}{compound}
+	\depedge{3}{7}{nsubj:pass}
+	\depedge{4}{5}{cc}
+	\depedge{5}{3}{conj}
+	\depedge{6}{7}{aux:pass}
+	\depedge{7}{0}{root}
+	\depedge{8}{7}{obj}
+	\depedge{9}{10}{mark}
+	\depedge{10}{8}{acl}
+	\depedge{11}{13}{nmod:poss}
+	\depedge{12}{13}{compound}
+	\depedge{13}{10}{obj}
+	\depedge{14}{17}{case}
+	\depedge{15}{17}{det}
+	\depedge{16}{17}{compound}
+	\depedge{17}{10}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{11}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 894}};
+	\node (R4) at (R1.south) {\tiny $ 11/17 = 65\% $};
+\end{dependency}

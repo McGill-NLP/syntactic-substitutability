@@ -1,0 +1,27 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Unlike\& 1987\& ,\& interest\& rates\& have\& been\& falling\& this\& year\& . \\
+	\end{deptext}
+	\depedge{1}{8}{prep}
+	\depedge{2}{1}{pobj}
+	\depedge{4}{5}{nn}
+	\depedge{5}{8}{nsubj}
+	\depedge{6}{8}{aux}
+	\depedge{7}{8}{aux}
+	\depedge{9}{10}{det}
+	\depedge{10}{8}{tmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{9}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 214}};
+	\node (R4) at (R1.south) {\tiny $ 3/8 = 38\% $};
+\end{dependency}

@@ -1,0 +1,25 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		It\& was\& n't\& intentional\& ,\& we\& were\& all\& busy\& .\& '' \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj}
+	\depedge{2}{4}{cop}
+	\depedge{3}{4}{neg}
+	\depedge{6}{9}{nsubj}
+	\depedge{7}{9}{cop}
+	\depedge{8}{9}{advmod}
+	\depedge{9}{4}{parataxis}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 245}};
+	\node (R4) at (R1.south) {\tiny $ 4/7 = 57\% $};
+\end{dependency}

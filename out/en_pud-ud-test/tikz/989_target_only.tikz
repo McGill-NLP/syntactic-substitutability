@@ -1,0 +1,56 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Golden\& Age\& Spanish\& or\& Early\& Modern\& Spanish\& is\& the\& variant\& of\& the\& language\& that\& constitutes\& the\& transition\& from\& Medieval\& Spanish\& to\& Modern\& Spanish\& . \\
+	\end{deptext}
+	\depedge{1}{2}{amod}
+	\depedge{2}{3}{amod}
+	\depedge{3}{10}{nsubj}
+	\depedge{4}{7}{cc}
+	\depedge{5}{7}{amod}
+	\depedge{6}{7}{amod}
+	\depedge{7}{3}{conj}
+	\depedge{8}{10}{cop}
+	\depedge{9}{10}{det}
+	\depedge{10}{0}{root}
+	\depedge{11}{13}{case}
+	\depedge{12}{13}{det}
+	\depedge{13}{10}{nmod}
+	\depedge{14}{15}{nsubj}
+	\depedge{15}{13}{acl:relcl}
+	\depedge{16}{17}{det}
+	\depedge{17}{15}{obj}
+	\depedge{18}{20}{case}
+	\depedge{19}{20}{amod}
+	\depedge{20}{17}{nmod}
+	\depedge{21}{23}{case}
+	\depedge{22}{23}{amod}
+	\depedge{23}{17}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{21}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 989}};
+	\node (R4) at (R1.south) {\tiny $ 9/23 = 39\% $};
+\end{dependency}

@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& 1538\& the\& Spanish\& Inquisition\& cautioned\& its\& members\& not\& to\& believe\& everything\& the\& Malleus\& said\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{6}{obl}
+	\depedge{3}{5}{det}
+	\depedge{4}{5}{amod}
+	\depedge{5}{6}{nsubj}
+	\depedge{6}{0}{root}
+	\depedge{7}{8}{nmod:poss}
+	\depedge{8}{6}{obj}
+	\depedge{9}{11}{advmod}
+	\depedge{10}{11}{mark}
+	\depedge{11}{6}{xcomp}
+	\depedge{12}{11}{obj}
+	\depedge{13}{14}{det}
+	\depedge{14}{15}{nsubj}
+	\depedge{15}{12}{acl:relcl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 576}};
+	\node (R4) at (R1.south) {\tiny $ 8/15 = 53\% $};
+\end{dependency}

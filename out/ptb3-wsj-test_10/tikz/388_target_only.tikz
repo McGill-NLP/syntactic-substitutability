@@ -1,0 +1,29 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& interest-only\& securities\& will\& be\& sold\& separately\& by\& BT\& Securities\& . \\
+	\end{deptext}
+	\depedge{1}{3}{det}
+	\depedge{2}{3}{amod}
+	\depedge{3}{6}{nsubjpass}
+	\depedge{4}{6}{aux}
+	\depedge{5}{6}{auxpass}
+	\depedge{7}{6}{advmod}
+	\depedge{8}{6}{prep}
+	\depedge{9}{10}{nn}
+	\depedge{10}{8}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 388}};
+	\node (R4) at (R1.south) {\tiny $ 3/9 = 33\% $};
+\end{dependency}

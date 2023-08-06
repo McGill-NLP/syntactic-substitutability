@@ -1,0 +1,56 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		One\& of\& their\& many\& grieving\& Facebook\& posts\& has\& a\& line\& which\& would\& have\& delighted\& Chris\& :\& “\& More\& African\& than\& you\& ,\& I\& have\& not\& known\& .\& ” \\
+	\end{deptext}
+	\depedge{1}{8}{nsubj}
+	\depedge{2}{7}{case}
+	\depedge{3}{7}{nmod:poss}
+	\depedge{4}{7}{amod}
+	\depedge{5}{7}{amod}
+	\depedge{6}{7}{compound}
+	\depedge{7}{1}{nmod}
+	\depedge{8}{0}{root}
+	\depedge{9}{10}{det}
+	\depedge{10}{8}{obj}
+	\depedge{11}{14}{nsubj}
+	\depedge{12}{14}{aux}
+	\depedge{13}{14}{aux}
+	\depedge{14}{10}{acl:relcl}
+	\depedge{15}{14}{obj}
+	\depedge{18}{19}{advmod}
+	\depedge{19}{26}{obj}
+	\depedge{20}{21}{case}
+	\depedge{21}{19}{obl}
+	\depedge{23}{26}{nsubj}
+	\depedge{24}{26}{aux}
+	\depedge{25}{26}{advmod}
+	\depedge{26}{14}{parataxis}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{26}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{11}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 175}};
+	\node (R4) at (R1.south) {\tiny $ 7/23 = 30\% $};
+\end{dependency}

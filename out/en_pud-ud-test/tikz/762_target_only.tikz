@@ -1,0 +1,122 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& law\& delineates\& a\& number\& of\& conditions\& whose\& fulfillment\& could\& bring\& the\& agreement\& back\& into\& effect\& :\& the\& USA\& would\& have\& to\& withdraw\& all\& of\& its\& troops\& from\& countries\& who\& joined\& NATO\& after\& 2000\& ,\& rescind\& all\& of\& the\& sanctions\& against\& Russia\& as\& well\& as\& reimburse\& the\& costs\& that\& have\& been\& incurred\& as\& a\& result\& of\& the\& sanctions\& . \\
+	\end{deptext}
+	\depedge{1}{2}{det}
+	\depedge{2}{3}{nsubj}
+	\depedge{3}{0}{root}
+	\depedge{4}{5}{det}
+	\depedge{5}{3}{obj}
+	\depedge{6}{7}{case}
+	\depedge{7}{5}{nmod}
+	\depedge{8}{9}{nmod:poss}
+	\depedge{9}{11}{nsubj}
+	\depedge{10}{11}{aux}
+	\depedge{11}{7}{acl:relcl}
+	\depedge{12}{13}{det}
+	\depedge{13}{11}{obj}
+	\depedge{14}{16}{advmod}
+	\depedge{15}{16}{case}
+	\depedge{16}{11}{obl}
+	\depedge{18}{19}{det}
+	\depedge{19}{21}{nsubj}
+	\depedge{20}{21}{aux}
+	\depedge{21}{3}{parataxis}
+	\depedge{22}{23}{mark}
+	\depedge{23}{21}{xcomp}
+	\depedge{24}{23}{obj}
+	\depedge{25}{27}{case}
+	\depedge{26}{27}{nmod:poss}
+	\depedge{27}{24}{nmod}
+	\depedge{28}{29}{case}
+	\depedge{29}{23}{obl}
+	\depedge{30}{31}{nsubj}
+	\depedge{31}{29}{acl:relcl}
+	\depedge{32}{31}{obj}
+	\depedge{33}{34}{case}
+	\depedge{34}{31}{obl}
+	\depedge{36}{23}{conj}
+	\depedge{37}{36}{obj}
+	\depedge{38}{40}{case}
+	\depedge{39}{40}{det}
+	\depedge{40}{37}{nmod}
+	\depedge{41}{42}{case}
+	\depedge{42}{40}{nmod}
+	\depedge{43}{46}{cc}
+	\depedge{44}{43}{fixed}
+	\depedge{45}{43}{fixed}
+	\depedge{46}{23}{conj}
+	\depedge{47}{48}{det}
+	\depedge{48}{46}{obj}
+	\depedge{49}{52}{nsubj:pass}
+	\depedge{50}{52}{aux}
+	\depedge{51}{52}{aux:pass}
+	\depedge{52}{48}{acl:relcl}
+	\depedge{53}{55}{case}
+	\depedge{54}{55}{det}
+	\depedge{55}{52}{obl}
+	\depedge{56}{58}{case}
+	\depedge{57}{58}{det}
+	\depedge{58}{55}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{31}{32}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{46}{48}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{56}{58}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{41}{42}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{43}{45}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{38}{40}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{49}{52}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{53}{55}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{33}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{39}{40}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{57}{58}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{48}{52}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{37}{40}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{44}{45}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{41}{58}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{32}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{40}{41}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{30}{33}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{47}{49}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{55}{56}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{50}{51}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{34}{58}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{50}{54}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{58}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{49}{51}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{45}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{53}{54}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{37}{43}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{36}{41}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 762}};
+	\node (R4) at (R1.south) {\tiny $ 27/56 = 48\% $};
+\end{dependency}

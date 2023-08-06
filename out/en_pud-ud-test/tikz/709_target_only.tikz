@@ -1,0 +1,72 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& January\& 2011\& ,\& Blunt\& began\& filming\& an\& American\& science\& -\& fiction\& film\& ,\& Looper\& ,\& directed\& by\& Rian\& Johnson\& and\& co-starring\& Bruce\& Willis\& and\& Joseph\& Gordon\& -\& Levitt\& ;\& the\& film\& was\& released\& in\& September\& 2012\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{6}{obl}
+	\depedge{3}{2}{nummod}
+	\depedge{5}{6}{nsubj}
+	\depedge{6}{0}{root}
+	\depedge{7}{6}{xcomp}
+	\depedge{8}{13}{det}
+	\depedge{9}{13}{amod}
+	\depedge{10}{12}{compound}
+	\depedge{12}{13}{compound}
+	\depedge{13}{7}{obj}
+	\depedge{15}{13}{appos}
+	\depedge{17}{13}{acl}
+	\depedge{18}{19}{case}
+	\depedge{19}{17}{obl}
+	\depedge{20}{19}{flat}
+	\depedge{21}{22}{cc}
+	\depedge{22}{7}{conj}
+	\depedge{23}{22}{obj}
+	\depedge{24}{23}{flat}
+	\depedge{25}{26}{cc}
+	\depedge{26}{23}{conj}
+	\depedge{27}{29}{compound}
+	\depedge{29}{26}{flat}
+	\depedge{31}{32}{det}
+	\depedge{32}{34}{nsubj:pass}
+	\depedge{33}{34}{aux:pass}
+	\depedge{34}{6}{parataxis}
+	\depedge{35}{36}{case}
+	\depedge{36}{34}{obl}
+	\depedge{37}{36}{nummod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{32}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{35}{36}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{33}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{36}{37}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{36}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{31}{33}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{34}{35}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{37}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 709}};
+	\node (R4) at (R1.south) {\tiny $ 16/31 = 52\% $};
+\end{dependency}

@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		During\& rains\& precipitation\& ,\& the\& water\& droplets\& absorb\& and\& dissolve\& carbon\& dioxide\& from\& the\& surrounding\& air\& . \\
+	\end{deptext}
+	\depedge{1}{3}{case}
+	\depedge{2}{3}{compound}
+	\depedge{3}{8}{obl}
+	\depedge{5}{7}{det}
+	\depedge{6}{7}{compound}
+	\depedge{7}{8}{nsubj}
+	\depedge{8}{0}{root}
+	\depedge{9}{10}{cc}
+	\depedge{10}{8}{conj}
+	\depedge{11}{12}{compound}
+	\depedge{12}{8}{obj}
+	\depedge{13}{16}{case}
+	\depedge{14}{16}{det}
+	\depedge{15}{16}{amod}
+	\depedge{16}{8}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{9}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 409}};
+	\node (R4) at (R1.south) {\tiny $ 9/15 = 60\% $};
+\end{dependency}

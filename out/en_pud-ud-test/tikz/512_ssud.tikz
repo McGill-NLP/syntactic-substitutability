@@ -1,0 +1,44 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		According\& to\& the\& New\& Testament\& ,\& Paul\& spent\& eighteen\& months\& in\& Corinth\& ,\& approximately\& seventeen\& years\& after\& his\& conversion\& . \\
+	\end{deptext}
+	\depedge{1}{5}{case}
+	\depedge{2}{1}{fixed}
+	\depedge{3}{5}{det}
+	\depedge{4}{5}{compound}
+	\depedge{5}{8}{obl}
+	\depedge{7}{8}{nsubj}
+	\depedge{8}{0}{root}
+	\depedge{9}{10}{nummod}
+	\depedge{10}{8}{obj}
+	\depedge{11}{12}{case}
+	\depedge{12}{8}{obl}
+	\depedge{14}{15}{advmod}
+	\depedge{15}{16}{nummod}
+	\depedge{16}{17}{obl:npmod}
+	\depedge{17}{19}{case}
+	\depedge{18}{19}{nmod:poss}
+	\depedge{19}{8}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 512}};
+	\node (R4) at (R1.south) {\tiny $ 9/17 = 53\% $};
+\end{dependency}

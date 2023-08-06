@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		During\& the\& 2013\& off\& -\& season\& she\& appeared\& on\& CTV\& Montreal\& as\& a\& guest\& weather\& anchor\& . \\
+	\end{deptext}
+	\depedge{1}{6}{case}
+	\depedge{2}{6}{det}
+	\depedge{3}{6}{compound}
+	\depedge{4}{6}{amod}
+	\depedge{6}{8}{obl}
+	\depedge{7}{8}{nsubj}
+	\depedge{8}{0}{root}
+	\depedge{9}{11}{case}
+	\depedge{10}{11}{compound}
+	\depedge{11}{8}{obl}
+	\depedge{12}{16}{case}
+	\depedge{13}{16}{det}
+	\depedge{14}{16}{compound}
+	\depedge{15}{16}{compound}
+	\depedge{16}{8}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{14}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 723}};
+	\node (R4) at (R1.south) {\tiny $ 6/15 = 40\% $};
+\end{dependency}

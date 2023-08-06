@@ -1,0 +1,56 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& June\& 2012\& ,\& the\& Icelandic\& band\& Sigur\& Rós\& released\& a\& video\& for\& the\& song\& "\& Fjögur\& Píanó\& "\& ,\& starring\& LaBeouf\& ,\& in\& which\& he\& appears\& nude\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{10}{obl}
+	\depedge{3}{2}{nummod}
+	\depedge{5}{7}{det}
+	\depedge{6}{7}{amod}
+	\depedge{7}{10}{nsubj}
+	\depedge{8}{7}{appos}
+	\depedge{9}{8}{flat}
+	\depedge{10}{0}{root}
+	\depedge{11}{12}{det}
+	\depedge{12}{10}{obj}
+	\depedge{13}{10}{case}
+	\depedge{14}{15}{det}
+	\depedge{15}{12}{nmod}
+	\depedge{17}{15}{appos}
+	\depedge{18}{17}{flat}
+	\depedge{21}{12}{acl}
+	\depedge{22}{21}{obj}
+	\depedge{24}{25}{case}
+	\depedge{25}{27}{obl}
+	\depedge{26}{27}{nsubj}
+	\depedge{27}{12}{acl:relcl}
+	\depedge{28}{27}{xcomp}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{24}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 685}};
+	\node (R4) at (R1.south) {\tiny $ 10/23 = 43\% $};
+\end{dependency}

@@ -1,0 +1,25 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Tandem\& 's\& new\& high-end\& computer\& is\& called\& Cyclone\& . \\
+	\end{deptext}
+	\depedge{1}{5}{poss}
+	\depedge{2}{1}{possessive}
+	\depedge{3}{5}{amod}
+	\depedge{4}{5}{amod}
+	\depedge{5}{7}{nsubjpass}
+	\depedge{6}{7}{auxpass}
+	\depedge{8}{7}{xcomp}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 358}};
+	\node (R4) at (R1.south) {\tiny $ 4/7 = 57\% $};
+\end{dependency}

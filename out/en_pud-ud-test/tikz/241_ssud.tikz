@@ -1,0 +1,24 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Back\& on\& the\& train\& ,\& we\& continue\& southwards\& . \\
+	\end{deptext}
+	\depedge{1}{4}{advmod}
+	\depedge{2}{4}{case}
+	\depedge{3}{4}{det}
+	\depedge{4}{7}{obl}
+	\depedge{6}{7}{nsubj}
+	\depedge{7}{0}{root}
+	\depedge{8}{7}{advmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 241}};
+	\node (R4) at (R1.south) {\tiny $ 3/7 = 43\% $};
+\end{dependency}

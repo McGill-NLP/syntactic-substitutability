@@ -1,0 +1,28 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		"\& Her\& voice\& literally\& went\& around\& the\& world\& ,\& "\& Leive\& said\& . \\
+	\end{deptext}
+	\depedge{2}{3}{nmod:poss}
+	\depedge{3}{5}{nsubj}
+	\depedge{4}{5}{advmod}
+	\depedge{5}{0}{root}
+	\depedge{6}{8}{case}
+	\depedge{7}{8}{det}
+	\depedge{8}{5}{obl}
+	\depedge{11}{12}{nsubj}
+	\depedge{12}{5}{parataxis}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 129}};
+	\node (R4) at (R1.south) {\tiny $ 4/9 = 44\% $};
+\end{dependency}

@@ -1,0 +1,44 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Meanwhile\& ,\& additional\& controls\& of\& the\& Nile\& fostered\& development\& within\& Gezira\& Island\& and\& along\& the\& city\& 's\& waterfront\& . \\
+	\end{deptext}
+	\depedge{1}{8}{advmod}
+	\depedge{3}{4}{amod}
+	\depedge{4}{8}{nsubj}
+	\depedge{5}{7}{case}
+	\depedge{6}{7}{det}
+	\depedge{7}{4}{nmod}
+	\depedge{8}{0}{root}
+	\depedge{9}{8}{obj}
+	\depedge{10}{12}{case}
+	\depedge{11}{12}{compound}
+	\depedge{12}{9}{nmod}
+	\depedge{13}{18}{cc}
+	\depedge{14}{18}{case}
+	\depedge{15}{16}{det}
+	\depedge{16}{18}{nmod:poss}
+	\depedge{17}{16}{case}
+	\depedge{18}{12}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{14}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 482}};
+	\node (R4) at (R1.south) {\tiny $ 8/17 = 47\% $};
+\end{dependency}

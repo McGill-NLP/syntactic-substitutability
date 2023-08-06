@@ -1,0 +1,32 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Throughout\& the\& war\& ,\& Pearl\& Harbor\& was\& frequently\& used\& in\& American\& propaganda\& . \\
+	\end{deptext}
+	\depedge{1}{3}{case}
+	\depedge{2}{3}{det}
+	\depedge{3}{9}{obl}
+	\depedge{5}{9}{nsubj:pass}
+	\depedge{6}{5}{flat}
+	\depedge{7}{9}{aux:pass}
+	\depedge{8}{9}{advmod}
+	\depedge{9}{0}{root}
+	\depedge{10}{12}{case}
+	\depedge{11}{12}{amod}
+	\depedge{12}{9}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{9}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 585}};
+	\node (R4) at (R1.south) {\tiny $ 4/11 = 36\% $};
+\end{dependency}

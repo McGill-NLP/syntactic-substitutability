@@ -1,0 +1,25 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		IBM\& closed\& at\& \$\& 102\& ,\& down\& \$\& 5.625\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{3}{2}{prep}
+	\depedge{4}{3}{pobj}
+	\depedge{5}{4}{num}
+	\depedge{7}{2}{advmod}
+	\depedge{8}{7}{pobj}
+	\depedge{9}{8}{num}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 354}};
+	\node (R4) at (R1.south) {\tiny $ 3/7 = 43\% $};
+\end{dependency}

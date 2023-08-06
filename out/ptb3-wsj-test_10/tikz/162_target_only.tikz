@@ -1,0 +1,21 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Careers\& Count\& Most\& For\& the\& Well-to-Do \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{3}{2}{advmod}
+	\depedge{4}{2}{prep}
+	\depedge{5}{6}{det}
+	\depedge{6}{4}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 162}};
+	\node (R4) at (R1.south) {\tiny $ 2/5 = 40\% $};
+\end{dependency}

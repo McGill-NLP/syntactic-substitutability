@@ -1,0 +1,34 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Voting\& has\& ,\& in\& the\& vernacular\& of\& terror\& ,\& become\& the\& new\& soft\& target\& . \\
+	\end{deptext}
+	\depedge{1}{10}{nsubj}
+	\depedge{2}{10}{aux}
+	\depedge{4}{6}{case}
+	\depedge{5}{6}{det}
+	\depedge{6}{10}{obl}
+	\depedge{7}{8}{case}
+	\depedge{8}{6}{nmod}
+	\depedge{10}{0}{root}
+	\depedge{11}{14}{det}
+	\depedge{12}{14}{amod}
+	\depedge{13}{14}{amod}
+	\depedge{14}{10}{xcomp}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 316}};
+	\node (R4) at (R1.south) {\tiny $ 6/12 = 50\% $};
+\end{dependency}

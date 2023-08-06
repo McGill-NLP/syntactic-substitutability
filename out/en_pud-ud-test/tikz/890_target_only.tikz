@@ -1,0 +1,42 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		During\& the\& 2010\& general\& election\& ,\& the\& Labor\& Party\& was\& able\& to\& win\& all\& seven\& voting\& districts\& . \\
+	\end{deptext}
+	\depedge{1}{5}{case}
+	\depedge{2}{5}{det}
+	\depedge{3}{5}{nummod}
+	\depedge{4}{5}{amod}
+	\depedge{5}{11}{obl}
+	\depedge{7}{9}{det}
+	\depedge{8}{9}{compound}
+	\depedge{9}{11}{nsubj}
+	\depedge{10}{11}{cop}
+	\depedge{11}{0}{root}
+	\depedge{12}{13}{mark}
+	\depedge{13}{11}{xcomp}
+	\depedge{14}{17}{det}
+	\depedge{15}{17}{nummod}
+	\depedge{16}{17}{compound}
+	\depedge{17}{13}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 890}};
+	\node (R4) at (R1.south) {\tiny $ 8/16 = 50\% $};
+\end{dependency}

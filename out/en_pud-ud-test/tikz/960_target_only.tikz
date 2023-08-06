@@ -1,0 +1,50 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& second\& Apulian\& and\& Calabrian\& Royal\& Region\& was\& then\& established\& ,\& also\& including\& Samnium\& ,\& parts\& of\& Molise\& and\& the\& oriental\& Basilicata\& . \\
+	\end{deptext}
+	\depedge{1}{7}{det}
+	\depedge{2}{7}{amod}
+	\depedge{3}{7}{compound}
+	\depedge{4}{5}{cc}
+	\depedge{5}{3}{conj}
+	\depedge{6}{7}{compound}
+	\depedge{7}{10}{nsubj:pass}
+	\depedge{8}{10}{aux:pass}
+	\depedge{9}{10}{advmod}
+	\depedge{10}{0}{root}
+	\depedge{12}{13}{advmod}
+	\depedge{13}{14}{case}
+	\depedge{14}{10}{obl}
+	\depedge{16}{14}{conj}
+	\depedge{17}{18}{case}
+	\depedge{18}{16}{nmod}
+	\depedge{19}{22}{cc}
+	\depedge{20}{22}{det}
+	\depedge{21}{22}{amod}
+	\depedge{22}{14}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{21}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 960}};
+	\node (R4) at (R1.south) {\tiny $ 6/20 = 30\% $};
+\end{dependency}

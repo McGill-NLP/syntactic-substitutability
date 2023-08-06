@@ -1,0 +1,82 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		It\& is\& no\& surprise\& that\& the\& federal\& and\& state\& governments\& have\& classified\& the\& National\& Natural\& Heritage\& as\& a\& nation\& -\& wide\& endeavor\& of\& the\& highest\& priority\& and\& have\& documented\& it\& starting\& in\& 2005\& in\& a\& coalition\& contract\& . \\
+	\end{deptext}
+	\depedge{1}{4}{expl}
+	\depedge{2}{4}{cop}
+	\depedge{3}{4}{det}
+	\depedge{4}{0}{root}
+	\depedge{5}{12}{mark}
+	\depedge{6}{10}{det}
+	\depedge{7}{10}{amod}
+	\depedge{8}{9}{cc}
+	\depedge{9}{7}{conj}
+	\depedge{10}{12}{nsubj}
+	\depedge{11}{12}{aux}
+	\depedge{12}{4}{csubj}
+	\depedge{13}{16}{det}
+	\depedge{14}{16}{amod}
+	\depedge{15}{16}{amod}
+	\depedge{16}{12}{obj}
+	\depedge{17}{22}{case}
+	\depedge{18}{22}{det}
+	\depedge{19}{21}{compound}
+	\depedge{21}{22}{amod}
+	\depedge{22}{12}{obl}
+	\depedge{23}{26}{case}
+	\depedge{24}{26}{det}
+	\depedge{25}{26}{amod}
+	\depedge{26}{22}{nmod}
+	\depedge{27}{29}{cc}
+	\depedge{28}{29}{aux}
+	\depedge{29}{12}{conj}
+	\depedge{30}{29}{obj}
+	\depedge{31}{29}{advcl}
+	\depedge{32}{33}{case}
+	\depedge{33}{31}{obl}
+	\depedge{34}{37}{case}
+	\depedge{35}{37}{det}
+	\depedge{36}{37}{compound}
+	\depedge{37}{29}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{26}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{32}{33}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{34}{37}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{21}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{29}{31}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{29}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{31}{32}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{34}{36}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{34}{35}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{28}{31}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 799}};
+	\node (R4) at (R1.south) {\tiny $ 15/36 = 42\% $};
+\end{dependency}

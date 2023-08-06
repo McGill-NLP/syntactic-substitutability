@@ -1,0 +1,48 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Before\& the\& Andes\& were\& formed\& ,\& the\& western\& margin\& of\& South\& America\& had\& already\& been\& the\& site\& of\& several\& orogenies\& . \\
+	\end{deptext}
+	\depedge{1}{5}{mark}
+	\depedge{2}{3}{det}
+	\depedge{3}{5}{nsubj:pass}
+	\depedge{4}{5}{aux:pass}
+	\depedge{5}{17}{advcl}
+	\depedge{7}{9}{det}
+	\depedge{8}{9}{amod}
+	\depedge{9}{17}{nsubj}
+	\depedge{10}{12}{case}
+	\depedge{11}{12}{compound}
+	\depedge{12}{9}{nmod}
+	\depedge{13}{17}{aux}
+	\depedge{14}{17}{advmod}
+	\depedge{15}{17}{cop}
+	\depedge{16}{17}{det}
+	\depedge{17}{0}{root}
+	\depedge{18}{20}{case}
+	\depedge{19}{20}{amod}
+	\depedge{20}{17}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 978}};
+	\node (R4) at (R1.south) {\tiny $ 7/19 = 37\% $};
+\end{dependency}

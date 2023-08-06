@@ -1,0 +1,21 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		No\& ,\& it\& was\& n't\& Black\& Monday\& . \\
+	\end{deptext}
+	\depedge{1}{7}{discourse}
+	\depedge{3}{7}{nsubj}
+	\depedge{4}{7}{cop}
+	\depedge{5}{7}{neg}
+	\depedge{6}{7}{nn}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 0}};
+	\node (R4) at (R1.south) {\tiny $ 2/5 = 40\% $};
+\end{dependency}

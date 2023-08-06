@@ -1,0 +1,54 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Literacy\& had\& been\& lost\& and\& Mycenaean\& script\& forgotten\& ,\& but\& the\& Greeks\& adopted\& the\& Phoenician\& alphabet\& ,\& modifying\& it\& to\& create\& the\& Greek\& alphabet\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj:pass}
+	\depedge{2}{4}{aux}
+	\depedge{3}{4}{aux:pass}
+	\depedge{4}{0}{root}
+	\depedge{5}{8}{cc}
+	\depedge{6}{7}{amod}
+	\depedge{7}{8}{nsubj}
+	\depedge{8}{4}{conj}
+	\depedge{10}{13}{cc}
+	\depedge{11}{12}{det}
+	\depedge{12}{13}{nsubj}
+	\depedge{13}{4}{conj}
+	\depedge{14}{16}{det}
+	\depedge{15}{16}{amod}
+	\depedge{16}{13}{obj}
+	\depedge{18}{13}{advcl}
+	\depedge{19}{18}{obj}
+	\depedge{20}{21}{mark}
+	\depedge{21}{18}{xcomp}
+	\depedge{22}{24}{det}
+	\depedge{23}{24}{amod}
+	\depedge{24}{21}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{24}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 934}};
+	\node (R4) at (R1.south) {\tiny $ 8/22 = 36\% $};
+\end{dependency}

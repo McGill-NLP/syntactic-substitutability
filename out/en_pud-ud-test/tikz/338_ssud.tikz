@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		As\& one\& of\& Negan\& 's\& (\& Jeffrey\& Dean\& Morgan\& )\& top\& guys\& ,\& he\& 's\& afforded\& certain\& freedoms\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{16}{obl}
+	\depedge{3}{12}{case}
+	\depedge{4}{12}{nmod:poss}
+	\depedge{5}{4}{case}
+	\depedge{7}{4}{appos}
+	\depedge{8}{7}{flat}
+	\depedge{9}{7}{flat}
+	\depedge{11}{12}{amod}
+	\depedge{12}{2}{nmod}
+	\depedge{14}{16}{nsubj:pass}
+	\depedge{15}{16}{aux:pass}
+	\depedge{16}{0}{root}
+	\depedge{17}{18}{amod}
+	\depedge{18}{16}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{11}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 338}};
+	\node (R4) at (R1.south) {\tiny $ 5/15 = 33\% $};
+\end{dependency}

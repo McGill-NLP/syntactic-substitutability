@@ -38,8 +38,6 @@ def get_spans(s, tokenizer):
     s = s.split()
     tokenized = tokenizer(s, is_split_into_words=True, return_offsets_mapping=True)
     tokenized = tokenized['offset_mapping'][1:-1]
-    #print(tokenized)
-    #print(s)
     j = 0
     spans = []
     while j < len(tokenized):
@@ -57,26 +55,21 @@ def get_spans(s, tokenizer):
 
 def average_between_sentences(attentions, layer=7, p=0):
     not_included = []
-    try:
-        #averaged_heads = [np.sum(np.stack(attentions[i]), 0) for i in range(len(attentions))]
-        if p < 0:
-            averaged_heads = [attentions[i][layer] for i in range(len(attentions)) if i != 0]
-            if len(averaged_heads) == 0:
-                return None
-        else:
-            averaged_heads = [attentions[i][layer] for i in range(len(attentions))]
-        averaged_layers = [np.sum(np.stack(averaged_heads[i]), 1) for i in range(len(averaged_heads))]
-        averaged_sentences = np.sum(np.stack(averaged_layers), 0)
-        averaged_sentences = averaged_sentences / np.linalg.norm(averaged_sentences, ord=1, axis=2, keepdims=True)
-    except ValueError: # there should not be any errors here now since the spans are based on splitting sentences on whitespace
-        return
+    if p < 0:
+        averaged_heads = [attentions[i][layer] for i in range(len(attentions)) if i != 0]
+        if len(averaged_heads) == 0:
+            return None
+    else:
+        averaged_heads = [attentions[i][layer] for i in range(len(attentions))]
+    averaged_layers = [np.sum(np.stack(averaged_heads[i]), 1) for i in range(len(averaged_heads))]
+    averaged_sentences = np.sum(np.stack(averaged_layers), 0)
+    averaged_sentences = averaged_sentences / np.linalg.norm(averaged_sentences, ord=1, axis=2, keepdims=True)
     return averaged_sentences
 
 # takes the attention and sentence spans to return a merged version of the attention
 def combine_subwords(attention, spans):
     new_attention_1 = []
     for layer in attention:
-        #print(layer.size())
         start = 0
         end = 0
         splits = []
@@ -180,38 +173,6 @@ def get_max_trees(graph):
     G_tree = nx.maximum_spanning_tree(graph)
     return G_tree
 
-def rb_baseline(gold_standard_rels, graphs):
-    sentences = graphs.keys()
-    num_words = sum([len(sen) + 1 for sen in gold_standard_rels.values()])
-    recall = {}
-    precision = {}
-    for s in sentences:
-        s_rec = []
-        s_prec = []
-        gold_edges = gold_standard_rels[s]
-        gold_edges = [sorted(e[:-1]) for e in gold_edges]
-        for w in graphs[s]:
-            position = w[0]
-            if position == len(graphs[s]):
-                pred_edges = [(position, position - 1)]
-            elif position == 0:
-                pred_edges = [(position, position + 1)]
-            else:
-                pred_edges = [(position, position + 1), (position, position - 1)]
-            pred_edges_w = [sorted((e[0]+1, e[1]+1)) for e in pred_edges if position in e]
-            pred_edges_w = set([tuple(e) for e in pred_edges_w])
-            gold_edges_w = [e for e in gold_edges if position + 1 in e]
-            gold_edges_w = set([tuple(e) for e in gold_edges_w])
-            intersect = pred_edges_w.intersection(gold_edges_w)
-            if len(gold_edges_w) != 0:
-                s_rec.append((position, len(intersect)/len(gold_edges_w)))
-            s_prec.append((position, len(intersect)/len(pred_edges_w)))
-        recall[s] = s_rec
-        precision[s] = s_prec
-    total_recall = sum([sum([s_r[1] for s_r in r]) for r in recall.values()])/num_words
-    total_precision = sum([sum([s_p[1] for s_p in p]) for p in precision.values()])/num_words
-    return total_precision, total_recall
-
 # this function does ALL the heavy lifting, it combines graphs, parses trees, calculates UUAS 
 def get_uuas(gold_standard_rels, graphs, eval=True):
     if not eval:
@@ -279,11 +240,9 @@ def get_uuas(gold_standard_rels, graphs, eval=True):
                 non_adj_prec_count += 1
     num_rels = sum(num_rels)
     num_pred = sum(num_pred)
-    uuas_dict['Layer All'] = total/num_rels
-    uuas_dict['Precision'] = total/num_pred
-    #this calculates recall
-    #uuas_dict['Adjacent_Recall'] = adj_count/adj_total
-    #uuas_dict['Adjacent_Precision'] = adj_count/adj_prec_count
+    uuas_dict['UUAS'] = total/num_rels
+    uuas_dict['Adjacent_Recall'] = adj_count/adj_total
+    uuas_dict['Adjacent_Precision'] = adj_count/adj_prec_count
     uuas_dict['Non-adjacent_Recall'] = non_adj_count/non_adj_total
     uuas_dict['Non-adjacent_Precision'] = non_adj_count/non_adj_prec_count
     uuas_dict['Dependencies'] = {k : rels_dict[k]/dep_counts[k] for k in rels_dict.keys()}
@@ -381,7 +340,7 @@ def main():
     for d in combined_dicts[1:]:
         dataframe = dataframe.merge(d, on='Deprel')
     
-    dataframe.to_csv('./out/' + split +'/uuas_results' + str(n) + '.csv')
+    dataframe.to_csv('./out/' + split +'/uuas_results_' + str(n) + '.csv')
     return    
 
 if __name__=="__main__":

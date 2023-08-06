@@ -1,0 +1,28 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Only\& 3000\& copies\& were\& published\& of\& the\& first\& edition\& . \\
+	\end{deptext}
+	\depedge{1}{2}{advmod}
+	\depedge{2}{3}{nummod}
+	\depedge{3}{5}{nsubj:pass}
+	\depedge{4}{5}{aux:pass}
+	\depedge{5}{0}{root}
+	\depedge{6}{9}{case}
+	\depedge{7}{9}{det}
+	\depedge{8}{9}{amod}
+	\depedge{9}{3}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 664}};
+	\node (R4) at (R1.south) {\tiny $ 5/9 = 56\% $};
+\end{dependency}

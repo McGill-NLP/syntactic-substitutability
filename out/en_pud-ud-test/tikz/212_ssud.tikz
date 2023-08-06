@@ -1,0 +1,58 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Catalano\& moved\& back\& to\& the\& area\& after\& living\& in\& London\& and\& then\& Glasgow\& ,\& where\& he\& had\& studied\& jewellery\& design\& at\& Glasgow\& School\& of\& Art\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{2}{advmod}
+	\depedge{4}{6}{case}
+	\depedge{5}{6}{det}
+	\depedge{6}{2}{obl}
+	\depedge{7}{8}{mark}
+	\depedge{8}{2}{advcl}
+	\depedge{9}{10}{case}
+	\depedge{10}{8}{obl}
+	\depedge{11}{13}{cc}
+	\depedge{12}{13}{advmod}
+	\depedge{13}{10}{conj}
+	\depedge{15}{18}{advmod}
+	\depedge{16}{18}{nsubj}
+	\depedge{17}{18}{aux}
+	\depedge{18}{13}{acl:relcl}
+	\depedge{19}{20}{compound}
+	\depedge{20}{18}{obj}
+	\depedge{21}{23}{case}
+	\depedge{22}{23}{compound}
+	\depedge{23}{18}{obl}
+	\depedge{24}{25}{case}
+	\depedge{25}{23}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{24}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 212}};
+	\node (R4) at (R1.south) {\tiny $ 8/24 = 33\% $};
+\end{dependency}

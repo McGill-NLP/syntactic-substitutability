@@ -1,0 +1,36 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& Pyongyang\& I\& did\& see\& some\& people\& on\& their\& smartphones\& ,\& but\& far\& fewer\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{5}{obl}
+	\depedge{3}{5}{nsubj}
+	\depedge{4}{5}{aux}
+	\depedge{5}{0}{root}
+	\depedge{6}{7}{det}
+	\depedge{7}{5}{obj}
+	\depedge{8}{10}{case}
+	\depedge{9}{10}{nmod:poss}
+	\depedge{10}{7}{nmod}
+	\depedge{12}{14}{cc}
+	\depedge{13}{14}{advmod}
+	\depedge{14}{7}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 370}};
+	\node (R4) at (R1.south) {\tiny $ 6/13 = 46\% $};
+\end{dependency}

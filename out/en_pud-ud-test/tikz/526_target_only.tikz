@@ -1,0 +1,62 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& Khitans\& had\& made\& several\& aggressive\& negotiations\& of\& pushing\& their\& borders\& south\& ,\& while\& manipulating\& several\& incompetent\& Chinese\& ambassadors\& who\& conceded\& to\& the\& Liao\& Kingdom\& 's\& demands\& . \\
+	\end{deptext}
+	\depedge{1}{2}{det}
+	\depedge{2}{4}{nsubj}
+	\depedge{3}{4}{aux}
+	\depedge{4}{0}{root}
+	\depedge{5}{7}{amod}
+	\depedge{6}{7}{amod}
+	\depedge{7}{4}{obj}
+	\depedge{8}{9}{mark}
+	\depedge{9}{7}{acl}
+	\depedge{10}{11}{nmod:poss}
+	\depedge{11}{9}{obj}
+	\depedge{12}{9}{advmod}
+	\depedge{14}{15}{mark}
+	\depedge{15}{4}{advcl}
+	\depedge{16}{19}{amod}
+	\depedge{17}{19}{amod}
+	\depedge{18}{19}{amod}
+	\depedge{19}{15}{obj}
+	\depedge{20}{21}{nsubj}
+	\depedge{21}{19}{acl:relcl}
+	\depedge{22}{27}{case}
+	\depedge{23}{25}{det}
+	\depedge{24}{25}{compound}
+	\depedge{25}{27}{nmod:poss}
+	\depedge{26}{25}{case}
+	\depedge{27}{21}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{24}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 526}};
+	\node (R4) at (R1.south) {\tiny $ 12/26 = 46\% $};
+\end{dependency}

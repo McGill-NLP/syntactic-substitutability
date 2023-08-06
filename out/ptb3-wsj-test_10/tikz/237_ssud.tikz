@@ -1,0 +1,23 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Individuals\& can\& always\& have\& their\& hands\& slapped\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj}
+	\depedge{2}{4}{aux}
+	\depedge{3}{4}{advmod}
+	\depedge{5}{6}{poss}
+	\depedge{6}{7}{nsubj}
+	\depedge{7}{4}{ccomp}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 237}};
+	\node (R4) at (R1.south) {\tiny $ 3/6 = 50\% $};
+\end{dependency}

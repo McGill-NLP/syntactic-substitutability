@@ -1,0 +1,18 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& dress\& is\& contemporary\& . \\
+	\end{deptext}
+	\depedge{1}{2}{det}
+	\depedge{2}{4}{nsubj}
+	\depedge{3}{4}{cop}
+	\depedge{4}{0}{root}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 284}};
+	\node (R4) at (R1.south) {\tiny $ 3/4 = 75\% $};
+\end{dependency}

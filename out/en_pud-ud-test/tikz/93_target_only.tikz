@@ -1,0 +1,78 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		"\& We\& are\& seeing\& many\& ,\& many\& countries\& and\& especially\& large\& new\& emitters\& like\& Brazil\& ,\& South\& Africa\& ,\& India\& and\& China\& stepping\& up\& to\& the\& plate\& in\& terms\& of\& playing\& a\& role\& in\& reducing\& emissions\& ,\& "\& said\& Guilbeault\& . \\
+	\end{deptext}
+	\depedge{2}{4}{nsubj}
+	\depedge{3}{4}{aux}
+	\depedge{4}{0}{root}
+	\depedge{5}{8}{amod}
+	\depedge{7}{8}{amod}
+	\depedge{8}{4}{obj}
+	\depedge{9}{13}{cc}
+	\depedge{10}{13}{advmod}
+	\depedge{11}{13}{amod}
+	\depedge{12}{13}{amod}
+	\depedge{13}{8}{conj}
+	\depedge{14}{15}{case}
+	\depedge{15}{13}{nmod}
+	\depedge{17}{18}{compound}
+	\depedge{18}{15}{conj}
+	\depedge{20}{15}{conj}
+	\depedge{21}{22}{cc}
+	\depedge{22}{15}{conj}
+	\depedge{23}{4}{advcl}
+	\depedge{24}{23}{compound:prt}
+	\depedge{25}{27}{case}
+	\depedge{26}{27}{det}
+	\depedge{27}{23}{obl}
+	\depedge{28}{29}{case}
+	\depedge{29}{23}{obl}
+	\depedge{30}{31}{mark}
+	\depedge{31}{29}{acl}
+	\depedge{32}{33}{det}
+	\depedge{33}{31}{obj}
+	\depedge{34}{35}{mark}
+	\depedge{35}{31}{advcl}
+	\depedge{36}{35}{obj}
+	\depedge{39}{4}{parataxis}
+	\depedge{40}{39}{nsubj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{35}{36}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{32}{33}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{39}{40}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{34}{35}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{30}{33}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{36}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{39}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{31}{32}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{33}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{30}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 93}};
+	\node (R4) at (R1.south) {\tiny $ 16/34 = 47\% $};
+\end{dependency}

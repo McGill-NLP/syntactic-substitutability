@@ -1,0 +1,24 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		It\& 's\& like\& a\& super\& power\& sometimes\& . \\
+	\end{deptext}
+	\depedge{1}{6}{nsubj}
+	\depedge{2}{6}{cop}
+	\depedge{3}{6}{case}
+	\depedge{4}{6}{det}
+	\depedge{5}{6}{amod}
+	\depedge{6}{0}{root}
+	\depedge{7}{6}{advmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 37}};
+	\node (R4) at (R1.south) {\tiny $ 2/7 = 29\% $};
+\end{dependency}

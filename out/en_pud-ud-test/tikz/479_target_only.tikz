@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		However\& ,\& in\& Thailand\& ,\& urbanization\& has\& also\& resulted\& in\& massive\& increases\& in\& problems\& such\& as\& obesity\& . \\
+	\end{deptext}
+	\depedge{1}{9}{advmod}
+	\depedge{3}{4}{case}
+	\depedge{4}{9}{obl}
+	\depedge{6}{9}{nsubj}
+	\depedge{7}{9}{aux}
+	\depedge{8}{9}{advmod}
+	\depedge{9}{0}{root}
+	\depedge{10}{12}{case}
+	\depedge{11}{12}{amod}
+	\depedge{12}{9}{obl}
+	\depedge{13}{14}{case}
+	\depedge{14}{12}{nmod}
+	\depedge{15}{17}{case}
+	\depedge{16}{15}{fixed}
+	\depedge{17}{14}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 479}};
+	\node (R4) at (R1.south) {\tiny $ 7/15 = 47\% $};
+\end{dependency}

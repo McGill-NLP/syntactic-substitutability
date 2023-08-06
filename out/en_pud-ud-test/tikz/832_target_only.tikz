@@ -1,0 +1,42 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		A\& voucher\& is\& generated\& that\& can\& be\& saved\& on\& your\& smartphone\& ,\& or\& presented\& at\& the\& till\& . \\
+	\end{deptext}
+	\depedge{1}{2}{det}
+	\depedge{2}{4}{nsubj:pass}
+	\depedge{3}{4}{aux:pass}
+	\depedge{4}{0}{root}
+	\depedge{5}{8}{nsubj:pass}
+	\depedge{6}{8}{aux}
+	\depedge{7}{8}{aux:pass}
+	\depedge{8}{2}{acl:relcl}
+	\depedge{9}{11}{case}
+	\depedge{10}{11}{nmod:poss}
+	\depedge{11}{8}{obl}
+	\depedge{13}{14}{cc}
+	\depedge{14}{8}{conj}
+	\depedge{15}{17}{case}
+	\depedge{16}{17}{det}
+	\depedge{17}{14}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 832}};
+	\node (R4) at (R1.south) {\tiny $ 6/16 = 38\% $};
+\end{dependency}

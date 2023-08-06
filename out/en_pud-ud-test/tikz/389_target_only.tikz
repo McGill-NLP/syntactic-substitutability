@@ -1,0 +1,36 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& 2007\& the\& most\& successful\& film\& was\& El\& Greco\& ,\& directed\& by\& Yannis\& Smaragdis\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{8}{nmod}
+	\depedge{3}{6}{det}
+	\depedge{4}{5}{advmod}
+	\depedge{5}{6}{amod}
+	\depedge{6}{8}{nsubj}
+	\depedge{7}{8}{cop}
+	\depedge{8}{0}{root}
+	\depedge{9}{8}{flat}
+	\depedge{11}{8}{acl}
+	\depedge{12}{13}{case}
+	\depedge{13}{11}{obl}
+	\depedge{14}{13}{flat}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 389}};
+	\node (R4) at (R1.south) {\tiny $ 6/13 = 46\% $};
+\end{dependency}

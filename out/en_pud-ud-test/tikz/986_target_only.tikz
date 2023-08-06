@@ -1,0 +1,56 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Indians\& arrived\& from\& Canada\& ,\& led\& by\& Joseph\& Brant\& ;\& they\& supported\& the\& British\& because\& the\& colonists\& were\& expropriating\& more\& and\& more\& of\& their\& lands\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{4}{case}
+	\depedge{4}{2}{obl}
+	\depedge{6}{2}{advcl}
+	\depedge{7}{8}{case}
+	\depedge{8}{6}{obl}
+	\depedge{9}{8}{flat}
+	\depedge{11}{12}{nsubj}
+	\depedge{12}{2}{parataxis}
+	\depedge{13}{14}{det}
+	\depedge{14}{12}{obj}
+	\depedge{15}{19}{mark}
+	\depedge{16}{17}{det}
+	\depedge{17}{19}{nsubj}
+	\depedge{18}{19}{aux}
+	\depedge{19}{12}{advcl}
+	\depedge{20}{19}{obj}
+	\depedge{21}{22}{cc}
+	\depedge{22}{20}{conj}
+	\depedge{23}{25}{case}
+	\depedge{24}{25}{nmod:poss}
+	\depedge{25}{20}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{24}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 986}};
+	\node (R4) at (R1.south) {\tiny $ 9/23 = 39\% $};
+\end{dependency}

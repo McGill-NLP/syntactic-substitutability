@@ -1,0 +1,54 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		It\& is\& exceptionally\& rich\& in\& minerals\& ,\& containing\& large\& deposits\& of\& gold\& ,\& diamonds\& ,\& and\& ores\& of\& manganese\& ,\& lead\& ,\& zinc\& ,\& nickel\& ,\& cobalt\& and\& molybdenum\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj}
+	\depedge{2}{4}{cop}
+	\depedge{3}{4}{advmod}
+	\depedge{4}{0}{root}
+	\depedge{5}{6}{case}
+	\depedge{6}{4}{obl}
+	\depedge{8}{4}{advcl}
+	\depedge{9}{10}{amod}
+	\depedge{10}{8}{obj}
+	\depedge{11}{12}{case}
+	\depedge{12}{10}{nmod}
+	\depedge{14}{12}{conj}
+	\depedge{16}{17}{cc}
+	\depedge{17}{12}{conj}
+	\depedge{18}{19}{case}
+	\depedge{19}{17}{nmod}
+	\depedge{21}{19}{conj}
+	\depedge{23}{19}{conj}
+	\depedge{25}{19}{conj}
+	\depedge{27}{19}{conj}
+	\depedge{28}{29}{cc}
+	\depedge{29}{19}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{21}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{23}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 376}};
+	\node (R4) at (R1.south) {\tiny $ 8/22 = 36\% $};
+\end{dependency}

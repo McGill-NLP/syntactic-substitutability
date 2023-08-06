@@ -1,0 +1,30 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& Danish\& ,\& the\& word\& may\& even\& apply\& to\& shallow\& lagoons\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{8}{obl}
+	\depedge{4}{5}{det}
+	\depedge{5}{8}{nsubj}
+	\depedge{6}{8}{aux}
+	\depedge{7}{8}{advmod}
+	\depedge{8}{0}{root}
+	\depedge{9}{11}{case}
+	\depedge{10}{11}{amod}
+	\depedge{11}{8}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 424}};
+	\node (R4) at (R1.south) {\tiny $ 6/10 = 60\% $};
+\end{dependency}

@@ -1,0 +1,46 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& China\& the\& hair\& is\& typically\& put\& in\& a\& chemical\& bath\& to\& remove\& the\& cuticle\& completely\& ,\& Tarlo\& explains\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{7}{obl}
+	\depedge{3}{4}{det}
+	\depedge{4}{7}{nsubj:pass}
+	\depedge{5}{7}{aux:pass}
+	\depedge{6}{7}{advmod}
+	\depedge{7}{19}{ccomp}
+	\depedge{8}{11}{case}
+	\depedge{9}{11}{det}
+	\depedge{10}{11}{amod}
+	\depedge{11}{7}{obl}
+	\depedge{12}{13}{mark}
+	\depedge{13}{7}{advcl}
+	\depedge{14}{15}{det}
+	\depedge{15}{13}{obj}
+	\depedge{16}{13}{advmod}
+	\depedge{18}{19}{nsubj}
+	\depedge{19}{0}{root}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 59}};
+	\node (R4) at (R1.south) {\tiny $ 7/18 = 39\% $};
+\end{dependency}

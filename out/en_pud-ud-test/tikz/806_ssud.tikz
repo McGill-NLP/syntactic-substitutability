@@ -1,0 +1,38 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& AKP\& 's\& Islamic\& conservatives\& have\& taken\& this\& refusal\& as\& justification\& for\& the\& questionings\& . \\
+	\end{deptext}
+	\depedge{1}{2}{det}
+	\depedge{2}{5}{nmod:poss}
+	\depedge{3}{2}{case}
+	\depedge{4}{5}{amod}
+	\depedge{5}{7}{nsubj}
+	\depedge{6}{7}{aux}
+	\depedge{7}{0}{root}
+	\depedge{8}{9}{det}
+	\depedge{9}{7}{obj}
+	\depedge{10}{11}{case}
+	\depedge{11}{7}{obl}
+	\depedge{12}{14}{case}
+	\depedge{13}{14}{det}
+	\depedge{14}{11}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{14}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 806}};
+	\node (R4) at (R1.south) {\tiny $ 7/14 = 50\% $};
+\end{dependency}

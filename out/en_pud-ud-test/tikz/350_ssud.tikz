@@ -1,0 +1,52 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		"\& I\& have\& to\& congratulate\& Andy\& --\& to\& get\& to\& No.\& 1\& in\& the\& world\& that\& 's\& an\& incredible\& achievement\& ,\& "\& the\& American\& said\& . \\
+	\end{deptext}
+	\depedge{2}{3}{nsubj}
+	\depedge{3}{0}{root}
+	\depedge{4}{5}{mark}
+	\depedge{5}{3}{xcomp}
+	\depedge{6}{5}{obj}
+	\depedge{8}{9}{mark}
+	\depedge{9}{20}{advcl}
+	\depedge{10}{11}{case}
+	\depedge{11}{9}{obl}
+	\depedge{12}{11}{nummod}
+	\depedge{13}{15}{case}
+	\depedge{14}{15}{det}
+	\depedge{15}{11}{nmod}
+	\depedge{16}{20}{nsubj}
+	\depedge{17}{20}{cop}
+	\depedge{18}{20}{det}
+	\depedge{19}{20}{amod}
+	\depedge{20}{3}{parataxis}
+	\depedge{23}{24}{det}
+	\depedge{24}{25}{nsubj}
+	\depedge{25}{3}{parataxis}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 350}};
+	\node (R4) at (R1.south) {\tiny $ 8/21 = 38\% $};
+\end{dependency}

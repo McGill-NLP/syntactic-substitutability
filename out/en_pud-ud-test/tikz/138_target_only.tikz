@@ -1,0 +1,62 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		After\& North\& Carolina\& passed\& its\& restrictive\& voting\& -\& rights\& bill\& in\& 2013\& ,\& Campbell\& went\& around\& to\& churches\& teaching\& people\& how\& to\& deal\& with\& challenges\& to\& their\& registration\& . \\
+	\end{deptext}
+	\depedge{1}{4}{mark}
+	\depedge{2}{3}{amod}
+	\depedge{3}{4}{nsubj}
+	\depedge{4}{15}{advcl}
+	\depedge{5}{10}{nmod:poss}
+	\depedge{6}{10}{amod}
+	\depedge{7}{9}{compound}
+	\depedge{9}{10}{compound}
+	\depedge{10}{4}{obj}
+	\depedge{11}{12}{case}
+	\depedge{12}{4}{obl}
+	\depedge{14}{15}{nsubj}
+	\depedge{15}{0}{root}
+	\depedge{16}{15}{advmod}
+	\depedge{17}{18}{case}
+	\depedge{18}{15}{obl}
+	\depedge{19}{15}{advcl}
+	\depedge{20}{19}{obj}
+	\depedge{21}{23}{advmod}
+	\depedge{22}{23}{mark}
+	\depedge{23}{19}{xcomp}
+	\depedge{24}{25}{case}
+	\depedge{25}{23}{obl}
+	\depedge{26}{28}{case}
+	\depedge{27}{28}{nmod:poss}
+	\depedge{28}{25}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{28}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{26}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 138}};
+	\node (R4) at (R1.south) {\tiny $ 10/26 = 38\% $};
+\end{dependency}

@@ -1,0 +1,29 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Many\& of\& the\& affluent\& are\& n't\& comfortable\& with\& themselves\& ,\& either\& . \\
+	\end{deptext}
+	\depedge{1}{7}{nsubj}
+	\depedge{2}{1}{prep}
+	\depedge{3}{4}{det}
+	\depedge{4}{2}{pobj}
+	\depedge{5}{7}{cop}
+	\depedge{6}{7}{neg}
+	\depedge{8}{7}{prep}
+	\depedge{9}{8}{pobj}
+	\depedge{11}{7}{advmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{11}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 164}};
+	\node (R4) at (R1.south) {\tiny $ 5/9 = 56\% $};
+\end{dependency}

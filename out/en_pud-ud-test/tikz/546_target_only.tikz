@@ -1,0 +1,48 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& 1519\& ,\& he\& became\& ruler\& of\& the\& Habsburg\& empire\& ,\& and\& he\& gained\& the\& title\& Holy\& Roman\& Emperor\& in\& 1530\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{5}{obl}
+	\depedge{4}{5}{nsubj}
+	\depedge{5}{0}{root}
+	\depedge{6}{5}{xcomp}
+	\depedge{7}{10}{case}
+	\depedge{8}{10}{det}
+	\depedge{9}{10}{compound}
+	\depedge{10}{6}{nmod}
+	\depedge{12}{14}{cc}
+	\depedge{13}{14}{nsubj}
+	\depedge{14}{5}{conj}
+	\depedge{15}{16}{det}
+	\depedge{16}{14}{obj}
+	\depedge{17}{19}{amod}
+	\depedge{18}{19}{amod}
+	\depedge{19}{16}{appos}
+	\depedge{20}{21}{case}
+	\depedge{21}{14}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 546}};
+	\node (R4) at (R1.south) {\tiny $ 8/19 = 42\% $};
+\end{dependency}

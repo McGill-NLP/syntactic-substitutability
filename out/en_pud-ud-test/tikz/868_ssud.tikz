@@ -1,0 +1,64 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Perhaps\& that\& 's\& why\& a\& surge\& of\& tears\& clouds\& his\& pupils\& while\& the\& syllable\& of\& time\& unearths\& his\& crop\& and\& surrenders\& his\& mystery\& to\& the\& bound\& waters\& . \\
+	\end{deptext}
+	\depedge{1}{4}{advmod}
+	\depedge{2}{4}{nsubj}
+	\depedge{3}{4}{cop}
+	\depedge{4}{0}{root}
+	\depedge{5}{6}{det}
+	\depedge{6}{9}{nsubj}
+	\depedge{7}{8}{case}
+	\depedge{8}{6}{nmod}
+	\depedge{9}{4}{acl:relcl}
+	\depedge{10}{11}{nmod:poss}
+	\depedge{11}{9}{obj}
+	\depedge{12}{17}{mark}
+	\depedge{13}{14}{det}
+	\depedge{14}{17}{nsubj}
+	\depedge{15}{16}{case}
+	\depedge{16}{14}{nmod}
+	\depedge{17}{9}{advcl}
+	\depedge{18}{19}{nmod:poss}
+	\depedge{19}{17}{obj}
+	\depedge{20}{21}{cc}
+	\depedge{21}{17}{conj}
+	\depedge{22}{23}{nmod:poss}
+	\depedge{23}{21}{obj}
+	\depedge{24}{27}{case}
+	\depedge{25}{27}{det}
+	\depedge{26}{27}{amod}
+	\depedge{27}{21}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{26}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 868}};
+	\node (R4) at (R1.south) {\tiny $ 12/27 = 44\% $};
+\end{dependency}

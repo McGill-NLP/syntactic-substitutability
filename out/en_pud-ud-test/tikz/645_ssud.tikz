@@ -1,0 +1,46 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		On\& March\& 10\& ,\& 1896\& ,\& Herzl\& was\& visited\& by\& Reverend\& William\& Hechler\& ,\& the\& Anglican\& minister\& to\& the\& British\& Embassy\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{9}{obl}
+	\depedge{3}{2}{nummod}
+	\depedge{5}{2}{nummod}
+	\depedge{7}{9}{nsubj:pass}
+	\depedge{8}{9}{aux:pass}
+	\depedge{9}{0}{root}
+	\depedge{10}{11}{case}
+	\depedge{11}{9}{obl}
+	\depedge{12}{11}{flat}
+	\depedge{13}{11}{flat}
+	\depedge{15}{17}{det}
+	\depedge{16}{17}{amod}
+	\depedge{17}{11}{appos}
+	\depedge{18}{21}{case}
+	\depedge{19}{21}{det}
+	\depedge{20}{21}{amod}
+	\depedge{21}{17}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{21}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 645}};
+	\node (R4) at (R1.south) {\tiny $ 8/18 = 44\% $};
+\end{dependency}

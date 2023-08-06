@@ -1,0 +1,36 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		First\& one\& of\& the\& Yazidi\& women\& started\& crying\& ,\& then\& one\& of\& her\& friends\& . \\
+	\end{deptext}
+	\depedge{1}{7}{advmod}
+	\depedge{2}{7}{nsubj}
+	\depedge{3}{6}{case}
+	\depedge{4}{6}{det}
+	\depedge{5}{6}{compound}
+	\depedge{6}{2}{nmod}
+	\depedge{7}{0}{root}
+	\depedge{8}{7}{xcomp}
+	\depedge{10}{11}{orphan}
+	\depedge{11}{7}{conj}
+	\depedge{12}{14}{case}
+	\depedge{13}{14}{nmod:poss}
+	\depedge{14}{11}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 24}};
+	\node (R4) at (R1.south) {\tiny $ 5/13 = 38\% $};
+\end{dependency}

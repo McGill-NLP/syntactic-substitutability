@@ -1,0 +1,58 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		It\& included\& three\& tracks\& cowritten\& with\& Rafferty\& 's\& brother\& Jim\& ,\& also\& a\& singer\& -\& songwriter\& ,\& who\& had\& been\& signed\& to\& Decca\& Records\& in\& the\& 1970s\& . \\
+	\end{deptext}
+	\depedge{1}{2}{nsubj}
+	\depedge{2}{0}{root}
+	\depedge{3}{4}{nummod}
+	\depedge{4}{2}{obj}
+	\depedge{5}{4}{acl}
+	\depedge{6}{9}{case}
+	\depedge{7}{9}{nmod:poss}
+	\depedge{8}{7}{case}
+	\depedge{9}{5}{obl}
+	\depedge{10}{9}{appos}
+	\depedge{12}{16}{advmod}
+	\depedge{13}{16}{det}
+	\depedge{14}{16}{compound}
+	\depedge{16}{9}{appos}
+	\depedge{18}{21}{nsubj:pass}
+	\depedge{19}{21}{aux}
+	\depedge{20}{21}{aux:pass}
+	\depedge{21}{9}{acl:relcl}
+	\depedge{22}{24}{case}
+	\depedge{23}{24}{compound}
+	\depedge{24}{21}{obl}
+	\depedge{25}{27}{case}
+	\depedge{26}{27}{det}
+	\depedge{27}{21}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{18}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 692}};
+	\node (R4) at (R1.south) {\tiny $ 10/24 = 42\% $};
+\end{dependency}

@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Stephen\& Wheeler\& ,\& the\& editor\& ,\& worked\& Kipling\& hard\& ,\& but\& Kipling\& 's\& need\& to\& write\& was\& unstoppable\& . \\
+	\end{deptext}
+	\depedge{1}{7}{nsubj}
+	\depedge{2}{1}{flat}
+	\depedge{4}{5}{det}
+	\depedge{5}{2}{appos}
+	\depedge{7}{0}{root}
+	\depedge{8}{7}{obj}
+	\depedge{9}{7}{advmod}
+	\depedge{11}{18}{cc}
+	\depedge{12}{14}{nmod:poss}
+	\depedge{13}{12}{case}
+	\depedge{14}{18}{nsubj}
+	\depedge{15}{16}{mark}
+	\depedge{16}{14}{acl}
+	\depedge{17}{18}{cop}
+	\depedge{18}{7}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{17}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 563}};
+	\node (R4) at (R1.south) {\tiny $ 5/15 = 33\% $};
+\end{dependency}

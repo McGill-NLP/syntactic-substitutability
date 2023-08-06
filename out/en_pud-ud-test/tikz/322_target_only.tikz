@@ -1,0 +1,48 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		More\& than\& 5.7\& million\& Floridians\& have\& already\& hit\& the\& polls\& after\& about\& two\& weeks\& of\& in\& -\& person\& early\& voting\& . \\
+	\end{deptext}
+	\depedge{1}{4}{advmod}
+	\depedge{2}{1}{fixed}
+	\depedge{3}{4}{compound}
+	\depedge{4}{5}{nummod}
+	\depedge{5}{8}{nsubj}
+	\depedge{6}{8}{aux}
+	\depedge{7}{8}{advmod}
+	\depedge{8}{0}{root}
+	\depedge{9}{10}{det}
+	\depedge{10}{8}{obj}
+	\depedge{11}{14}{case}
+	\depedge{12}{13}{advmod}
+	\depedge{13}{14}{nummod}
+	\depedge{14}{8}{obl}
+	\depedge{15}{20}{case}
+	\depedge{16}{18}{case}
+	\depedge{18}{20}{amod}
+	\depedge{19}{20}{amod}
+	\depedge{20}{14}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 322}};
+	\node (R4) at (R1.south) {\tiny $ 9/19 = 47\% $};
+\end{dependency}

@@ -1,0 +1,80 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Adnan\& Z.\& Amin\& ,\& General\& Director\& of\& the\& International\& Organization\& for\& Renewable\& Energies\& (\& IRENA\& )\& is\& certain\& :\& "\& Offshore\& wind\& power\& can\& become\& the\& top\& power\& generator\& in\& a\& global\& economy\& that\& is\& free\& of\& coal\& -\& based\& energy\& .\& " \\
+	\end{deptext}
+	\depedge{1}{18}{nsubj}
+	\depedge{2}{1}{flat}
+	\depedge{3}{1}{flat}
+	\depedge{5}{6}{amod}
+	\depedge{6}{1}{appos}
+	\depedge{7}{10}{case}
+	\depedge{8}{10}{det}
+	\depedge{9}{10}{amod}
+	\depedge{10}{6}{nmod}
+	\depedge{11}{13}{case}
+	\depedge{12}{13}{amod}
+	\depedge{13}{10}{nmod}
+	\depedge{15}{10}{appos}
+	\depedge{17}{18}{cop}
+	\depedge{18}{0}{root}
+	\depedge{21}{23}{amod}
+	\depedge{22}{23}{compound}
+	\depedge{23}{25}{nsubj}
+	\depedge{24}{25}{aux}
+	\depedge{25}{18}{ccomp}
+	\depedge{26}{29}{det}
+	\depedge{27}{29}{amod}
+	\depedge{28}{29}{compound}
+	\depedge{29}{25}{obj}
+	\depedge{30}{33}{case}
+	\depedge{31}{33}{det}
+	\depedge{32}{33}{amod}
+	\depedge{33}{29}{nmod}
+	\depedge{34}{36}{nsubj}
+	\depedge{35}{36}{cop}
+	\depedge{36}{33}{acl:relcl}
+	\depedge{37}{41}{case}
+	\depedge{38}{40}{compound}
+	\depedge{40}{41}{amod}
+	\depedge{41}{36}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{30}{33}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{35}{36}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{32}{33}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{40}{41}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{38}{40}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{31}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{34}{35}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{31}{32}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{37}{40}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{36}{37}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{30}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 793}};
+	\node (R4) at (R1.south) {\tiny $ 16/35 = 46\% $};
+\end{dependency}

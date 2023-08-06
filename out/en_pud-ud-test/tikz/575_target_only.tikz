@@ -1,0 +1,32 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Dominican\& priest\& Heinrich\& Kramer\& was\& assistant\& to\& the\& Archbishop\& of\& Salzburg\& . \\
+	\end{deptext}
+	\depedge{1}{2}{amod}
+	\depedge{2}{6}{nsubj}
+	\depedge{3}{2}{flat}
+	\depedge{4}{2}{flat}
+	\depedge{5}{6}{cop}
+	\depedge{6}{0}{root}
+	\depedge{7}{9}{case}
+	\depedge{8}{9}{det}
+	\depedge{9}{6}{nmod}
+	\depedge{10}{11}{case}
+	\depedge{11}{9}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 575}};
+	\node (R4) at (R1.south) {\tiny $ 5/11 = 45\% $};
+\end{dependency}

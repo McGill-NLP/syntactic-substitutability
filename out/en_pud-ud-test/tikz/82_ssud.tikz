@@ -1,0 +1,56 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		But\& a\& scan\& has\& shown\& the\& tumour\& in\& Ms\& Pugh\& 's\& right\& lung\& is\& growing\& ,\& and\& she\& has\& had\& to\& leave\& the\& trial\& . \\
+	\end{deptext}
+	\depedge{1}{5}{cc}
+	\depedge{2}{3}{det}
+	\depedge{3}{5}{nsubj}
+	\depedge{4}{5}{aux}
+	\depedge{5}{0}{root}
+	\depedge{6}{7}{det}
+	\depedge{7}{15}{nsubj}
+	\depedge{8}{13}{case}
+	\depedge{9}{13}{nmod:poss}
+	\depedge{10}{9}{flat}
+	\depedge{11}{10}{case}
+	\depedge{12}{13}{amod}
+	\depedge{13}{7}{nmod}
+	\depedge{14}{15}{aux}
+	\depedge{15}{5}{ccomp}
+	\depedge{17}{20}{cc}
+	\depedge{18}{20}{nsubj}
+	\depedge{19}{20}{aux}
+	\depedge{20}{5}{conj}
+	\depedge{21}{22}{mark}
+	\depedge{22}{20}{xcomp}
+	\depedge{23}{24}{det}
+	\depedge{24}{22}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{21}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 82}};
+	\node (R4) at (R1.south) {\tiny $ 13/23 = 57\% $};
+\end{dependency}

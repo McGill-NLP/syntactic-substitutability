@@ -1,0 +1,29 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		When\& it\& went\& down\& ,\& by\& all\& tradition\& ,\& the\& economy\& followed\& . \\
+	\end{deptext}
+	\depedge{1}{3}{advmod}
+	\depedge{2}{3}{nsubj}
+	\depedge{3}{12}{advcl}
+	\depedge{4}{3}{advmod}
+	\depedge{6}{12}{prep}
+	\depedge{7}{8}{det}
+	\depedge{8}{6}{pobj}
+	\depedge{10}{11}{det}
+	\depedge{11}{12}{nsubj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 363}};
+	\node (R4) at (R1.south) {\tiny $ 6/9 = 67\% $};
+\end{dependency}

@@ -1,0 +1,34 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& 10\& -\& week\& course\& has\& been\& "\& certified\& "\& by\& UK\& spy\& agency\& GCHQ\& . \\
+	\end{deptext}
+	\depedge{1}{5}{det}
+	\depedge{2}{4}{nummod}
+	\depedge{4}{5}{amod}
+	\depedge{5}{9}{nsubj:pass}
+	\depedge{6}{9}{aux}
+	\depedge{7}{9}{aux:pass}
+	\depedge{9}{0}{root}
+	\depedge{11}{15}{case}
+	\depedge{12}{14}{compound}
+	\depedge{13}{14}{compound}
+	\depedge{14}{15}{compound}
+	\depedge{15}{9}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{14}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 39}};
+	\node (R4) at (R1.south) {\tiny $ 5/12 = 42\% $};
+\end{dependency}

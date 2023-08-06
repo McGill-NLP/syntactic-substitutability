@@ -1,0 +1,24 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		And\& now\& he\& is\& also\& world\& champion\& . \\
+	\end{deptext}
+	\depedge{1}{7}{cc}
+	\depedge{2}{7}{advmod}
+	\depedge{3}{7}{nsubj}
+	\depedge{4}{7}{cop}
+	\depedge{5}{7}{advmod}
+	\depedge{6}{7}{compound}
+	\depedge{7}{0}{root}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 776}};
+	\node (R4) at (R1.south) {\tiny $ 2/7 = 29\% $};
+\end{dependency}

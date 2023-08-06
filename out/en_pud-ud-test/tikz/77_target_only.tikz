@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		However\& there\& are\& many\& MLAs\& with\& deeply\& -\& held\& religious\& beliefs\& who\& oppose\& any\& new\& legislation\& . \\
+	\end{deptext}
+	\depedge{1}{3}{advmod}
+	\depedge{2}{3}{expl}
+	\depedge{3}{0}{root}
+	\depedge{4}{5}{amod}
+	\depedge{5}{3}{nsubj}
+	\depedge{6}{11}{case}
+	\depedge{7}{9}{advmod}
+	\depedge{9}{11}{amod}
+	\depedge{10}{11}{amod}
+	\depedge{11}{5}{nmod}
+	\depedge{12}{13}{nsubj}
+	\depedge{13}{5}{acl:relcl}
+	\depedge{14}{16}{det}
+	\depedge{15}{16}{amod}
+	\depedge{16}{13}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 77}};
+	\node (R4) at (R1.south) {\tiny $ 6/15 = 40\% $};
+\end{dependency}

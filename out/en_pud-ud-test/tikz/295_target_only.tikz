@@ -1,0 +1,32 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		And\& ,\& of\& course\& ,\& there\& 's\& Bob\& ,\& a\& constant\& source\& of\& entertainment\& . \\
+	\end{deptext}
+	\depedge{1}{7}{cc}
+	\depedge{3}{7}{advmod}
+	\depedge{4}{3}{fixed}
+	\depedge{6}{7}{expl}
+	\depedge{7}{0}{root}
+	\depedge{8}{7}{nsubj}
+	\depedge{10}{12}{det}
+	\depedge{11}{12}{amod}
+	\depedge{12}{8}{appos}
+	\depedge{13}{14}{case}
+	\depedge{14}{12}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{4}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 295}};
+	\node (R4) at (R1.south) {\tiny $ 6/11 = 55\% $};
+\end{dependency}

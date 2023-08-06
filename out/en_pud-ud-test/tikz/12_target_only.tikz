@@ -1,0 +1,46 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		By\& comparison\& ,\& it\& cost\& \$\& 103.7\& million\& to\& build\& the\& NoMa\& infill\& Metro\& station\& ,\& which\& opened\& in\& 2004\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{5}{obl}
+	\depedge{4}{5}{expl}
+	\depedge{5}{0}{root}
+	\depedge{6}{5}{obj}
+	\depedge{7}{8}{compound}
+	\depedge{8}{6}{nummod}
+	\depedge{9}{10}{mark}
+	\depedge{10}{5}{csubj}
+	\depedge{11}{15}{det}
+	\depedge{12}{15}{compound}
+	\depedge{13}{15}{compound}
+	\depedge{14}{15}{compound}
+	\depedge{15}{10}{obj}
+	\depedge{17}{18}{nsubj}
+	\depedge{18}{15}{acl:relcl}
+	\depedge{19}{20}{case}
+	\depedge{20}{18}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 12}};
+	\node (R4) at (R1.south) {\tiny $ 11/18 = 61\% $};
+\end{dependency}

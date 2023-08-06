@@ -1,0 +1,42 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Unlike\& that\& of\& the\& 28th\& of\& October\& ,\& Mr.\& Comey\& 's\& letter\& has\& hardly\& been\& commented\& upon\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{16}{obl}
+	\depedge{3}{5}{case}
+	\depedge{4}{5}{det}
+	\depedge{5}{2}{nmod}
+	\depedge{6}{7}{case}
+	\depedge{7}{5}{nmod}
+	\depedge{9}{12}{nmod:poss}
+	\depedge{10}{12}{nmod:poss}
+	\depedge{11}{10}{case}
+	\depedge{12}{16}{nsubj:pass}
+	\depedge{13}{16}{aux}
+	\depedge{14}{16}{advmod}
+	\depedge{15}{16}{aux:pass}
+	\depedge{16}{0}{root}
+	\depedge{17}{16}{case}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 800}};
+	\node (R4) at (R1.south) {\tiny $ 4/16 = 25\% $};
+\end{dependency}

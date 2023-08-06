@@ -1,0 +1,40 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Native\& Americans\& across\& the\& Americas\& relied\& on\& it\& as\& a\& staple\& of\& their\& medical\& treatments\& . \\
+	\end{deptext}
+	\depedge{1}{2}{amod}
+	\depedge{2}{6}{nsubj}
+	\depedge{3}{5}{case}
+	\depedge{4}{5}{det}
+	\depedge{5}{2}{nmod}
+	\depedge{6}{0}{root}
+	\depedge{7}{8}{case}
+	\depedge{8}{6}{obl}
+	\depedge{9}{11}{case}
+	\depedge{10}{11}{det}
+	\depedge{11}{6}{obl}
+	\depedge{12}{15}{case}
+	\depedge{13}{15}{nmod:poss}
+	\depedge{14}{15}{amod}
+	\depedge{15}{11}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{13}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 442}};
+	\node (R4) at (R1.south) {\tiny $ 9/15 = 60\% $};
+\end{dependency}

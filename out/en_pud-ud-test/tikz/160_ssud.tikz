@@ -1,0 +1,30 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		“\& Complete\& neglect\& of\& his\& own\& health\& ,\& ”\& his\& wife\& ,\& Alice\& ,\& reported\& . \\
+	\end{deptext}
+	\depedge{2}{3}{amod}
+	\depedge{3}{0}{root}
+	\depedge{4}{7}{case}
+	\depedge{5}{7}{nmod:poss}
+	\depedge{6}{7}{amod}
+	\depedge{7}{3}{nmod}
+	\depedge{10}{11}{nmod:poss}
+	\depedge{11}{15}{nsubj}
+	\depedge{13}{11}{appos}
+	\depedge{15}{3}{parataxis}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 160}};
+	\node (R4) at (R1.south) {\tiny $ 6/10 = 60\% $};
+\end{dependency}

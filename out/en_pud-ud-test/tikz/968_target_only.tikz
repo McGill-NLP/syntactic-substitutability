@@ -1,0 +1,56 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		With\& regards\& to\& religious\& practices\& ,\& Fiorello\& was\& educated\& within\& the\& Episcopal\& Church\& ,\& and\& remained\& a\& member\& of\& the\& Protestant\& Church\& throughout\& his\& life\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{9}{obl}
+	\depedge{3}{5}{case}
+	\depedge{4}{5}{amod}
+	\depedge{5}{2}{nmod}
+	\depedge{7}{9}{nsubj:pass}
+	\depedge{8}{9}{aux:pass}
+	\depedge{9}{0}{root}
+	\depedge{10}{13}{case}
+	\depedge{11}{13}{det}
+	\depedge{12}{13}{compound}
+	\depedge{13}{9}{obl}
+	\depedge{15}{16}{cc}
+	\depedge{16}{9}{conj}
+	\depedge{17}{18}{det}
+	\depedge{18}{16}{obj}
+	\depedge{19}{22}{case}
+	\depedge{20}{22}{det}
+	\depedge{21}{22}{compound}
+	\depedge{22}{18}{nmod}
+	\depedge{23}{25}{case}
+	\depedge{24}{25}{nmod:poss}
+	\depedge{25}{18}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{21}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 968}};
+	\node (R4) at (R1.south) {\tiny $ 11/23 = 48\% $};
+\end{dependency}

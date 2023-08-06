@@ -1,0 +1,62 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		At\& each\& station\& ,\& a\& red\& -\& capped\& guard\& presides\& over\& the\& platform\& and\& a\& wheel\& -\& tapper\& walks\& along\& the\& train\& with\& a\& hammer\& ,\& gently\& knocking\& the\& undercarriage\& . \\
+	\end{deptext}
+	\depedge{1}{3}{case}
+	\depedge{2}{3}{det}
+	\depedge{3}{10}{obl}
+	\depedge{5}{9}{det}
+	\depedge{6}{8}{amod}
+	\depedge{8}{9}{amod}
+	\depedge{9}{10}{nsubj}
+	\depedge{10}{0}{root}
+	\depedge{11}{13}{case}
+	\depedge{12}{13}{det}
+	\depedge{13}{10}{obl}
+	\depedge{14}{19}{cc}
+	\depedge{15}{18}{det}
+	\depedge{16}{18}{compound}
+	\depedge{18}{19}{nsubj}
+	\depedge{19}{10}{conj}
+	\depedge{20}{22}{case}
+	\depedge{21}{22}{det}
+	\depedge{22}{19}{obl}
+	\depedge{23}{25}{case}
+	\depedge{24}{25}{det}
+	\depedge{25}{19}{obl}
+	\depedge{27}{28}{advmod}
+	\depedge{28}{19}{advcl}
+	\depedge{29}{30}{det}
+	\depedge{30}{28}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{29}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{21}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 243}};
+	\node (R4) at (R1.south) {\tiny $ 11/26 = 42\% $};
+\end{dependency}

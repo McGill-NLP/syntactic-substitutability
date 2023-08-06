@@ -1,0 +1,68 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Consonant\& gradation\& is\& a\& feature\& in\& both\& Finnish\& and\& northern\& Sami\& dialects\& ,\& but\& it\& is\& not\& present\& in\& south\& Sami\& ,\& which\& is\& considered\& to\& have\& a\& different\& language\& history\& . \\
+	\end{deptext}
+	\depedge{1}{2}{compound}
+	\depedge{2}{5}{nsubj}
+	\depedge{3}{5}{cop}
+	\depedge{4}{5}{det}
+	\depedge{5}{0}{root}
+	\depedge{6}{12}{case}
+	\depedge{7}{8}{cc:preconj}
+	\depedge{8}{12}{compound}
+	\depedge{9}{11}{cc}
+	\depedge{10}{11}{amod}
+	\depedge{11}{8}{conj}
+	\depedge{12}{5}{nmod}
+	\depedge{14}{18}{cc}
+	\depedge{15}{18}{nsubj}
+	\depedge{16}{18}{cop}
+	\depedge{17}{18}{advmod}
+	\depedge{18}{5}{conj}
+	\depedge{19}{21}{case}
+	\depedge{20}{21}{amod}
+	\depedge{21}{18}{obl}
+	\depedge{23}{25}{nsubj:pass}
+	\depedge{24}{25}{aux:pass}
+	\depedge{25}{21}{acl:relcl}
+	\depedge{26}{27}{mark}
+	\depedge{27}{25}{xcomp}
+	\depedge{28}{31}{det}
+	\depedge{29}{31}{amod}
+	\depedge{30}{31}{compound}
+	\depedge{31}{27}{obj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{30}{31}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{24}{25}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{28}{30}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{26}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{30}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 406}};
+	\node (R4) at (R1.south) {\tiny $ 9/29 = 31\% $};
+\end{dependency}

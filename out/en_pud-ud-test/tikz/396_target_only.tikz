@@ -1,0 +1,60 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		While\& air\& mass\& identification\& was\& originally\& used\& in\& weather\& forecasting\& during\& the\& 1950s\& ,\& climatologists\& began\& to\& establish\& synoptic\& climatologies\& based\& on\& this\& idea\& in\& 1973\& . \\
+	\end{deptext}
+	\depedge{1}{7}{mark}
+	\depedge{2}{3}{compound}
+	\depedge{3}{4}{compound}
+	\depedge{4}{7}{nsubj:pass}
+	\depedge{5}{7}{aux:pass}
+	\depedge{6}{7}{advmod}
+	\depedge{7}{16}{advcl}
+	\depedge{8}{10}{case}
+	\depedge{9}{10}{compound}
+	\depedge{10}{7}{obl}
+	\depedge{11}{13}{case}
+	\depedge{12}{13}{det}
+	\depedge{13}{7}{obl}
+	\depedge{15}{16}{nsubj}
+	\depedge{16}{0}{root}
+	\depedge{17}{18}{mark}
+	\depedge{18}{16}{xcomp}
+	\depedge{19}{20}{amod}
+	\depedge{20}{18}{obj}
+	\depedge{21}{20}{acl}
+	\depedge{22}{24}{case}
+	\depedge{23}{24}{det}
+	\depedge{24}{21}{obl}
+	\depedge{25}{26}{case}
+	\depedge{26}{16}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{24}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 396}};
+	\node (R4) at (R1.south) {\tiny $ 10/25 = 40\% $};
+\end{dependency}

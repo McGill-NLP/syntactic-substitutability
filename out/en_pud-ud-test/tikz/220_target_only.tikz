@@ -1,0 +1,48 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		At\& best\& it\& is\& naive\& and\& at\& worst\& it\& would\& yet\& again\& let\& the\& shooting\& lobby\& off\& the\& hook\& . \\
+	\end{deptext}
+	\depedge{1}{5}{advmod}
+	\depedge{2}{1}{fixed}
+	\depedge{3}{5}{nsubj}
+	\depedge{4}{5}{cop}
+	\depedge{5}{0}{root}
+	\depedge{6}{13}{cc}
+	\depedge{7}{13}{advmod}
+	\depedge{8}{7}{fixed}
+	\depedge{9}{13}{nsubj}
+	\depedge{10}{13}{aux}
+	\depedge{11}{12}{advmod}
+	\depedge{12}{13}{advmod}
+	\depedge{13}{5}{conj}
+	\depedge{14}{16}{det}
+	\depedge{15}{16}{compound}
+	\depedge{16}{13}{obj}
+	\depedge{17}{19}{case}
+	\depedge{18}{19}{det}
+	\depedge{19}{13}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 220}};
+	\node (R4) at (R1.south) {\tiny $ 7/19 = 37\% $};
+\end{dependency}

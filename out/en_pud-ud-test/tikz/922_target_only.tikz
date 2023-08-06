@@ -1,0 +1,48 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Privately\& as\& well\& as\& publicly\& ,\& Springer\& vigorously\& pursued\& reconciliation\& with\& the\& Jewish\& people\& and\& took\& many\& trips\& to\& Israel\& . \\
+	\end{deptext}
+	\depedge{1}{9}{advmod}
+	\depedge{2}{5}{cc}
+	\depedge{3}{2}{fixed}
+	\depedge{4}{2}{fixed}
+	\depedge{5}{1}{conj}
+	\depedge{7}{9}{nsubj}
+	\depedge{8}{9}{advmod}
+	\depedge{9}{0}{root}
+	\depedge{10}{9}{obj}
+	\depedge{11}{14}{case}
+	\depedge{12}{14}{det}
+	\depedge{13}{14}{amod}
+	\depedge{14}{10}{nmod}
+	\depedge{15}{16}{cc}
+	\depedge{16}{9}{conj}
+	\depedge{17}{18}{amod}
+	\depedge{18}{16}{obj}
+	\depedge{19}{20}{case}
+	\depedge{20}{18}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{16}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{12}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 922}};
+	\node (R4) at (R1.south) {\tiny $ 10/19 = 53\% $};
+\end{dependency}

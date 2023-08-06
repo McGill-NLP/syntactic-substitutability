@@ -1,0 +1,23 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		1.3\& million\& common\& shares\& ,\& via\& Merrill\& Lynch\& . \\
+	\end{deptext}
+	\depedge{1}{2}{number}
+	\depedge{2}{4}{num}
+	\depedge{3}{4}{amod}
+	\depedge{6}{4}{prep}
+	\depedge{7}{8}{nn}
+	\depedge{8}{6}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 312}};
+	\node (R4) at (R1.south) {\tiny $ 6/6 = 100\% $};
+\end{dependency}

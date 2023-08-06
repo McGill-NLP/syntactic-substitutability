@@ -1,0 +1,29 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		When\& it\& comes\& to\& money\& :\& Once\& bitten\& ,\& 2,000\& times\& shy\& . \\
+	\end{deptext}
+	\depedge{1}{3}{advmod}
+	\depedge{2}{3}{nsubj}
+	\depedge{3}{8}{advcl}
+	\depedge{4}{3}{prep}
+	\depedge{5}{4}{pobj}
+	\depedge{7}{8}{advmod}
+	\depedge{10}{11}{num}
+	\depedge{11}{12}{npadvmod}
+	\depedge{12}{8}{dep}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 343}};
+	\node (R4) at (R1.south) {\tiny $ 5/9 = 56\% $};
+\end{dependency}

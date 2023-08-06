@@ -1,0 +1,25 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		As\& people\& get\& even\& older\& ,\& many\& become\& widowed\& . \\
+	\end{deptext}
+	\depedge{1}{3}{mark}
+	\depedge{2}{3}{nsubj}
+	\depedge{3}{8}{advcl}
+	\depedge{4}{5}{advmod}
+	\depedge{5}{3}{acomp}
+	\depedge{7}{8}{nsubj}
+	\depedge{9}{8}{acomp}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 161}};
+	\node (R4) at (R1.south) {\tiny $ 3/7 = 43\% $};
+\end{dependency}

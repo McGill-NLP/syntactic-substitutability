@@ -1,0 +1,38 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		With\& this\& ,\& in\& theory\& ,\& you\& are\& able\& to\& access\& your\& money\& whenever\& you\& like\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{9}{obl}
+	\depedge{4}{5}{case}
+	\depedge{5}{9}{obl}
+	\depedge{7}{9}{nsubj}
+	\depedge{8}{9}{cop}
+	\depedge{9}{0}{root}
+	\depedge{10}{11}{mark}
+	\depedge{11}{9}{xcomp}
+	\depedge{12}{13}{nmod:poss}
+	\depedge{13}{11}{obj}
+	\depedge{14}{16}{advmod}
+	\depedge{15}{16}{nsubj}
+	\depedge{16}{11}{advcl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{12}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 202}};
+	\node (R4) at (R1.south) {\tiny $ 5/14 = 36\% $};
+\end{dependency}

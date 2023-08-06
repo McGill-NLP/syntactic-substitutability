@@ -1,0 +1,104 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Specifically\& ,\& a\& male\& secondary\& school\& enrollment\& 10\& \%\& above\& the\& average\& reduced\& the\& chance\& of\& a\& conflict\& by\& about\& 3\& \%\& ,\& while\& a\& growth\& rate\& 1\& \%\& higher\& than\& the\& study\& average\& resulted\& in\& a\& decline\& in\& the\& chance\& of\& a\& civil\& war\& of\& about\& 1\& \%\& . \\
+	\end{deptext}
+	\depedge{1}{13}{advmod}
+	\depedge{3}{7}{det}
+	\depedge{4}{7}{amod}
+	\depedge{5}{6}{amod}
+	\depedge{6}{7}{compound}
+	\depedge{7}{13}{nsubj}
+	\depedge{8}{9}{nummod}
+	\depedge{9}{7}{acl}
+	\depedge{10}{12}{case}
+	\depedge{11}{12}{det}
+	\depedge{12}{9}{nmod}
+	\depedge{13}{0}{root}
+	\depedge{14}{15}{det}
+	\depedge{15}{13}{obj}
+	\depedge{16}{18}{case}
+	\depedge{17}{18}{det}
+	\depedge{18}{15}{nmod}
+	\depedge{19}{22}{case}
+	\depedge{20}{21}{advmod}
+	\depedge{21}{22}{nummod}
+	\depedge{22}{13}{obl}
+	\depedge{24}{35}{mark}
+	\depedge{25}{27}{det}
+	\depedge{26}{27}{compound}
+	\depedge{27}{35}{nsubj}
+	\depedge{28}{29}{nummod}
+	\depedge{29}{30}{obl:npmod}
+	\depedge{30}{27}{amod}
+	\depedge{31}{34}{case}
+	\depedge{32}{34}{det}
+	\depedge{33}{34}{compound}
+	\depedge{34}{30}{obl}
+	\depedge{35}{13}{advcl}
+	\depedge{36}{38}{case}
+	\depedge{37}{38}{det}
+	\depedge{38}{35}{obl}
+	\depedge{39}{41}{case}
+	\depedge{40}{41}{det}
+	\depedge{41}{38}{nmod}
+	\depedge{42}{45}{case}
+	\depedge{43}{45}{det}
+	\depedge{44}{45}{amod}
+	\depedge{45}{41}{nmod}
+	\depedge{46}{49}{case}
+	\depedge{47}{48}{advmod}
+	\depedge{48}{49}{nummod}
+	\depedge{49}{38}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{31}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{32}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{44}{45}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{37}{38}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{47}{48}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{33}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{39}{41}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{46}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{35}{36}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{36}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{39}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{27}{28}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{47}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{40}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{41}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{21}{48}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{49}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{35}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{43}{44}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{42}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{38}{39}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{45}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{28}{31}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{30}{31}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{33}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 568}};
+	\node (R4) at (R1.south) {\tiny $ 15/47 = 32\% $};
+\end{dependency}

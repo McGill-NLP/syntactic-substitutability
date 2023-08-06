@@ -1,0 +1,29 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Two-year\& notes\& ,\& refinancing\& about\& \$\& 9.6\& billion\& in\& maturing\& debt\& . \\
+	\end{deptext}
+	\depedge{1}{2}{amod}
+	\depedge{4}{2}{vmod}
+	\depedge{5}{6}{quantmod}
+	\depedge{6}{4}{dobj}
+	\depedge{7}{8}{number}
+	\depedge{8}{6}{num}
+	\depedge{9}{6}{prep}
+	\depedge{10}{11}{amod}
+	\depedge{11}{9}{pobj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{2}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{7}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 299}};
+	\node (R4) at (R1.south) {\tiny $ 6/9 = 67\% $};
+\end{dependency}

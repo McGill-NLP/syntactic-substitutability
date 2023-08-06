@@ -1,0 +1,62 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		Wright\& is\& a\& friend\& of\& fellow\& director\& Garth\& Jennings\& ,\& and\& made\& cameos\& in\& his\& films\& The\& Hitchhiker\& 's\& Guide\& to\& the\& Galaxy\& and\& Son\& of\& Rambow\& . \\
+	\end{deptext}
+	\depedge{1}{4}{nsubj}
+	\depedge{2}{4}{cop}
+	\depedge{3}{4}{det}
+	\depedge{4}{0}{root}
+	\depedge{5}{7}{case}
+	\depedge{6}{7}{amod}
+	\depedge{7}{4}{nmod}
+	\depedge{8}{7}{flat}
+	\depedge{9}{7}{flat}
+	\depedge{11}{12}{cc}
+	\depedge{12}{4}{conj}
+	\depedge{13}{12}{obj}
+	\depedge{14}{16}{case}
+	\depedge{15}{16}{nmod:poss}
+	\depedge{16}{12}{obl}
+	\depedge{17}{18}{det}
+	\depedge{18}{20}{nmod:poss}
+	\depedge{19}{18}{case}
+	\depedge{20}{16}{appos}
+	\depedge{21}{23}{case}
+	\depedge{22}{23}{det}
+	\depedge{23}{20}{nmod}
+	\depedge{24}{25}{cc}
+	\depedge{25}{20}{conj}
+	\depedge{26}{27}{case}
+	\depedge{27}{25}{nmod}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{27}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{12}{13}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{6}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{17}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{19}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{16}{17}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{3}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{8}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{21}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 744}};
+	\node (R4) at (R1.south) {\tiny $ 8/26 = 31\% $};
+\end{dependency}

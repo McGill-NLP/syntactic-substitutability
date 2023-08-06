@@ -1,0 +1,19 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/ptb3-wsj-test_10/tikz
+\begin{dependency}
+	\begin{deptext}
+		Now\& comes\& the\& pool\& flap\& . \\
+	\end{deptext}
+	\depedge{1}{2}{advmod}
+	\depedge{3}{5}{det}
+	\depedge{4}{5}{nn}
+	\depedge{5}{2}{nsubj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{5}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 170}};
+	\node (R4) at (R1.south) {\tiny $ 2/4 = 50\% $};
+\end{dependency}

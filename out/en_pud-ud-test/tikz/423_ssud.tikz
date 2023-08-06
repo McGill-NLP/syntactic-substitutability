@@ -1,0 +1,46 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		The\& Blindleia\& is\& a\& skerry\& -\& protected\& waterway\& that\& starts\& near\& Kristiansand\& in\& southern\& Norway\& ,\& and\& continues\& past\& Lillesand\& . \\
+	\end{deptext}
+	\depedge{1}{2}{det}
+	\depedge{2}{8}{nsubj}
+	\depedge{3}{8}{cop}
+	\depedge{4}{8}{det}
+	\depedge{5}{7}{compound}
+	\depedge{7}{8}{amod}
+	\depedge{8}{0}{root}
+	\depedge{9}{10}{nsubj}
+	\depedge{10}{8}{acl:relcl}
+	\depedge{11}{12}{case}
+	\depedge{12}{10}{obl}
+	\depedge{13}{15}{case}
+	\depedge{14}{15}{amod}
+	\depedge{15}{10}{obl}
+	\depedge{17}{18}{cc}
+	\depedge{18}{10}{conj}
+	\depedge{19}{20}{case}
+	\depedge{20}{18}{obl}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{17}{18}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{14}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{4}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{13}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{15}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{12}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{7}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 423}};
+	\node (R4) at (R1.south) {\tiny $ 4/18 = 22\% $};
+\end{dependency}

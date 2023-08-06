@@ -1,0 +1,30 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		In\& addition\& ,\& its\& process\& of\& gilding\& copper\& is\& technologically\& noteworthy\& . \\
+	\end{deptext}
+	\depedge{1}{2}{case}
+	\depedge{2}{11}{obl}
+	\depedge{4}{5}{nmod:poss}
+	\depedge{5}{11}{nsubj}
+	\depedge{6}{7}{mark}
+	\depedge{7}{5}{acl}
+	\depedge{8}{7}{obj}
+	\depedge{9}{11}{cop}
+	\depedge{10}{11}{advmod}
+	\depedge{11}{0}{root}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{7}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{9}{11}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{7}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{2}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{9}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{8}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{perturbed}};
+	\node (R3) at (R2.north) {\tiny\textsf{perturbed 899}};
+	\node (R4) at (R1.south) {\tiny $ 5/10 = 50\% $};
+\end{dependency}

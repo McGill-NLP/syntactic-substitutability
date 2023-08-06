@@ -1,0 +1,78 @@
+% dependencies for /home/mila/j/jasper.jian/semantic-perturbation/SemanticPerturbation/out/en_pud-ud-test/tikz
+\begin{dependency}
+	\begin{deptext}
+		And\& with\& China\& set\& to\& become\& the\& world\& 's\& biggest\& aviation\& market\& in\& the\& next\& decade\& ,\& the\& show\& is\& an\& opportunity\& for\& Beijing\& to\& demonstrate\& its\& ambitions\& in\& civil\& aviation\& as\& well\& as\& defence\& . \\
+	\end{deptext}
+	\depedge{1}{22}{cc}
+	\depedge{2}{4}{mark}
+	\depedge{3}{4}{nsubj}
+	\depedge{4}{22}{advcl}
+	\depedge{5}{6}{mark}
+	\depedge{6}{4}{xcomp}
+	\depedge{7}{8}{det}
+	\depedge{8}{12}{nmod:poss}
+	\depedge{9}{8}{case}
+	\depedge{10}{12}{amod}
+	\depedge{11}{12}{compound}
+	\depedge{12}{6}{xcomp}
+	\depedge{13}{16}{case}
+	\depedge{14}{16}{det}
+	\depedge{15}{16}{amod}
+	\depedge{16}{6}{obl}
+	\depedge{18}{19}{det}
+	\depedge{19}{22}{nsubj}
+	\depedge{20}{22}{cop}
+	\depedge{21}{22}{det}
+	\depedge{22}{0}{root}
+	\depedge{23}{24}{case}
+	\depedge{24}{22}{nmod}
+	\depedge{25}{26}{mark}
+	\depedge{26}{22}{acl}
+	\depedge{27}{28}{nmod:poss}
+	\depedge{28}{26}{obj}
+	\depedge{29}{31}{case}
+	\depedge{30}{31}{amod}
+	\depedge{31}{28}{nmod}
+	\depedge{32}{35}{cc}
+	\depedge{33}{32}{fixed}
+	\depedge{34}{32}{fixed}
+	\depedge{35}{31}{conj}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{26}{28}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{32}{34}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{32}{33}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{21}{22}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{18}{19}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{11}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{15}{16}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{8}{9}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{5}{6}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{30}{31}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{10}{12}{}
+	\depedge[hide label, edge below, edge style={-, blue, opacity=0.5}]{25}{26}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{24}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{22}{23}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{23}{25}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{18}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{7}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{4}{5}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{29}{34}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{14}{15}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{9}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{24}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{2}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{28}{29}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{1}{20}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{11}{31}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{6}{10}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{25}{27}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{20}{21}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{3}{8}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{34}{35}{}
+	\depedge[hide label, edge below, edge style={-, red, opacity=0.5}]{13}{15}{}
+	\node (R) at (\matrixref.east) {{}};
+	\node (R1) [right of = R] {\tiny\textsf{}};
+	\node (R2) at (R1.north) {\tiny\textsf{target}};
+	\node (R3) at (R2.north) {\tiny\textsf{target 43}};
+	\node (R4) at (R1.south) {\tiny $ 12/34 = 35\% $};
+\end{dependency}
