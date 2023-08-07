@@ -118,11 +118,14 @@ def main():
                       help="Use tiny model for fast debugging.")
   parser.add_argument("--word-level", default=False, action='store_true',
                       help="Get word-level rather than token-level attention.")
+  parser.add_argument("--num-subs", default=1, type=str,
+                      help="Set the number of substitutions to be used.")
+  parser.add_argument("--out-path", default=1, type=str,
+                      help="Set the number of substitutions to be used.")
   args = parser.parse_args()
   
-  NUMBER_OF_SUBS = 5
-  base_outpath = "/home/mila/j/jasper.jian/scratch/en_pud-ud-test-converted"
-  base_outpath = base_outpath + "_" + str(NUMBER_OF_SUBS) + "_nodet"
+  NUMBER_OF_SUBS = int(args.num_subs)
+  base_outpath = args.out_path.split('.')[0] + "_" + str(NUMBER_OF_SUBS)
   output_with_subs = base_outpath + ".json"
   
   print("Going into generation...")

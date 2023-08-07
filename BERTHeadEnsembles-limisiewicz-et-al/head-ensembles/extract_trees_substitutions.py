@@ -148,11 +148,11 @@ if __name__ == '__main__':
 	print("UAS: ")
 	print(uas_res)
 
-	uas_m = UUAS(dependency)
-	uas_m(bert_attns.sentence_idcs, extracted_unlabeled)
-	uas_res, uas_rel_wise = uas_m.result()
+	uuas_m = UUAS(dependency)
+	uuas_m(bert_attns.sentence_idcs, extracted_unlabeled)
+	uuas_res, uuas_rel_wise = uuas_m.result()
 	print("UUAS: ")
-	print(uas_res)
+	print(uuas_res)
 
 	las_m = LAS(dependency)
 	las_m(bert_attns.sentence_idcs, extracted_labeled)
@@ -164,6 +164,7 @@ if __name__ == '__main__':
 
 	if args.report_result:
 		with open(args.report_result, 'w') as res_file:
+			res_file.write(f"UUAS: {uuas_res}\n")
 			res_file.write(f"UUAS: {uas_res}\n")
 			res_file.write(f"LAS: {las_res}\n")
 			res_file.write("UUAS REL_WISE\n")

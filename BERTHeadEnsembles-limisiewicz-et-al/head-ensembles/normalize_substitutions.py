@@ -23,10 +23,7 @@ def combine_attentions(attention_list, sub_dict):
                 continue
             else:
                 store_pos_matrices = np.stack([original_matrix] + attention_list[ind:ind+len(sent_list)], axis=0)
-                #print(np.shape(store_pos_matrices))
                 averaged = np.mean(store_pos_matrices, axis=0)
-                #print(np.shape(new_matrix))
-                #print(np.shape(averaged))
                 new_matrix[:, :, pos, :] = averaged[:, :, pos, :]
                 ind += len(sent_list)
         combined_list.append(new_matrix)

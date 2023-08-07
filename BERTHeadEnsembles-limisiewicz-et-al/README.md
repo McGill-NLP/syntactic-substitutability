@@ -1,7 +1,7 @@
 # Head Ensembles w/ Substitution
-This code contains the original code from [Limisiewicz et al.](https://arxiv.org/abs/2004.14620) and modifications used in our experiments. Relevant details to replicate our results are included below. Some information has been copied from the original repository. See the original repository for full documentation.
+This code contains the original code from [Limisiewicz et al.](https://arxiv.org/abs/2004.14620) and modifications used in our experiments. Relevant details to replicate our results are included below. Some information has been copied from the original repository. See the [original repository](https://github.com/tomlimi/BERTHeadEnsembles) for full documentation.
 
-## Extracting BERT Attention Maps
+## Extracting BERT Attention Maps (Baseline)
 **The code and instruction for running BERT over text and extracting the resulting attention map were created by Kevin Clark and 
 were adapted for this project. The original code is available at [Attention Analysis Clark et al.](https://github.com/clarkkev/attention-analysis)**
 
@@ -33,8 +33,11 @@ The list of attention matrices will be saved to  `<path-to-your-data>_attentions
 
 Wordpiece tokenized sentences will be saved to `<path-to-your-data>_source.txt`.  The file will be referred to as `<path-to-wordpieces>` in the next steps.
 
+# Inducing Trees (Baseline)
+The pipeline described in the original repository can be used to extract trees and evaluate the method described in the original paper.
 
-## Head Ensemble Selection
+## SSUD-Enhanced Induction
+To replicate the results in our paper's Experiment 3, the following two scripts can be used to extract attention scores, then induce trees. To extract attention scores first: `scripts/extract_attention_substitutions.sh`, and to induce trees: `scripts/evaluate_substitution.sh`. 
 
-Select syntactic head ensembles for each Universal Dependencies syntactic relation:
+There is no change to the parsing algorithms used in the original work, some minor changes were made in the shape of the files to accomodate parsing with substituted sentences.
 

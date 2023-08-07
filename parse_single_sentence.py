@@ -24,10 +24,16 @@ def main():
     model_2.eval()
     model_2 = model_2.to(device)
     print('Done loading!')
-    num_sent = int(sys.argv[1])
+    if len(sys.argv) > 1:
+        num_sent = int(sys.argv[1])
+    else:
+        num_sent = 5
     parser_active = True
     while parser_active:
         sent_to_parse = input('Please enter a sentence to parse: ')
+        if sent_to_parse == "cs":
+            num_sent = int(input('Change the number of substitutions: '))
+            continue
         sent_dict = convert_to_dict(sent_to_parse)
 
         #this can now be passed into the normal parser
@@ -49,13 +55,13 @@ def main():
         _, target_graphs = parse_eval.get_uuas(None, only_target_graphs, eval=False)
         sentence_index = list(ssud_graphs.keys())[0]
         predicted_edges = list(nx.dfs_tree(ssud_graphs[sentence_index]).edges())
-        print("This is the induced SSUD parse:")
+        print("This is the induced SSUD parse (k = " + str(num_sent) + "):")
         print(predicted_edges)
         s_list = sentence_index[1].split()
         for e in predicted_edges:
            print(s_list[e[0]] + ' <--> ' + s_list[e[1]])
         print("-----------------------------")
-        print("This is the induced target only parse:")
+        print("This is the induced target only parse (k = 0):")
         predicted_edges = list(nx.dfs_tree(target_graphs[sentence_index]).edges())
         print(predicted_edges)
         s_list = sentence_index[1].split()

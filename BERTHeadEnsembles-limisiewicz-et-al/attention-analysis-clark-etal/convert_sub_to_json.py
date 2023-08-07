@@ -1,4 +1,5 @@
 import utils
+import sys
 
 def convert_sub(json_file_path):
     json_with_sub = utils.load_json(json_file_path)
@@ -14,6 +15,7 @@ def convert_sub(json_file_path):
 
 
 if __name__=="__main__":
-    PATH_TO_FILE = "/home/mila/j/jasper.jian/ud_bert/BERTHeadEnsembles/resources/en_pud-ud-test-converted_5_nodet.json"
+    PATH_TO_FILE = str(sys.argv[1])
     fully_listed = convert_sub(PATH_TO_FILE)
-    utils.write_json(fully_listed, "/home/mila/j/jasper.jian/ud_bert/BERTHeadEnsembles/resources/en_pud-ud-test-converted_5_nodet_listed.json")
+    outfile=PATH_TO_FILE.split('.')[0] + '_listed.json'
+    utils.write_json(fully_listed, outfile)
