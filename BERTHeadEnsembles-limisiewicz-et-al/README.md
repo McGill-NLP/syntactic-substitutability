@@ -33,7 +33,7 @@ The list of attention matrices will be saved to  `<path-to-your-data>_attentions
 
 Wordpiece tokenized sentences will be saved to `<path-to-your-data>_source.txt`.  The file will be referred to as `<path-to-wordpieces>` in the next steps.
 
-# Inducing Trees (Baseline)
+## Inducing Trees (Baseline)
 The pipeline described in the original repository can be used to extract trees and evaluate the method described in the original paper.
 
 ## SSUD-Enhanced Induction
