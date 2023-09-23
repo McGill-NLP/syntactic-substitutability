@@ -1,5 +1,5 @@
 import sys
-from transformers import BertTokenizerFast, BertModel 
+from transformers import BertTokenizerFast, BertModel, RobertaConfig, RobertaModel, RobertaTokenizerFast 
 import torch
 from torch.nn.functional import normalize
 import numpy as np
@@ -104,7 +104,7 @@ def combine_subwords(attention, spans):
 # gets all the attentions and outputs a dictionary of the attentions for each sentence, including the original
 # deletes CLS and SEP tokens and combines subword attentions
 # averages between sentences
-def get_all_atts(sents, model, tokenizer, l=7):
+def get_all_atts(sents, model, tokenizer, l=7, t2=None):
     """
     Parameters:
             sents (dict of str : list of (int, [str])): The list of sentences and perturbations

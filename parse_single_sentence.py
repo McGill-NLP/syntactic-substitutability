@@ -12,6 +12,17 @@ def convert_to_dict(sent):
     doc = list(tokenizer(sent).sentences)
     return doc
 
+def generate_json(sent_list, edge_list):
+    sent_dict = {
+        "words" : [], 
+        "arcs" : []
+        }
+    for w in sent_list:
+        sent_dict["words"].append({"text" : w})
+    for e in edge_list:
+        sent_dict["arcs"].append({"start" : e[0], "end" : e[1]})
+    return sent_dict
+
 def main():
     print('Loading model: ')
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
@@ -54,20 +65,22 @@ def main():
         _, ssud_graphs = parse_eval.get_uuas(None, perturbed_graphs, eval=False)
         _, target_graphs = parse_eval.get_uuas(None, only_target_graphs, eval=False)
         sentence_index = list(ssud_graphs.keys())[0]
-        predicted_edges = list(nx.dfs_tree(ssud_graphs[sentence_index]).edges())
+        predicted_edges_ssud = list(nx.dfs_tree(ssud_graphs[sentence_index]).edges())
         print("This is the induced SSUD parse (k = " + str(num_sent) + "):")
-        print(predicted_edges)
+        print(predicted_edges_ssud)
         s_list = sentence_index[1].split()
-        for e in predicted_edges:
+        for e in predicted_edges_ssud:
            print(s_list[e[0]] + ' <--> ' + s_list[e[1]])
         print("-----------------------------")
         print("This is the induced target only parse (k = 0):")
-        predicted_edges = list(nx.dfs_tree(target_graphs[sentence_index]).edges())
-        print(predicted_edges)
+        predicted_edges_target = list(nx.dfs_tree(target_graphs[sentence_index]).edges())
+        print(predicted_edges_target)
         s_list = sentence_index[1].split()
-        for e in predicted_edges:
-           print(s_list[e[0]] + ' <--> ' + s_list[e[1]])  
-    return
+        for e in predicted_edges_target:
+           print(s_list[e[0]] + ' <--> ' + s_list[e[1]])
+
+        json_formatted = (generate_json(s_list, predicted_edges_ssud), generate_json(s_list, predicted_edges_target))
+    return json_formatted
 
 if __name__ == '__main__':
     main()

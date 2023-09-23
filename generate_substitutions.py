@@ -4,7 +4,7 @@ from stanza.utils.conll import CoNLL
 import pickle
 import copy
 import pathlib
-from transformers import BertTokenizerFast, FillMaskPipeline, AutoModelForMaskedLM
+from transformers import BertTokenizerFast, FillMaskPipeline, AutoModelForMaskedLM, RobertaTokenizerFast, RobertaForMaskedLM
 import torch
 from tqdm import tqdm
 
@@ -48,6 +48,10 @@ def fill_sentences(sentences, word_model, number_sentences=10, perturbed_categor
                                     new_sent = ''.join(['' if type(w['id']) == tuple or w['upos'] == 'PUNCT' else w['text'] + ' ' for w in dict_copy])
                                     replacements.append(new_sent)
                                     count += 1
+                            else:
+                                new_sent = ''.join(['' if type(w['id']) == tuple or w['upos'] == 'PUNCT' else w['text'] + ' ' for w in dict_copy])
+                                replacements.append(new_sent)
+                                count += 1
                         j += 1
                 pert.append((position, replacements))               
                 position += 1
@@ -108,7 +112,7 @@ def check_pos(filled_sent, sent_dict, position, pos_tagger):
 
 def replace(word):
     # excepts common functional words from replacement
-    aux_cop = ['have', 'has', 'had', "'d", 'having', 'being', 'be', 'is', 'am', 'are', 'was', "'s", "'m", "'re", 'will', "'ll"]
+    aux_cop = ['have', 'has', 'had', "'d", 'having', 'being', 'be', 'is', 'am', 'are', 'was', "'s", "'m", "'re", 'will', "'ll", '’s']
     modal = ['must', 'need', 'needs', 'should', 'would', 'want', 'wants', 'can', 'might']
     return word['text'] not in aux_cop + modal
 
@@ -129,10 +133,10 @@ def main():
     subs_dict = fill_sentences(sent_dict, model, number_sentences=num_sent, perturbed_categories = ['ADJ', 'ADV', 'NOUN', 'VERB', 'PROPN', 'ADP', 'DET'], use_bert=True, tokenizer=tokenizer, nlp=pos_tagger, need_pos=True)    
     out = str(sys.argv[2])
     pathlib.Path(out).mkdir(parents=True, exist_ok=True)
-    out_pkl = out + '/'+ "sent_substitutions_" + str(num_sent) + ".pkl"
+    out_pkl = out + '/'+ "bert_sent_substitutions_" + str(num_sent) + ".pkl"
     with open(out_pkl, 'wb') as f:
         pickle.dump(subs_dict, f)
-    out_txt = out + '/' + "sent_substitutions_" + str(num_sent) + ".txt"
+    out_txt = out + '/' + "berta_sent_substitutions_" + str(num_sent) + ".txt"
 
     with open(out_txt, 'w') as f:
         for s in subs_dict.values():
