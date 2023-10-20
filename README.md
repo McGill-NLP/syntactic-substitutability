@@ -4,7 +4,7 @@ This is the code for the paper ['Syntactic Substitutability as Unsupervised Depe
 
 # Data format
 
-CONLL-formatted dependency treebanks are required. The PUD treebank can be downloaded from the [Universal Dependencies project website](https://universaldependencies.org/).
+CONLL-formatted dependency treebanks are required. The PUD treebanks can be downloaded from the [Universal Dependencies project website](https://universaldependencies.org/) and the [Surface Syntactic Universal Dependencies project website](https://surfacesyntacticud.github.io/).
 
 Results are outputted in CSV format. Induced trees can be saved and viewed in a Latex tikz format.
 
